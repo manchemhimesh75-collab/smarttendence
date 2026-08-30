@@ -34,13 +34,23 @@
 		<key>NSAllowsLocalNetworking</key>
 		<true/>
 	</dict>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>AttendanceApp uses Bluetooth to detect nearby students for attendance marking.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>AttendanceApp uses Bluetooth to broadcast attendance to faculty devices.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string>AttendanceApp requires location permission for Bluetooth scanning on older iOS versions.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>bluetooth-central</string>
+		<string>bluetooth-peripheral</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>arm64</string>
+		<string>bluetooth-le</string>
 	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>

@@ -16,6 +16,8 @@ import android.content.Context
 import android.content.pm.PackageManager
 import android.os.Build
 import android.os.ParcelUuid
+import android.util.Base64
+import android.util.Log
 import androidx.core.content.ContextCompat
 
 import com.facebook.react.bridge.Arguments
@@ -26,18 +28,28 @@ import com.facebook.react.bridge.ReactMethod
 import com.facebook.react.bridge.WritableMap
 import com.facebook.react.modules.core.DeviceEventManagerModule
 
-import java.nio.ByteBuffer
-import java.nio.ByteOrder
+import org.json.JSONObject
+
+import java.nio.charset.StandardCharsets
 import java.util.Collections
+import java.util.UUID
 
 /**
  * BLEBroadcasterModule — React Native native module for BLE-based
  * attendance broadcasting and scanning.
  *
- * Protocol constants (shared with iOS):
- *   COMPANY_ID = 0xFFFF (development/test)
- *   Payload layout (12 bytes, big-endian):
- *     [StudentID 8 bytes][PIN 4 bytes]
+ * New Protocol (v2):
+ *   Service UUID: a1b2c3d4-e5f6-7890-abcd-ef1234567890
+ *   Payload: Base64-encoded JSON with fields:
+ *     - protocolVersion: 1
+ *     - payloadVersion: 1
+ *     - sessionId: string
+ *     - studentId: string
+ *     - pinWindow: int
+ *     - timestamp: long
+ *     - nonce: string (32 hex chars)
+ *     - signature: string (base64url)
+ *     - publicKey: string (base64url)
  *   Advertising interval: ADVERTISE_MODE_LOW_LATENCY (~100 ms)
  */
 class BLEBroadcasterModule(reactContext: ReactApplicationContext) :
@@ -46,12 +58,14 @@ class BLEBroadcasterModule(reactContext: ReactApplicationContext) :
     companion object {
         const val MODULE_NAME = "BLEBroadcasterModule"
 
-        // BLE protocol constants
-        const val COMPANY_ID = 0xFFFF   // Development / test manufacturer ID
-        const val PAYLOAD_SIZE = 12      // 8 + 4 bytes
+        // BLE protocol constants - New v2 protocol
+        const val SERVICE_UUID_STR = "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+        const val SERVICE_UUID = UUID.fromString(SERVICE_UUID_STR)
 
-        // Event emitted to React Native JS layer
+        // Events emitted to React Native JS layer
         const val EVENT_ATTENDANCE_RECEIVED = "onAttendanceReceived"
+        const val EVENT_SCAN_ERROR = "onScanError"
+        const val EVENT_BLUETOOTH_STATE_CHANGE = "onBluetoothStateChange"
     }
 
     // ── Bluetooth handles ────────────────────────────────────────────
@@ -68,8 +82,8 @@ class BLEBroadcasterModule(reactContext: ReactApplicationContext) :
     @Volatile
     private var isScanning = false
 
-    /** Set of studentIds already emitted during the current scan session. */
-    private val seenStudentIds: MutableSet<String> =
+    /** Set of nonces already emitted during the current scan session. */
+    private val seenNonces: MutableSet<String> =
         Collections.synchronizedSet(mutableSetOf())
 
     override fun getName(): String = MODULE_NAME
@@ -161,62 +175,67 @@ class BLEBroadcasterModule(reactContext: ReactApplicationContext) :
     }
 
     // ─────────────────────────────────────────────────────────────────
-    //  Payload Encoding / Decoding
+    //  Payload Encoding / Decoding (Base64 JSON)
     // ─────────────────────────────────────────────────────────────────
 
-    /**
-     * Builds the 12-byte BLE manufacturer-specific payload.
-     *
-     * Layout (big-endian):
-     *   Bytes  0..7   — StudentID (8 bytes, Long)
-     *   Bytes  8..11  — PIN       (4 bytes, Int)
-     *
-     * @param studentId  Decimal string parseable as a 64-bit integer
-     * @param pin        Decimal string parseable as a 32-bit integer
-     */
-    private fun buildPayload(
-        studentId: String,
-        pin: String
-    ): ByteArray {
-        val studentIdLong = studentId.toLong()
-        val pinInt = pin.toInt()
-
-        val buffer = ByteBuffer.allocate(PAYLOAD_SIZE).order(ByteOrder.BIG_ENDIAN)
-        buffer.putLong(studentIdLong)      // bytes 0..7
-        buffer.putInt(pinInt)              // bytes 8..11
-        return buffer.array()
+    private fun encodePayload(payload: String): ByteArray {
+        return payload.toByteArray(StandardCharsets.UTF_8)
     }
 
-    /**
-     * Decodes a 12-byte payload back into its constituent fields.
-     *
-     * @return A WritableMap with keys: studentId, pin
-     *         or null if the payload is malformed.
-     */
-    private fun decodePayload(payload: ByteArray): WritableMap? {
-        if (payload.size < PAYLOAD_SIZE) {
-            android.util.Log.w("BLEBroadcaster", "Payload size ${payload.size} is less than required $PAYLOAD_SIZE")
-            return null
+    private fun decodePayload(bytes: ByteArray): JSONObject? {
+        return try {
+            val str = String(bytes, StandardCharsets.UTF_8)
+            JSONObject(str)
+        } catch (e: Exception) {
+            Log.w("BLEBroadcaster", "Failed to decode payload: ${e.message}")
+            null
         }
+    }
 
-        val buffer = ByteBuffer.wrap(payload).order(ByteOrder.BIG_ENDIAN)
-        val studentIdLong = buffer.long
-        val pinInt = buffer.int
-
-        val map: WritableMap = Arguments.createMap()
-        map.putString("studentId", studentIdLong.toString())
-        map.putString("pin", pinInt.toString())
-        return map
+    private fun validatePayload(json: JSONObject): Boolean {
+        return try {
+            json.has("protocolVersion") &&
+            json.getInt("protocolVersion") == 1 &&
+            json.has("payloadVersion") &&
+            json.getInt("payloadVersion") == 1 &&
+            json.has("sessionId") &&
+            json.getString("sessionId").isNotEmpty() &&
+            json.has("studentId") &&
+            json.getString("studentId").isNotEmpty() &&
+            json.has("pinWindow") &&
+            json.has("timestamp") &&
+            json.has("nonce") &&
+            json.getString("nonce").length == 32 &&
+            json.has("signature") &&
+            json.getString("signature").isNotEmpty() &&
+            json.has("publicKey") &&
+            json.getString("publicKey").isNotEmpty()
+        } catch (e: Exception) {
+            false
+        }
     }
 
     // ─────────────────────────────────────────────────────────────────
-    //  startBroadcasting
+    //  startBroadcasting (accepts JSON string)
     // ─────────────────────────────────────────────────────────────────
 
     @ReactMethod
-    fun startBroadcasting(studentId: String, pin: String, promise: Promise) {
+    fun startBroadcasting(payloadJson: String, promise: Promise) {
         if (isAdvertising) {
             promise.reject("ERR_ALREADY_ADVERTISING", "BLE advertising is already active")
+            return
+        }
+
+        // Validate payload
+        val payloadObj = try {
+            JSONObject(payloadJson)
+        } catch (e: Exception) {
+            promise.reject("ERR_INVALID_PAYLOAD", "Invalid JSON payload: ${e.message}", e)
+            return
+        }
+
+        if (!validatePayload(payloadObj)) {
+            promise.reject("ERR_INVALID_PAYLOAD", "Payload validation failed: missing or invalid fields")
             return
         }
 
@@ -232,11 +251,11 @@ class BLEBroadcasterModule(reactContext: ReactApplicationContext) :
             return
         }
 
-        val payload: ByteArray
-        try {
-            payload = buildPayload(studentId, pin)
-        } catch (e: NumberFormatException) {
-            promise.reject("ERR_INVALID_PAYLOAD", "studentId and pin must be valid numbers: ${e.message}", e)
+        val payloadBytes = encodePayload(payloadJson)
+        
+        // Check payload size (BLE MTU limit ~251 bytes for advertising data)
+        if (payloadBytes.size > 200) {
+            promise.reject("ERR_PAYLOAD_TOO_LARGE", "Encoded payload too large for BLE advertising: ${payloadBytes.size} bytes")
             return
         }
 
@@ -247,10 +266,13 @@ class BLEBroadcasterModule(reactContext: ReactApplicationContext) :
             .setTimeout(0)  // Advertise indefinitely until stopped
             .build()
 
+        // Use Service UUID in advertising data
+        val serviceUuid = ParcelUuid(SERVICE_UUID)
         val data = AdvertiseData.Builder()
             .setIncludeDeviceName(false)
             .setIncludeTxPowerLevel(false)
-            .addManufacturerData(COMPANY_ID, payload)
+            .addServiceUuid(serviceUuid)
+            .addServiceData(serviceUuid, payloadBytes)
             .build()
 
         val callback = object : AdvertiseCallback() {
@@ -343,16 +365,17 @@ class BLEBroadcasterModule(reactContext: ReactApplicationContext) :
         }
 
         // Reset de-duplication set for this scan session
-        seenStudentIds.clear()
+        seenNonces.clear()
 
-        // We use an empty filter and manually check the manufacturer data
-        // in the callback, because some Android devices pad or strip BLE payloads
-        // breaking the hardware filter mask.
-        val scanFilter = ScanFilter.Builder().build()
+        // Filter by our service UUID
+        val scanFilter = ScanFilter.Builder()
+            .setServiceUuid(ParcelUuid(SERVICE_UUID))
+            .build()
 
         val scanSettings = ScanSettings.Builder()
             .setScanMode(ScanSettings.SCAN_MODE_LOW_LATENCY)
             .setReportDelay(0)  // Report results immediately
+            .setLegacy(false)   // Use extended advertising if available
             .build()
 
         val callback = object : ScanCallback() {
@@ -378,7 +401,7 @@ class BLEBroadcasterModule(reactContext: ReactApplicationContext) :
                     else ->
                         "Unknown scan error (code $errorCode)"
                 }
-                android.util.Log.e("BLEBroadcaster", "Scan failed: $errorMsg")
+                Log.e("BLEBroadcaster", "Scan failed: $errorMsg")
                 
                 // Emit a scan error event so JS can react
                 val params: WritableMap = Arguments.createMap()
@@ -386,7 +409,7 @@ class BLEBroadcasterModule(reactContext: ReactApplicationContext) :
                 params.putInt("errorCode", errorCode)
                 reactApplicationContext
                     .getJSModule(DeviceEventManagerModule.RCTDeviceEventEmitter::class.java)
-                    .emit("onScanError", params)
+                    .emit(EVENT_SCAN_ERROR, params)
             }
         }
 
@@ -405,33 +428,36 @@ class BLEBroadcasterModule(reactContext: ReactApplicationContext) :
     }
 
     /**
-     * Processes a single BLE scan result: extracts the manufacturer payload,
-     * decodes it, de-duplicates by studentId, and emits the event.
+     * Processes a single BLE scan result: extracts the service data payload,
+     * decodes it, validates it, de-duplicates by nonce, and emits the event.
      */
     private fun handleScanResult(result: ScanResult) {
         val scanRecord = result.scanRecord ?: return
-        val manufacturerData = scanRecord.getManufacturerSpecificData(COMPANY_ID) ?: return
-
-        // Wait, Android sometimes pads the data. As long as we have our 24 bytes, we are good.
-        if (manufacturerData.size < PAYLOAD_SIZE) {
+        
+        // Get service data for our UUID
+        val serviceData = scanRecord.getServiceData(ParcelUuid(SERVICE_UUID)) ?: return
+        
+        val decoded = decodePayload(serviceData) ?: return
+        
+        if (!validatePayload(decoded)) {
             return
         }
 
-        val decoded = decodePayload(manufacturerData) ?: return
-
-        val studentId = decoded.getString("studentId") ?: return
-
-        // De-duplicate: only emit once per student per scan session
-        if (!seenStudentIds.add(studentId)) {
+        val nonce = decoded.getString("nonce") ?: return
+        
+        // De-duplicate: only emit once per nonce per scan session
+        if (!seenNonces.add(nonce)) {
             return
         }
 
         // Add RSSI and device address to the event
-        decoded.putInt("rssi", result.rssi)
         try {
-            decoded.putString("deviceAddress", result.device.address)
+            decoded.put("rssi", result.rssi)
+            decoded.put("deviceAddress", result.device.address)
         } catch (e: SecurityException) {
-            decoded.putString("deviceAddress", "unknown")
+            decoded.put("deviceAddress", "unknown")
+        } catch (e: Exception) {
+            // Ignore JSON put errors
         }
 
         reactApplicationContext
@@ -464,7 +490,7 @@ class BLEBroadcasterModule(reactContext: ReactApplicationContext) :
             isScanning = false
             scanCallback = null
             scanner = null
-            seenStudentIds.clear()
+            seenNonces.clear()
         }
 
         promise.resolve(null)
