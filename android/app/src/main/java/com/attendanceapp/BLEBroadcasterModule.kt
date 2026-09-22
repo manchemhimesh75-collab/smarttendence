@@ -60,7 +60,7 @@ class BLEBroadcasterModule(reactContext: ReactApplicationContext) :
 
         // BLE protocol constants - New v2 protocol
         const val SERVICE_UUID_STR = "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
-        const val SERVICE_UUID = UUID.fromString(SERVICE_UUID_STR)
+        val SERVICE_UUID = UUID.fromString(SERVICE_UUID_STR)
 
         // Events emitted to React Native JS layer
         const val EVENT_ATTENDANCE_RECEIVED = "onAttendanceReceived"

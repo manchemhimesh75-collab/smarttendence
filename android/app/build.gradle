@@ -77,14 +77,21 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.attendanceapp"
+        namespace "com.attendanceapp"
+
     defaultConfig {
-        applicationId "com.attendanceapp"
-        minSdkVersion rootProject.ext.minSdkVersion
-        targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 2
-        versionName "1.1.0"
+    applicationId "com.attendanceapp"
+    minSdkVersion rootProject.ext.minSdkVersion
+    targetSdkVersion rootProject.ext.targetSdkVersion
+    versionCode 2
+    versionName "1.1.0"
+
+    externalNativeBuild {
+        cmake {
+            arguments "-DCMAKE_SHARED_LINKER_FLAGS=-lc++_shared"
+        }
     }
+}
     signingConfigs {
         debug {
             storeFile file('debug.keystore')

@@ -1,0 +1,2003 @@
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:shared:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+> Task :gradle-plugin:shared:jar
+> Task :gradle-plugin:settings-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:processResources
+> Task :gradle-plugin:settings-plugin:classes
+> Task :gradle-plugin:settings-plugin:jar
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:processResources
+> Task :gradle-plugin:react-native-gradle-plugin:classes
+> Task :gradle-plugin:react-native-gradle-plugin:jar
+
+> Configure project :react-native-nitro-modules
+[NitroModules] ? Your app is boosted by nitro modules!
+
+> Configure project :react-native-quick-crypto
+[NitroModules] ? QuickCrypto is boosted by nitro!
+[QuickCrypto] Has libsodium disabled!
+
+> Task :app:generateAutolinkingNewArchitectureFiles UP-TO-DATE
+> Task :app:generateAutolinkingPackageList UP-TO-DATE
+> Task :app:generateCodegenSchemaFromJavaScript SKIPPED
+> Task :app:generateCodegenArtifactsFromSchema SKIPPED
+> Task :app:generateReactNativeEntryPoint UP-TO-DATE
+> Task :react-native-async-storage_async-storage:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-async-storage_async-storage:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-async-storage_async-storage:preBuild UP-TO-DATE
+> Task :react-native-community_netinfo:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-community_netinfo:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-community_netinfo:preBuild UP-TO-DATE
+> Task :react-native-get-random-values:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-get-random-values:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-get-random-values:preBuild UP-TO-DATE
+> Task :react-native-haptic-feedback:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-haptic-feedback:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-haptic-feedback:preBuild UP-TO-DATE
+> Task :react-native-nitro-modules:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-nitro-modules:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-nitro-modules:prepareHeaders UP-TO-DATE
+> Task :react-native-nitro-modules:preBuild UP-TO-DATE
+> Task :react-native-quick-crypto:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-quick-crypto:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-quick-crypto:preBuild UP-TO-DATE
+> Task :react-native-quick-sqlite:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-quick-sqlite:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-quick-sqlite:preBuild UP-TO-DATE
+> Task :react-native-safe-area-context:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-safe-area-context:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-safe-area-context:preBuild UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-async-storage_async-storage:preDebugBuild UP-TO-DATE
+> Task :react-native-async-storage_async-storage:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-community_netinfo:preDebugBuild UP-TO-DATE
+> Task :react-native-community_netinfo:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-get-random-values:preDebugBuild UP-TO-DATE
+> Task :react-native-get-random-values:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-haptic-feedback:preDebugBuild UP-TO-DATE
+> Task :react-native-haptic-feedback:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-nitro-modules:preDebugBuild UP-TO-DATE
+> Task :react-native-nitro-modules:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-quick-crypto:preDebugBuild UP-TO-DATE
+> Task :react-native-quick-crypto:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-quick-sqlite:preDebugBuild UP-TO-DATE
+> Task :react-native-quick-sqlite:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-safe-area-context:preDebugBuild UP-TO-DATE
+> Task :react-native-safe-area-context:writeDebugAarMetadata UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :react-native-async-storage_async-storage:generateDebugResValues UP-TO-DATE
+> Task :react-native-async-storage_async-storage:generateDebugResources UP-TO-DATE
+> Task :react-native-async-storage_async-storage:packageDebugResources UP-TO-DATE
+> Task :react-native-community_netinfo:generateDebugResValues UP-TO-DATE
+> Task :react-native-community_netinfo:generateDebugResources UP-TO-DATE
+> Task :react-native-community_netinfo:packageDebugResources UP-TO-DATE
+> Task :react-native-get-random-values:generateDebugResValues UP-TO-DATE
+> Task :react-native-get-random-values:generateDebugResources UP-TO-DATE
+> Task :react-native-get-random-values:packageDebugResources UP-TO-DATE
+> Task :react-native-haptic-feedback:generateDebugResValues UP-TO-DATE
+> Task :react-native-haptic-feedback:generateDebugResources UP-TO-DATE
+> Task :react-native-haptic-feedback:packageDebugResources UP-TO-DATE
+> Task :react-native-nitro-modules:generateDebugResValues UP-TO-DATE
+> Task :react-native-nitro-modules:generateDebugResources UP-TO-DATE
+> Task :react-native-nitro-modules:packageDebugResources UP-TO-DATE
+> Task :react-native-quick-crypto:generateDebugResValues UP-TO-DATE
+> Task :react-native-quick-crypto:generateDebugResources UP-TO-DATE
+> Task :react-native-quick-crypto:packageDebugResources UP-TO-DATE
+> Task :react-native-quick-sqlite:generateDebugResValues UP-TO-DATE
+> Task :react-native-quick-sqlite:generateDebugResources UP-TO-DATE
+> Task :react-native-quick-sqlite:packageDebugResources UP-TO-DATE
+> Task :react-native-safe-area-context:generateDebugResValues UP-TO-DATE
+> Task :react-native-safe-area-context:generateDebugResources UP-TO-DATE
+> Task :react-native-safe-area-context:packageDebugResources UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-async-storage_async-storage:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-async-storage_async-storage:processDebugManifest UP-TO-DATE
+> Task :react-native-community_netinfo:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-community_netinfo:processDebugManifest UP-TO-DATE
+> Task :react-native-get-random-values:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-get-random-values:processDebugManifest UP-TO-DATE
+> Task :react-native-haptic-feedback:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-haptic-feedback:processDebugManifest UP-TO-DATE
+> Task :react-native-nitro-modules:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-nitro-modules:processDebugManifest UP-TO-DATE
+> Task :react-native-quick-crypto:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-quick-crypto:processDebugManifest UP-TO-DATE
+> Task :react-native-quick-sqlite:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-quick-sqlite:processDebugManifest UP-TO-DATE
+> Task :react-native-safe-area-context:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-safe-area-context:processDebugManifest UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :react-native-async-storage_async-storage:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-async-storage_async-storage:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-async-storage_async-storage:generateDebugRFile UP-TO-DATE
+> Task :react-native-community_netinfo:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-community_netinfo:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-community_netinfo:generateDebugRFile UP-TO-DATE
+> Task :react-native-get-random-values:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-get-random-values:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-get-random-values:generateDebugRFile UP-TO-DATE
+> Task :react-native-haptic-feedback:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-haptic-feedback:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-haptic-feedback:generateDebugRFile UP-TO-DATE
+> Task :react-native-nitro-modules:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-nitro-modules:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-nitro-modules:generateDebugRFile UP-TO-DATE
+> Task :react-native-quick-crypto:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-quick-crypto:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-quick-crypto:generateDebugRFile UP-TO-DATE
+> Task :react-native-quick-sqlite:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-quick-sqlite:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-quick-sqlite:generateDebugRFile UP-TO-DATE
+> Task :react-native-safe-area-context:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-safe-area-context:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-safe-area-context:generateDebugRFile UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :react-native-async-storage_async-storage:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-async-storage_async-storage:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-async-storage_async-storage:kspDebugKotlin UP-TO-DATE
+> Task :react-native-async-storage_async-storage:compileDebugKotlin UP-TO-DATE
+> Task :react-native-async-storage_async-storage:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-async-storage_async-storage:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-async-storage_async-storage:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-community_netinfo:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-community_netinfo:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-community_netinfo:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-community_netinfo:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-get-random-values:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-get-random-values:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-get-random-values:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-get-random-values:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-haptic-feedback:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-haptic-feedback:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-haptic-feedback:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-haptic-feedback:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-nitro-modules:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-nitro-modules:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-nitro-modules:compileDebugKotlin UP-TO-DATE
+> Task :react-native-nitro-modules:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-nitro-modules:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-nitro-modules:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-quick-crypto:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-quick-crypto:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-quick-crypto:compileDebugKotlin UP-TO-DATE
+> Task :react-native-quick-crypto:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-quick-crypto:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-quick-crypto:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-quick-sqlite:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-quick-sqlite:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-quick-sqlite:compileDebugKotlin NO-SOURCE
+> Task :react-native-quick-sqlite:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-quick-sqlite:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-quick-sqlite:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-safe-area-context:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-safe-area-context:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-safe-area-context:compileDebugKotlin UP-TO-DATE
+> Task :react-native-safe-area-context:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-safe-area-context:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-safe-area-context:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :app:compileDebugKotlin UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:compileDebugJavaWithJavac UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :react-native-async-storage_async-storage:mergeDebugShaders UP-TO-DATE
+> Task :react-native-async-storage_async-storage:compileDebugShaders NO-SOURCE
+> Task :react-native-async-storage_async-storage:generateDebugAssets UP-TO-DATE
+> Task :react-native-async-storage_async-storage:mergeDebugAssets UP-TO-DATE
+> Task :react-native-community_netinfo:mergeDebugShaders UP-TO-DATE
+> Task :react-native-community_netinfo:compileDebugShaders NO-SOURCE
+> Task :react-native-community_netinfo:generateDebugAssets UP-TO-DATE
+> Task :react-native-community_netinfo:mergeDebugAssets UP-TO-DATE
+> Task :react-native-get-random-values:mergeDebugShaders UP-TO-DATE
+> Task :react-native-get-random-values:compileDebugShaders NO-SOURCE
+> Task :react-native-get-random-values:generateDebugAssets UP-TO-DATE
+> Task :react-native-get-random-values:mergeDebugAssets UP-TO-DATE
+> Task :react-native-haptic-feedback:mergeDebugShaders UP-TO-DATE
+> Task :react-native-haptic-feedback:compileDebugShaders NO-SOURCE
+> Task :react-native-haptic-feedback:generateDebugAssets UP-TO-DATE
+> Task :react-native-haptic-feedback:mergeDebugAssets UP-TO-DATE
+> Task :react-native-nitro-modules:mergeDebugShaders UP-TO-DATE
+> Task :react-native-nitro-modules:compileDebugShaders NO-SOURCE
+> Task :react-native-nitro-modules:generateDebugAssets UP-TO-DATE
+> Task :react-native-nitro-modules:mergeDebugAssets UP-TO-DATE
+> Task :react-native-quick-crypto:mergeDebugShaders UP-TO-DATE
+> Task :react-native-quick-crypto:compileDebugShaders NO-SOURCE
+> Task :react-native-quick-crypto:generateDebugAssets UP-TO-DATE
+> Task :react-native-quick-crypto:mergeDebugAssets UP-TO-DATE
+> Task :react-native-quick-sqlite:mergeDebugShaders UP-TO-DATE
+> Task :react-native-quick-sqlite:compileDebugShaders NO-SOURCE
+> Task :react-native-quick-sqlite:generateDebugAssets UP-TO-DATE
+> Task :react-native-quick-sqlite:mergeDebugAssets UP-TO-DATE
+> Task :react-native-safe-area-context:mergeDebugShaders UP-TO-DATE
+> Task :react-native-safe-area-context:compileDebugShaders NO-SOURCE
+> Task :react-native-safe-area-context:generateDebugAssets UP-TO-DATE
+> Task :react-native-safe-area-context:mergeDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :react-native-async-storage_async-storage:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-quick-crypto:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-nitro-modules:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-quick-sqlite:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-safe-area-context:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-community_netinfo:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-get-random-values:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-haptic-feedback:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:dexBuilderDebug UP-TO-DATE
+> Task :app:mergeDebugGlobalSynthetics UP-TO-DATE
+> Task :app:processDebugJavaRes UP-TO-DATE
+> Task :react-native-async-storage_async-storage:processDebugJavaRes UP-TO-DATE
+> Task :react-native-community_netinfo:processDebugJavaRes NO-SOURCE
+> Task :react-native-get-random-values:processDebugJavaRes NO-SOURCE
+> Task :react-native-haptic-feedback:processDebugJavaRes NO-SOURCE
+> Task :react-native-nitro-modules:processDebugJavaRes UP-TO-DATE
+> Task :react-native-quick-crypto:processDebugJavaRes UP-TO-DATE
+> Task :react-native-quick-sqlite:processDebugJavaRes NO-SOURCE
+> Task :react-native-safe-area-context:processDebugJavaRes UP-TO-DATE
+> Task :app:mergeDebugJavaResource UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :react-native-async-storage_async-storage:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :react-native-quick-crypto:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :react-native-nitro-modules:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :react-native-quick-sqlite:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :react-native-safe-area-context:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :react-native-community_netinfo:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :react-native-get-random-values:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :react-native-haptic-feedback:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :app:mergeProjectDexDebug UP-TO-DATE
+> Task :react-native-nitro-modules:configureCMakeDebug[arm64-v8a]
+> Task :app:mergeLibDexDebug UP-TO-DATE
+> Task :react-native-nitro-modules:buildCMakeDebug[arm64-v8a]
+> Task :react-native-nitro-modules:configureCMakeDebug[armeabi-v7a]
+> Task :react-native-nitro-modules:buildCMakeDebug[armeabi-v7a]
+> Task :react-native-nitro-modules:configureCMakeDebug[x86]
+> Task :react-native-nitro-modules:buildCMakeDebug[x86]
+> Task :react-native-nitro-modules:configureCMakeDebug[x86_64]
+> Task :react-native-nitro-modules:buildCMakeDebug[x86_64]
+> Task :react-native-nitro-modules:externalNativeBuildDebug
+> Task :react-native-nitro-modules:generateJsonModelDebug
+> Task :react-native-nitro-modules:prefabDebugConfigurePackage
+> Task :app:configureCMakeDebug[arm64-v8a]
+> Task :react-native-nitro-modules:prefabDebugPackage UP-TO-DATE
+
+> Task :app:buildCMakeDebug[arm64-v8a] FAILED
+C/C++: ninja: Entering directory `C:\Users\MANCHEM HIMESH\OneDrive\Desktop\AttendanceApp\android\app\.cxx\Debug\161p704y\arm64-v8a'
+C/C++: ld.lld: error: undefined symbol: std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>>::~basic_string()
+C/C++: >>> referenced by EventEmitters.cpp:17 (C:/Users/MANCHEM HIMESH/OneDrive/Desktop/AttendanceApp/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:17)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/d5631ae7369e7b118c20d52652927484/safeareacontext/EventEmitters.cpp.o:(facebook::react::RNCSafeAreaProviderEventEmitter::onInsetsChange(facebook::react::RNCSafeAreaProviderEventEmitter::OnInsetsChange) const)
+C/C++: >>> referenced by EventEmitters.cpp:17 (C:/Users/MANCHEM HIMESH/OneDrive/Desktop/AttendanceApp/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:17)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/d5631ae7369e7b118c20d52652927484/safeareacontext/EventEmitters.cpp.o:(facebook::react::RNCSafeAreaProviderEventEmitter::onInsetsChange(facebook::react::RNCSafeAreaProviderEventEmitter::OnInsetsChange) const)
+C/C++: >>> referenced by safeareacontext-generated.cpp:22 (C:/Users/MANCHEM HIMESH/OneDrive/Desktop/AttendanceApp/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/safeareacontext-generated.cpp:22)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/f0a295ab1b87e900172b4067f0bc178b/jni/safeareacontext-generated.cpp.o:(facebook::react::NativeSafeAreaContextSpecJSI::NativeSafeAreaContextSpecJSI(facebook::react::JavaTurboModule::InitParams const&))
+C/C++: >>> referenced 68 more times
+C/C++: ld.lld: error: undefined symbol: operator delete(void*)
+C/C++: >>> referenced by function.h:250 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/__functional/function.h:250)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/d5631ae7369e7b118c20d52652927484/safeareacontext/EventEmitters.cpp.o:(std::__ndk1::__function::__func<facebook::react::RNCSafeAreaProviderEventEmitter::onInsetsChange(facebook::react::RNCSafeAreaProviderEventEmitter::OnInsetsChange) const::$_0, std::__ndk1::allocator<facebook::react::RNCSafeAreaProviderEventEmitter::onInsetsChange(facebook::react::RNCSafeAreaProviderEventEmitter::OnInsetsChange) const::$_0>, facebook::jsi::Value (facebook::jsi::Runtime&)>::~__func())
+C/C++: >>> referenced by safeareacontext.h:22 (C:/Users/MANCHEM HIMESH/OneDrive/Desktop/AttendanceApp/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/safeareacontext.h:22)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/f0a295ab1b87e900172b4067f0bc178b/jni/safeareacontext-generated.cpp.o:(facebook::react::NativeSafeAreaContextSpecJSI::~NativeSafeAreaContextSpecJSI())
+C/C++: >>> referenced by unique_ptr.h:601 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/__memory/unique_ptr.h:601)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/cff30126cb86b5ef8494f713c3044ee4/ComponentDescriptors.cpp.o:(std::__ndk1::__unique_if<facebook::react::ConcreteComponentDescriptor<facebook::react::ConcreteViewShadowNode<&facebook::react::RNCSafeAreaProviderComponentName.<char const at offset 0>, facebook::react::RNCSafeAreaProviderProps, facebook::react::RNCSafeAreaProviderEventEmitter, facebook::react::StateData>> const>::__unique_single std::__ndk1::make_unique[abi:ne180000]<facebook::react::ConcreteComponentDescriptor<facebook::react::ConcreteViewShadowNode<&facebook::react::RNCSafeAreaProviderComponentName.<char const at offset 0>, facebook::react::RNCSafeAreaProviderProps, facebook::react::RNCSafeAreaProviderEventEmitter, facebook::react::StateData>> const, facebook::react::ComponentDescriptorParameters const&>(facebook::react::ComponentDescriptorParameters const&))
+C/C++: >>> referenced 25 more times
+C/C++: ld.lld: error: undefined symbol: vtable for __cxxabiv1::__class_type_info
+C/C++: >>> referenced by EventEmitters.cpp
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/d5631ae7369e7b118c20d52652927484/safeareacontext/EventEmitters.cpp.o:(typeinfo for std::__ndk1::__function::__base<facebook::jsi::Value (facebook::jsi::Runtime&)>)
+C/C++: >>> referenced by EventEmitters.cpp
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/d5631ae7369e7b118c20d52652927484/safeareacontext/EventEmitters.cpp.o:(typeinfo for facebook::react::RNCSafeAreaProviderEventEmitter::onInsetsChange(facebook::react::RNCSafeAreaProviderEventEmitter::OnInsetsChange) const::$_0)
+C/C++: >>> referenced by safeareacontext-generated.cpp
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/f0a295ab1b87e900172b4067f0bc178b/jni/safeareacontext-generated.cpp.o:(typeinfo for std::__ndk1::__function::__base<facebook::jsi::Value (facebook::jsi::Runtime&, facebook::jsi::Value const&, facebook::jsi::Value const*, unsigned long)>)
+C/C++: >>> referenced 3 more times
+C/C++: >>> the vtable symbol may be undefined because the class is missing its key function (see https://lld.llvm.org/missingkeyfunction)
+C/C++: ld.lld: error: undefined symbol: vtable for __cxxabiv1::__si_class_type_info
+C/C++: >>> referenced by EventEmitters.cpp
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/d5631ae7369e7b118c20d52652927484/safeareacontext/EventEmitters.cpp.o:(typeinfo for std::__ndk1::__function::__func<facebook::react::RNCSafeAreaProviderEventEmitter::onInsetsChange(facebook::react::RNCSafeAreaProviderEventEmitter::OnInsetsChange) const::$_0, std::__ndk1::allocator<facebook::react::RNCSafeAreaProviderEventEmitter::onInsetsChange(facebook::react::RNCSafeAreaProviderEventEmitter::OnInsetsChange) const::$_0>, facebook::jsi::Value (facebook::jsi::Runtime&)>)
+C/C++: >>> referenced by safeareacontext-generated.cpp
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/f0a295ab1b87e900172b4067f0bc178b/jni/safeareacontext-generated.cpp.o:(typeinfo for facebook::react::NativeSafeAreaContextSpecJSI)
+C/C++: >>> referenced by safeareacontext-generated.cpp
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/f0a295ab1b87e900172b4067f0bc178b/jni/safeareacontext-generated.cpp.o:(typeinfo for std::__ndk1::__shared_ptr_emplace<facebook::react::NativeSafeAreaContextSpecJSI, std::__ndk1::allocator<facebook::react::NativeSafeAreaContextSpecJSI>>)
+C/C++: >>> referenced 17 more times
+C/C++: >>> the vtable symbol may be undefined because the class is missing its key function (see https://lld.llvm.org/missingkeyfunction)
+C/C++: ld.lld: error: undefined symbol: __cxa_pure_virtual
+C/C++: >>> referenced by EventEmitters.cpp
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/d5631ae7369e7b118c20d52652927484/safeareacontext/EventEmitters.cpp.o:(vtable for std::__ndk1::__function::__base<facebook::jsi::Value (facebook::jsi::Runtime&)>)
+C/C++: >>> referenced by EventEmitters.cpp
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/d5631ae7369e7b118c20d52652927484/safeareacontext/EventEmitters.cpp.o:(vtable for std::__ndk1::__function::__base<facebook::jsi::Value (facebook::jsi::Runtime&)>)
+C/C++: >>> referenced by EventEmitters.cpp
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/d5631ae7369e7b118c20d52652927484/safeareacontext/EventEmitters.cpp.o:(vtable for std::__ndk1::__function::__base<facebook::jsi::Value (facebook::jsi::Runtime&)>)
+C/C++: >>> referenced 22 more times
+C/C++: ld.lld: error: undefined symbol: __cxa_guard_acquire
+C/C++: >>> referenced by Props.cpp:31 (C:/Users/MANCHEM HIMESH/OneDrive/Desktop/AttendanceApp/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/Props.cpp:31)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/5faeefb7c9cece80b408a36b767483e1/components/safeareacontext/Props.cpp.o:(facebook::react::RNCSafeAreaProviderProps::getDiffProps(facebook::react::Props const*) const)
+C/C++: >>> referenced by Props.cpp:58 (C:/Users/MANCHEM HIMESH/OneDrive/Desktop/AttendanceApp/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/Props.cpp:58)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/5faeefb7c9cece80b408a36b767483e1/components/safeareacontext/Props.cpp.o:(facebook::react::RNCSafeAreaViewProps::getDiffProps(facebook::react::Props const*) const)
+C/C++: >>> referenced by ConcreteShadowNode.h:97 (C:/Users/MANCHEM HIMESH/.gradle/caches/9.3.1/transforms/236808c8bf210c3c94b027618281850c/workspace/transformed/react-android-0.86.2-debug/prefab/modules/reactnative/include/react/renderer/core/ConcreteShadowNode.h:97)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/cff30126cb86b5ef8494f713c3044ee4/ComponentDescriptors.cpp.o:(facebook::react::ConcreteShadowNode<&facebook::react::RNCSafeAreaProviderComponentName.<char const at offset 0>, facebook::react::YogaLayoutableShadowNode, facebook::react::RNCSafeAreaProviderProps, facebook::react::RNCSafeAreaProviderEventEmitter, facebook::react::StateData>::defaultSharedProps())
+C/C++: ld.lld: error: undefined symbol: __cxa_guard_release
+C/C++: >>> referenced by Props.cpp:31 (C:/Users/MANCHEM HIMESH/OneDrive/Desktop/AttendanceApp/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/Props.cpp:31)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/5faeefb7c9cece80b408a36b767483e1/components/safeareacontext/Props.cpp.o:(facebook::react::RNCSafeAreaProviderProps::getDiffProps(facebook::react::Props const*) const)
+C/C++: >>> referenced by Props.cpp:58 (C:/Users/MANCHEM HIMESH/OneDrive/Desktop/AttendanceApp/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/Props.cpp:58)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/5faeefb7c9cece80b408a36b767483e1/components/safeareacontext/Props.cpp.o:(facebook::react::RNCSafeAreaViewProps::getDiffProps(facebook::react::Props const*) const)
+C/C++: >>> referenced by ConcreteShadowNode.h:97 (C:/Users/MANCHEM HIMESH/.gradle/caches/9.3.1/transforms/236808c8bf210c3c94b027618281850c/workspace/transformed/react-android-0.86.2-debug/prefab/modules/reactnative/include/react/renderer/core/ConcreteShadowNode.h:97)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/cff30126cb86b5ef8494f713c3044ee4/ComponentDescriptors.cpp.o:(facebook::react::ConcreteShadowNode<&facebook::react::RNCSafeAreaProviderComponentName.<char const at offset 0>, facebook::react::YogaLayoutableShadowNode, facebook::react::RNCSafeAreaProviderProps, facebook::react::RNCSafeAreaProviderEventEmitter, facebook::react::StateData>::defaultSharedProps())
+C/C++: ld.lld: error: undefined symbol: __cxa_guard_abort
+C/C++: >>> referenced by Props.cpp:31 (C:/Users/MANCHEM HIMESH/OneDrive/Desktop/AttendanceApp/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/Props.cpp:31)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/5faeefb7c9cece80b408a36b767483e1/components/safeareacontext/Props.cpp.o:(facebook::react::RNCSafeAreaProviderProps::getDiffProps(facebook::react::Props const*) const)
+C/C++: >>> referenced by Props.cpp:58 (C:/Users/MANCHEM HIMESH/OneDrive/Desktop/AttendanceApp/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/Props.cpp:58)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/5faeefb7c9cece80b408a36b767483e1/components/safeareacontext/Props.cpp.o:(facebook::react::RNCSafeAreaViewProps::getDiffProps(facebook::react::Props const*) const)
+C/C++: >>> referenced by ConcreteShadowNode.h:97 (C:/Users/MANCHEM HIMESH/.gradle/caches/9.3.1/transforms/236808c8bf210c3c94b027618281850c/workspace/transformed/react-android-0.86.2-debug/prefab/modules/reactnative/include/react/renderer/core/ConcreteShadowNode.h:97)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/cff30126cb86b5ef8494f713c3044ee4/ComponentDescriptors.cpp.o:(facebook::react::ConcreteShadowNode<&facebook::react::RNCSafeAreaProviderComponentName.<char const at offset 0>, facebook::react::YogaLayoutableShadowNode, facebook::react::RNCSafeAreaProviderProps, facebook::react::RNCSafeAreaProviderEventEmitter, facebook::react::StateData>::defaultSharedProps())
+C/C++: ld.lld: error: undefined symbol: __cxa_begin_catch
+C/C++: >>> referenced by propsConversions.h:190 (C:/Users/MANCHEM HIMESH/.gradle/caches/9.3.1/transforms/236808c8bf210c3c94b027618281850c/workspace/transformed/react-android-0.86.2-debug/prefab/modules/reactnative/include/react/renderer/core/propsConversions.h:190)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/5faeefb7c9cece80b408a36b767483e1/components/safeareacontext/Props.cpp.o:(facebook::react::RNCSafeAreaViewMode facebook::react::convertRawProp<facebook::react::RNCSafeAreaViewMode, facebook::react::RNCSafeAreaViewMode>(facebook::react::PropsParserContext const&, facebook::react::RawProps const&, char const*, facebook::react::RNCSafeAreaViewMode const&, facebook::react::RNCSafeAreaViewMode const&, char const*, char const*))
+C/C++: >>> referenced by propsConversions.h:190 (C:/Users/MANCHEM HIMESH/.gradle/caches/9.3.1/transforms/236808c8bf210c3c94b027618281850c/workspace/transformed/react-android-0.86.2-debug/prefab/modules/reactnative/include/react/renderer/core/propsConversions.h:190)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/5faeefb7c9cece80b408a36b767483e1/components/safeareacontext/Props.cpp.o:(facebook::react::RNCSafeAreaViewEdgesStruct facebook::react::convertRawProp<facebook::react::RNCSafeAreaViewEdgesStruct, facebook::react::RNCSafeAreaViewEdgesStruct>(facebook::react::PropsParserContext const&, facebook::react::RawProps const&, char const*, facebook::react::RNCSafeAreaViewEdgesStruct const&, facebook::react::RNCSafeAreaViewEdgesStruct const&, char const*, char const*))
+C/C++: >>> referenced by RNCSafeAreaViewShadowNode.cpp
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/f632fba4c4ab406c803d005517aeb410/RNCSafeAreaViewShadowNode.cpp.o:(__clang_call_terminate)
+C/C++: >>> referenced 1 more times
+C/C++: ld.lld: error: undefined symbol: __cxa_end_catch
+C/C++: >>> referenced by propsConversions.h:196 (C:/Users/MANCHEM HIMESH/.gradle/caches/9.3.1/transforms/236808c8bf210c3c94b027618281850c/workspace/transformed/react-android-0.86.2-debug/prefab/modules/reactnative/include/react/renderer/core/propsConversions.h:196)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/5faeefb7c9cece80b408a36b767483e1/components/safeareacontext/Props.cpp.o:(facebook::react::RNCSafeAreaViewMode facebook::react::convertRawProp<facebook::react::RNCSafeAreaViewMode, facebook::react::RNCSafeAreaViewMode>(facebook::react::PropsParserContext const&, facebook::react::RawProps const&, char const*, facebook::react::RNCSafeAreaViewMode const&, facebook::react::RNCSafeAreaViewMode const&, char const*, char const*))
+C/C++: >>> referenced by propsConversions.h:196 (C:/Users/MANCHEM HIMESH/.gradle/caches/9.3.1/transforms/236808c8bf210c3c94b027618281850c/workspace/transformed/react-android-0.86.2-debug/prefab/modules/reactnative/include/react/renderer/core/propsConversions.h:196)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/5faeefb7c9cece80b408a36b767483e1/components/safeareacontext/Props.cpp.o:(facebook::react::RNCSafeAreaViewMode facebook::react::convertRawProp<facebook::react::RNCSafeAreaViewMode, facebook::react::RNCSafeAreaViewMode>(facebook::react::PropsParserContext const&, facebook::react::RawProps const&, char const*, facebook::react::RNCSafeAreaViewMode const&, facebook::react::RNCSafeAreaViewMode const&, char const*, char const*))
+C/C++: >>> referenced by propsConversions.h:196 (C:/Users/MANCHEM HIMESH/.gradle/caches/9.3.1/transforms/236808c8bf210c3c94b027618281850c/workspace/transformed/react-android-0.86.2-debug/prefab/modules/reactnative/include/react/renderer/core/propsConversions.h:196)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/5faeefb7c9cece80b408a36b767483e1/components/safeareacontext/Props.cpp.o:(facebook::react::RNCSafeAreaViewEdgesStruct facebook::react::convertRawProp<facebook::react::RNCSafeAreaViewEdgesStruct, facebook::react::RNCSafeAreaViewEdgesStruct>(facebook::react::PropsParserContext const&, facebook::react::RawProps const&, char const*, facebook::react::RNCSafeAreaViewEdgesStruct const&, facebook::react::RNCSafeAreaViewEdgesStruct const&, char const*, char const*))
+C/C++: >>> referenced 3 more times
+C/C++: ld.lld: error: undefined symbol: std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>>::basic_string(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>> const&)
+C/C++: >>> referenced by RNCSafeAreaViewShadowNode.cpp:92 (C:/Users/MANCHEM HIMESH/OneDrive/Desktop/AttendanceApp/node_modules/react-native-safe-area-context/common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp:92)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/f632fba4c4ab406c803d005517aeb410/RNCSafeAreaViewShadowNode.cpp.o:(facebook::react::RNCSafeAreaViewShadowNode::adjustLayoutWithState())
+C/C++: >>> referenced by RNCSafeAreaViewShadowNode.cpp:94 (C:/Users/MANCHEM HIMESH/OneDrive/Desktop/AttendanceApp/node_modules/react-native-safe-area-context/common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp:94)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/f632fba4c4ab406c803d005517aeb410/RNCSafeAreaViewShadowNode.cpp.o:(facebook::react::RNCSafeAreaViewShadowNode::adjustLayoutWithState())
+C/C++: >>> referenced by RNCSafeAreaViewShadowNode.cpp:96 (C:/Users/MANCHEM HIMESH/OneDrive/Desktop/AttendanceApp/node_modules/react-native-safe-area-context/common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp:96)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/f632fba4c4ab406c803d005517aeb410/RNCSafeAreaViewShadowNode.cpp.o:(facebook::react::RNCSafeAreaViewShadowNode::adjustLayoutWithState())
+C/C++: >>> referenced 12 more times
+C/C++: ld.lld: error: undefined symbol: operator new(unsigned long)
+C/C++: >>> referenced by unique_ptr.h:601 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/__memory/unique_ptr.h:601)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/cff30126cb86b5ef8494f713c3044ee4/ComponentDescriptors.cpp.o:(std::__ndk1::__unique_if<facebook::react::ConcreteComponentDescriptor<facebook::react::ConcreteViewShadowNode<&facebook::react::RNCSafeAreaProviderComponentName.<char const at offset 0>, facebook::react::RNCSafeAreaProviderProps, facebook::react::RNCSafeAreaProviderEventEmitter, facebook::react::StateData>> const>::__unique_single std::__ndk1::make_unique[abi:ne180000]<facebook::react::ConcreteComponentDescriptor<facebook::react::ConcreteViewShadowNode<&facebook::react::RNCSafeAreaProviderComponentName.<char const at offset 0>, facebook::react::RNCSafeAreaProviderProps, facebook::react::RNCSafeAreaProviderEventEmitter, facebook::react::StateData>> const, facebook::react::ComponentDescriptorParameters const&>(facebook::react::ComponentDescriptorParameters const&))
+C/C++: >>> referenced by unique_ptr.h:601 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/__memory/unique_ptr.h:601)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/f632fba4c4ab406c803d005517aeb410/RNCSafeAreaViewShadowNode.cpp.o:(std::__ndk1::__unique_if<facebook::yoga::SmallValueBuffer<4ul>::Overflow>::__unique_single std::__ndk1::make_unique[abi:ne180000]<facebook::yoga::SmallValueBuffer<4ul>::Overflow>())
+C/C++: >>> referenced by new:271 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/new:271)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/f632fba4c4ab406c803d005517aeb410/RNCSafeAreaViewShadowNode.cpp.o:(void* std::__ndk1::__libcpp_operator_new[abi:ne180000]<unsigned long>(unsigned long))
+C/C++: ld.lld: error: undefined symbol: std::__ndk1::__next_prime(unsigned long)
+C/C++: >>> referenced by __hash_table:1657 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/__hash_table:1657)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/f0a295ab1b87e900172b4067f0bc178b/jni/safeareacontext-generated.cpp.o:(void std::__ndk1::__hash_table<std::__ndk1::__hash_value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>>, facebook::react::TurboModule::MethodMetadata>, std::__ndk1::__unordered_map_hasher<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>>, std::__ndk1::__hash_value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>>, facebook::react::TurboModule::MethodMetadata>, std::__ndk1::hash<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>>>, std::__ndk1::equal_to<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>>>, true>, std::__ndk1::__unordered_map_equal<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>>, std::__ndk1::__hash_value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>>, facebook::react::TurboModule::MethodMetadata>, std::__ndk1::equal_to<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>>>, std::__ndk1::hash<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>>>, true>, std::__ndk1::allocator<std::__ndk1::__hash_value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>>, facebook::react::TurboModule::MethodMetadata>>>::__rehash<true>(unsigned long))
+C/C++: >>> referenced by __hash_table:1665 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/__hash_table:1665)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/f0a295ab1b87e900172b4067f0bc178b/jni/safeareacontext-generated.cpp.o:(void std::__ndk1::__hash_table<std::__ndk1::__hash_value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>>, facebook::react::TurboModule::MethodMetadata>, std::__ndk1::__unordered_map_hasher<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>>, std::__ndk1::__hash_value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>>, facebook::react::TurboModule::MethodMetadata>, std::__ndk1::hash<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>>>, std::__ndk1::equal_to<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>>>, true>, std::__ndk1::__unordered_map_equal<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>>, std::__ndk1::__hash_value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>>, facebook::react::TurboModule::MethodMetadata>, std::__ndk1::equal_to<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>>>, std::__ndk1::hash<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>>>, true>, std::__ndk1::allocator<std::__ndk1::__hash_value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>>, facebook::react::TurboModule::MethodMetadata>>>::__rehash<true>(unsigned long))
+C/C++: >>> referenced by __hash_table:1657 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/__hash_table:1657)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/5faeefb7c9cece80b408a36b767483e1/components/safeareacontext/Props.cpp.o:(void std::__ndk1::__hash_table<std::__ndk1::__hash_value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>>, facebook::react::RawValue>, std::__ndk1::__unordered_map_hasher<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>>, std::__ndk1::__hash_value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>>, facebook::react::RawValue>, std::__ndk1::hash<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>>>, std::__ndk1::equal_to<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>>>, true>, std::__ndk1::__unordered_map_equal<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>>, std::__ndk1::__hash_value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>>, facebook::react::RawValue>, std::__ndk1::equal_to<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>>>, std::__ndk1::hash<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>>>, true>, std::__ndk1::allocator<std::__ndk1::__hash_value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>>, facebook::react::RawValue>>>::__rehash<true>(unsigned long))
+C/C++: >>> referenced 1 more times
+C/C++: ld.lld: error: undefined symbol: std::__ndk1::__shared_weak_count::~__shared_weak_count()
+C/C++: >>> referenced by shared_ptr.h:263 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/__memory/shared_ptr.h:263)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/f0a295ab1b87e900172b4067f0bc178b/jni/safeareacontext-generated.cpp.o:(std::__ndk1::__shared_ptr_emplace<facebook::react::NativeSafeAreaContextSpecJSI, std::__ndk1::allocator<facebook::react::NativeSafeAreaContextSpecJSI>>::__shared_ptr_emplace[abi:ne180000]<facebook::react::JavaTurboModule::InitParams const&, std::__ndk1::allocator<facebook::react::NativeSafeAreaContextSpecJSI>, 0>(std::__ndk1::allocator<facebook::react::NativeSafeAreaContextSpecJSI>, facebook::react::JavaTurboModule::InitParams const&))
+C/C++: >>> referenced by shared_ptr.h:246 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/__memory/shared_ptr.h:246)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/f0a295ab1b87e900172b4067f0bc178b/jni/safeareacontext-generated.cpp.o:(std::__ndk1::__shared_ptr_emplace<facebook::react::NativeSafeAreaContextSpecJSI, std::__ndk1::allocator<facebook::react::NativeSafeAreaContextSpecJSI>>::~__shared_ptr_emplace())
+C/C++: >>> referenced by shared_ptr.h:263 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/__memory/shared_ptr.h:263)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/cff30126cb86b5ef8494f713c3044ee4/ComponentDescriptors.cpp.o:(std::__ndk1::__shared_ptr_emplace<facebook::react::ConcreteViewShadowNode<&facebook::react::RNCSafeAreaProviderComponentName.<char const at offset 0>, facebook::react::RNCSafeAreaProviderProps, facebook::react::RNCSafeAreaProviderEventEmitter, facebook::react::StateData>, std::__ndk1::allocator<facebook::react::ConcreteViewShadowNode<&facebook::react::RNCSafeAreaProviderComponentName.<char const at offset 0>, facebook::react::RNCSafeAreaProviderProps, facebook::react::RNCSafeAreaProviderEventEmitter, facebook::react::StateData>>>::__shared_ptr_emplace[abi:ne180000]<facebook::react::ShadowNodeFragment const&, std::__ndk1::shared_ptr<facebook::react::ShadowNodeFamily> const&, facebook::react::ShadowNodeTraits, std::__ndk1::allocator<facebook::react::ConcreteViewShadowNode<&facebook::react::RNCSafeAreaProviderComponentName.<char const at offset 0>, facebook::react::RNCSafeAreaProviderProps, facebook::react::RNCSafeAreaProviderEventEmitter, facebook::react::StateData>>, 0>(std::__ndk1::allocator<facebook::react::ConcreteViewShadowNode<&facebook::react::RNCSafeAreaProviderComponentName.<char const at offset 0>, facebook::react::RNCSafeAreaProviderProps, facebook::react::RNCSafeAreaProviderEventEmitter, facebook::react::StateData>>, facebook::react::ShadowNodeFragment const&, std::__ndk1::shared_ptr<facebook::react::ShadowNodeFamily> const&, facebook::react::ShadowNodeTraits&&))
+C/C++: >>> referenced 14 more times
+C/C++: ld.lld: error: undefined symbol: std::__ndk1::__shared_mutex_base::__shared_mutex_base()
+C/C++: >>> referenced by shared_mutex:190 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/shared_mutex:190)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/cff30126cb86b5ef8494f713c3044ee4/ComponentDescriptors.cpp.o:(std::__ndk1::shared_mutex::shared_mutex[abi:ne180000]())
+C/C++: ld.lld: error: undefined symbol: __cxa_allocate_exception
+C/C++: >>> referenced by stdexcept:249 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/stdexcept:249)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/f632fba4c4ab406c803d005517aeb410/RNCSafeAreaViewShadowNode.cpp.o:(std::__ndk1::__throw_out_of_range[abi:ne180000](char const*))
+C/C++: >>> referenced by variant:287 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/variant:287)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/5faeefb7c9cece80b408a36b767483e1/components/safeareacontext/Props.cpp.o:(std::__ndk1::__throw_bad_variant_access[abi:ne180000]())
+C/C++: >>> referenced by stdexcept:241 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/stdexcept:241)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/f632fba4c4ab406c803d005517aeb410/RNCSafeAreaViewShadowNode.cpp.o:(std::__ndk1::__throw_length_error[abi:ne180000](char const*))
+C/C++: >>> referenced 2 more times
+C/C++: ld.lld: error: undefined symbol: typeinfo for std::out_of_range
+C/C++: >>> referenced by stdexcept:249 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/stdexcept:249)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/f632fba4c4ab406c803d005517aeb410/RNCSafeAreaViewShadowNode.cpp.o:(std::__ndk1::__throw_out_of_range[abi:ne180000](char const*))
+C/C++: >>> referenced by stdexcept:249 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/stdexcept:249)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/f632fba4c4ab406c803d005517aeb410/RNCSafeAreaViewShadowNode.cpp.o:(std::__ndk1::__throw_out_of_range[abi:ne180000](char const*))
+C/C++: ld.lld: error: undefined symbol: std::out_of_range::~out_of_range()
+C/C++: >>> referenced by stdexcept:249 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/stdexcept:249)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/f632fba4c4ab406c803d005517aeb410/RNCSafeAreaViewShadowNode.cpp.o:(std::__ndk1::__throw_out_of_range[abi:ne180000](char const*))
+C/C++: >>> referenced by stdexcept:249 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/stdexcept:249)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/f632fba4c4ab406c803d005517aeb410/RNCSafeAreaViewShadowNode.cpp.o:(std::__ndk1::__throw_out_of_range[abi:ne180000](char const*))
+C/C++: ld.lld: error: undefined symbol: __cxa_throw
+C/C++: >>> referenced by stdexcept:249 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/stdexcept:249)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/f632fba4c4ab406c803d005517aeb410/RNCSafeAreaViewShadowNode.cpp.o:(std::__ndk1::__throw_out_of_range[abi:ne180000](char const*))
+C/C++: >>> referenced by variant:287 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/variant:287)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/5faeefb7c9cece80b408a36b767483e1/components/safeareacontext/Props.cpp.o:(std::__ndk1::__throw_bad_variant_access[abi:ne180000]())
+C/C++: >>> referenced by stdexcept:241 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/stdexcept:241)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/f632fba4c4ab406c803d005517aeb410/RNCSafeAreaViewShadowNode.cpp.o:(std::__ndk1::__throw_length_error[abi:ne180000](char const*))
+C/C++: >>> referenced 2 more times
+C/C++: ld.lld: error: undefined symbol: __cxa_free_exception
+C/C++: >>> referenced by stdexcept:249 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/stdexcept:249)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/f632fba4c4ab406c803d005517aeb410/RNCSafeAreaViewShadowNode.cpp.o:(std::__ndk1::__throw_out_of_range[abi:ne180000](char const*))
+C/C++: >>> referenced by stdexcept:241 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/stdexcept:241)
+C/C++: >>>               safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/f632fba4c4ab406c803d005517aeb410/RNCSafeAreaViewShadowNode.cpp.o:(std::__ndk1::__throw_length_error[abi:ne180000](char const*))
+C/C++: ld.lld: error: too many errors emitted, stopping now (use --error-limit=0 to see all errors)
+C/C++: CLANG_~1: error: linker command failed with exit code 1 (use -v to see invocation)
+C/C++: ninja: build stopped: subcommand failed.
+.\gradlew : 
+At line:1 char:1
++ .\gradlew assembleDebug 
+--console=plain 2>&1 | 
+Out-File -Encoding asc ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~
+    + CategoryInfo           
+   : NotSpecified: (:String  
+  ) [], RemoteException
+    + FullyQualifiedErrorId  
+   : NativeCommandError
+ 
+
+FAILURE: Build failed with 
+an exception.
+
+* What went wrong:
+Execution failed for task ':a
+pp:buildCMakeDebug[arm64-v8a]
+'.
+> com.android.ide.common.proc
+ess.ProcessException: ninja: 
+Entering directory 
+`C:\Users\MANCHEM HIMESH\OneD
+rive\Desktop\AttendanceApp\an
+droid\app\.cxx\Debug\161p704y
+\arm64-v8a'
+  [0/2] Re-checking globbed 
+directories...
+  [1/2] Linking CXX shared 
+library "C:\Users\MANCHEM HIM
+ESH\OneDrive\Desktop\Attendan
+ceApp\android\app\build\inter
+mediates\cxx\Debug\161p704y\o
+bj\arm64-v8a\libreact_codegen
+_safeareacontext.so"
+  FAILED: C:/Users/MANCHEM HI
+MESH/OneDrive/Desktop/Attenda
+nceApp/android/app/build/inte
+rmediates/cxx/Debug/161p704y/
+obj/arm64-v8a/libreact_codege
+n_safeareacontext.so 
+[Incubating] Problems report is available at: file:///C:/Users/MANCHEM%20HIMESH/OneDrive/Desktop/AttendanceApp/android/build/reports/problems/problems-report.html
+  cmd.exe /C "cd . && C:\User
+s\MANCHE~1\AppData\Local\Andr
+oid\Sdk\ndk\271~1.122\TOOLCH~
+1\llvm\prebuilt\WINDOW~1\bin\
+CLANG_~1.EXE --target=aarch64
+-none-linux-android24 
+--sysroot="C:/Users/MANCHEM H
+IMESH/AppData/Local/Android/S
+dk/ndk/27.1.12297006/toolchai
+ns/llvm/prebuilt/windows-x86_
+64/sysroot" -fPIC -g 
+-DANDROID -fdata-sections 
+-ffunction-sections 
+-funwind-tables 
+-fstack-protector-strong 
+-no-canonical-prefixes -D__BI
+ONIC_NO_PAGE_SIZE_MACRO 
+-D_FORTIFY_SOURCE=2 -Wformat 
+-Werror=format-security   
+-fno-limit-debug-info  
+-Wl,-z,max-page-size=16384 
+-Wl,--build-id=sha1 
+-Wl,--no-rosegment 
+-Wl,--no-undefined-version 
+-Wl,--fatal-warnings 
+-Wl,--no-undefined 
+-Qunused-arguments -shared -W
+l,-soname,libreact_codegen_sa
+feareacontext.so -o 
+"C:\Users\MANCHEM HIMESH\OneD
+rive\Desktop\AttendanceApp\an
+droid\app\build\intermediates
+\cxx\Debug\161p704y\obj\arm64
+-v8a\libreact_codegen_safeare
+acontext.so" safeareacontext_
+autolinked_build/CMakeFiles/r
+eact_codegen_safeareacontext.
+dir/f632fba4c4ab406c803d00551
+7aeb410/RNCSafeAreaViewShadow
+Node.cpp.o safeareacontext_au
+tolinked_build/CMakeFiles/rea
+ct_codegen_safeareacontext.di
+r/f632fba4c4ab406c803d005517a
+eb410/RNCSafeAreaViewState.cp
+p.o safeareacontext_autolinke
+d_build/CMakeFiles/react_code
+gen_safeareacontext.dir/cff30
+126cb86b5ef8494f713c3044ee4/C
+omponentDescriptors.cpp.o saf
+eareacontext_autolinked_build
+/CMakeFiles/react_codegen_saf
+eareacontext.dir/d5631ae7369e
+7b118c20d52652927484/safearea
+context/EventEmitters.cpp.o s
+afeareacontext_autolinked_bui
+ld/CMakeFiles/react_codegen_s
+afeareacontext.dir/5faeefb7c9
+cece80b408a36b767483e1/compon
+ents/safeareacontext/Props.cp
+p.o safeareacontext_autolinke
+d_build/CMakeFiles/react_code
+gen_safeareacontext.dir/d5631
+ae7369e7b118c20d52652927484/s
+afeareacontext/ShadowNodes.cp
+p.o safeareacontext_autolinke
+d_build/CMakeFiles/react_code
+gen_safeareacontext.dir/5faee
+fb7c9cece80b408a36b767483e1/c
+omponents/safeareacontext/Sta
+tes.cpp.o safeareacontext_aut
+olinked_build/CMakeFiles/reac
+t_codegen_safeareacontext.dir
+/f0a295ab1b87e900172b4067f0bc
+178b/jni/safeareacontext-gene
+rated.cpp.o  
+"C:/Users/MANCHEM HIMESH/.gra
+dle/caches/9.3.1/transforms/5
+f0fade6957df6709b3ef496f25cde
+d4/workspace/transformed/fbjn
+i-0.7.0/prefab/modules/fbjni/
+libs/android.arm64-v8a/libfbj
+ni.so"  "C:/Users/MANCHEM HIM
+ESH/.gradle/caches/9.3.1/tran
+sforms/236808c8bf210c3c94b027
+618281850c/workspace/transfor
+med/react-android-0.86.2-debu
+g/prefab/modules/jsi/libs/and
+roid.arm64-v8a/libjsi.so"  
+"C:/Users/MANCHEM HIMESH/.gra
+dle/caches/9.3.1/transforms/2
+36808c8bf210c3c94b02761828185
+0c/workspace/transformed/reac
+t-android-0.86.2-debug/prefab
+/modules/reactnative/libs/and
+roid.arm64-v8a/libreactnative
+.so"  -latomic -lm && cd ."
+  ld.lld: error: undefined 
+symbol: std::__ndk1::basic_st
+ring<char, std::__ndk1::char_
+traits<char>, std::__ndk1::al
+locator<char>>::~basic_string
+()
+  >>> referenced by 
+EventEmitters.cpp:17 
+(C:/Users/MANCHEM HIMESH/OneD
+rive/Desktop/AttendanceApp/no
+de_modules/react-native-safe-
+area-context/android/build/ge
+nerated/source/codegen/jni/re
+act/renderer/components/safea
+reacontext/EventEmitters.cpp:
+17)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/d5631ae7369e7b118c
+20d52652927484/safeareacontex
+t/EventEmitters.cpp.o:(facebo
+ok::react::RNCSafeAreaProvide
+rEventEmitter::onInsetsChange
+(facebook::react::RNCSafeArea
+ProviderEventEmitter::OnInset
+sChange) const)
+  >>> referenced by 
+EventEmitters.cpp:17 
+(C:/Users/MANCHEM HIMESH/OneD
+rive/Desktop/AttendanceApp/no
+de_modules/react-native-safe-
+area-context/android/build/ge
+nerated/source/codegen/jni/re
+act/renderer/components/safea
+reacontext/EventEmitters.cpp:
+17)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/d5631ae7369e7b118c
+20d52652927484/safeareacontex
+t/EventEmitters.cpp.o:(facebo
+ok::react::RNCSafeAreaProvide
+rEventEmitter::onInsetsChange
+(facebook::react::RNCSafeArea
+ProviderEventEmitter::OnInset
+sChange) const)
+  >>> referenced by safeareac
+ontext-generated.cpp:22 
+(C:/Users/MANCHEM HIMESH/OneD
+rive/Desktop/AttendanceApp/no
+de_modules/react-native-safe-
+area-context/android/build/ge
+nerated/source/codegen/jni/sa
+feareacontext-generated.cpp:2
+2)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/f0a295ab1b87e90017
+2b4067f0bc178b/jni/safeareaco
+ntext-generated.cpp.o:(facebo
+ok::react::NativeSafeAreaCont
+extSpecJSI::NativeSafeAreaCon
+textSpecJSI(facebook::react::
+JavaTurboModule::InitParams 
+const&))
+  >>> referenced 68 more 
+times
+  
+  ld.lld: error: undefined 
+symbol: operator 
+delete(void*)
+  >>> referenced by 
+function.h:250 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/__functio
+nal/function.h:250)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/d5631ae7369e7b118c
+20d52652927484/safeareacontex
+t/EventEmitters.cpp.o:(std::_
+_ndk1::__function::__func<fac
+ebook::react::RNCSafeAreaProv
+iderEventEmitter::onInsetsCha
+nge(facebook::react::RNCSafeA
+reaProviderEventEmitter::OnIn
+setsChange) const::$_0, std::
+__ndk1::allocator<facebook::r
+eact::RNCSafeAreaProviderEven
+tEmitter::onInsetsChange(face
+book::react::RNCSafeAreaProvi
+derEventEmitter::OnInsetsChan
+ge) const::$_0>, 
+facebook::jsi::Value (faceboo
+k::jsi::Runtime&)>::~__func()
+)
+  >>> referenced by 
+safeareacontext.h:22 
+(C:/Users/MANCHEM HIMESH/OneD
+rive/Desktop/AttendanceApp/no
+de_modules/react-native-safe-
+area-context/android/build/ge
+nerated/source/codegen/jni/sa
+feareacontext.h:22)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/f0a295ab1b87e90017
+2b4067f0bc178b/jni/safeareaco
+ntext-generated.cpp.o:(facebo
+ok::react::NativeSafeAreaCont
+extSpecJSI::~NativeSafeAreaCo
+ntextSpecJSI())
+  >>> referenced by 
+unique_ptr.h:601 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/__memory/
+unique_ptr.h:601)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/cff30126cb86b5ef84
+94f713c3044ee4/ComponentDescr
+iptors.cpp.o:(std::__ndk1::__
+unique_if<facebook::react::Co
+ncreteComponentDescriptor<fac
+ebook::react::ConcreteViewSha
+dowNode<&facebook::react::RNC
+SafeAreaProviderComponentName
+.<char const at offset 0>, fa
+cebook::react::RNCSafeAreaPro
+viderProps, facebook::react::
+RNCSafeAreaProviderEventEmitt
+er, 
+facebook::react::StateData>> 
+const>::__unique_single std::
+__ndk1::make_unique[abi:ne180
+000]<facebook::react::Concret
+eComponentDescriptor<facebook
+::react::ConcreteViewShadowNo
+de<&facebook::react::RNCSafeA
+reaProviderComponentName.<cha
+r const at offset 0>, faceboo
+k::react::RNCSafeAreaProvider
+Props, facebook::react::RNCSa
+feAreaProviderEventEmitter, 
+facebook::react::StateData>> 
+const, facebook::react::Compo
+nentDescriptorParameters cons
+t&>(facebook::react::Componen
+tDescriptorParameters 
+const&))
+  >>> referenced 25 more 
+times
+  
+  ld.lld: error: undefined 
+symbol: vtable for 
+__cxxabiv1::__class_type_info
+  >>> referenced by 
+EventEmitters.cpp
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/d5631ae7369e7b118c
+20d52652927484/safeareacontex
+t/EventEmitters.cpp.o:(typein
+fo for std::__ndk1::__functio
+n::__base<facebook::jsi::Valu
+e (facebook::jsi::Runtime&)>)
+  >>> referenced by 
+EventEmitters.cpp
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/d5631ae7369e7b118c
+20d52652927484/safeareacontex
+t/EventEmitters.cpp.o:(typein
+fo for facebook::react::RNCSa
+feAreaProviderEventEmitter::o
+nInsetsChange(facebook::react
+::RNCSafeAreaProviderEventEmi
+tter::OnInsetsChange) 
+const::$_0)
+  >>> referenced by 
+safeareacontext-generated.cpp
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/f0a295ab1b87e90017
+2b4067f0bc178b/jni/safeareaco
+ntext-generated.cpp.o:(typein
+fo for std::__ndk1::__functio
+n::__base<facebook::jsi::Valu
+e (facebook::jsi::Runtime&, 
+facebook::jsi::Value const&, 
+facebook::jsi::Value const*, 
+unsigned long)>)
+  >>> referenced 3 more times
+  >>> the vtable symbol may 
+be undefined because the 
+class is missing its key 
+function (see https://lld.llv
+m.org/missingkeyfunction)
+  
+  ld.lld: error: undefined 
+symbol: vtable for __cxxabiv1
+::__si_class_type_info
+  >>> referenced by 
+EventEmitters.cpp
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/d5631ae7369e7b118c
+20d52652927484/safeareacontex
+t/EventEmitters.cpp.o:(typein
+fo for std::__ndk1::__functio
+n::__func<facebook::react::RN
+CSafeAreaProviderEventEmitter
+::onInsetsChange(facebook::re
+act::RNCSafeAreaProviderEvent
+Emitter::OnInsetsChange) 
+const::$_0, std::__ndk1::allo
+cator<facebook::react::RNCSaf
+eAreaProviderEventEmitter::on
+InsetsChange(facebook::react:
+:RNCSafeAreaProviderEventEmit
+ter::OnInsetsChange) 
+const::$_0>, 
+facebook::jsi::Value 
+(facebook::jsi::Runtime&)>)
+  >>> referenced by 
+safeareacontext-generated.cpp
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/f0a295ab1b87e90017
+2b4067f0bc178b/jni/safeareaco
+ntext-generated.cpp.o:(typein
+fo for facebook::react::Nativ
+eSafeAreaContextSpecJSI)
+  >>> referenced by 
+safeareacontext-generated.cpp
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/f0a295ab1b87e90017
+2b4067f0bc178b/jni/safeareaco
+ntext-generated.cpp.o:(typein
+fo for std::__ndk1::__shared_
+ptr_emplace<facebook::react::
+NativeSafeAreaContextSpecJSI,
+ std::__ndk1::allocator<faceb
+ook::react::NativeSafeAreaCon
+textSpecJSI>>)
+  >>> referenced 17 more 
+times
+  >>> the vtable symbol may 
+be undefined because the 
+class is missing its key 
+function (see https://lld.llv
+m.org/missingkeyfunction)
+  
+  ld.lld: error: undefined 
+symbol: __cxa_pure_virtual
+  >>> referenced by 
+EventEmitters.cpp
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/d5631ae7369e7b118c
+20d52652927484/safeareacontex
+t/EventEmitters.cpp.o:(vtable
+ for std::__ndk1::__function:
+:__base<facebook::jsi::Value 
+(facebook::jsi::Runtime&)>)
+  >>> referenced by 
+EventEmitters.cpp
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/d5631ae7369e7b118c
+20d52652927484/safeareacontex
+t/EventEmitters.cpp.o:(vtable
+ for std::__ndk1::__function:
+:__base<facebook::jsi::Value 
+(facebook::jsi::Runtime&)>)
+  >>> referenced by 
+EventEmitters.cpp
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/d5631ae7369e7b118c
+20d52652927484/safeareacontex
+t/EventEmitters.cpp.o:(vtable
+ for std::__ndk1::__function:
+:__base<facebook::jsi::Value 
+(facebook::jsi::Runtime&)>)
+  >>> referenced 22 more 
+times
+  
+  ld.lld: error: undefined 
+symbol: __cxa_guard_acquire
+  >>> referenced by 
+Props.cpp:31 
+(C:/Users/MANCHEM HIMESH/OneD
+rive/Desktop/AttendanceApp/no
+de_modules/react-native-safe-
+area-context/android/build/ge
+nerated/source/codegen/jni/re
+act/renderer/components/safea
+reacontext/Props.cpp:31)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/5faeefb7c9cece80b4
+08a36b767483e1/components/saf
+eareacontext/Props.cpp.o:(fac
+ebook::react::RNCSafeAreaProv
+iderProps::getDiffProps(faceb
+ook::react::Props const*) 
+const)
+  >>> referenced by 
+Props.cpp:58 
+(C:/Users/MANCHEM HIMESH/OneD
+rive/Desktop/AttendanceApp/no
+de_modules/react-native-safe-
+area-context/android/build/ge
+nerated/source/codegen/jni/re
+act/renderer/components/safea
+reacontext/Props.cpp:58)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/5faeefb7c9cece80b4
+08a36b767483e1/components/saf
+eareacontext/Props.cpp.o:(fac
+ebook::react::RNCSafeAreaView
+Props::getDiffProps(facebook:
+:react::Props const*) const)
+  >>> referenced by 
+ConcreteShadowNode.h:97 
+(C:/Users/MANCHEM HIMESH/.gra
+dle/caches/9.3.1/transforms/2
+36808c8bf210c3c94b02761828185
+0c/workspace/transformed/reac
+t-android-0.86.2-debug/prefab
+/modules/reactnative/include/
+react/renderer/core/ConcreteS
+hadowNode.h:97)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/cff30126cb86b5ef84
+94f713c3044ee4/ComponentDescr
+iptors.cpp.o:(facebook::react
+::ConcreteShadowNode<&faceboo
+k::react::RNCSafeAreaProvider
+ComponentName.<char const at 
+offset 0>, facebook::react::Y
+ogaLayoutableShadowNode, face
+book::react::RNCSafeAreaProvi
+derProps, facebook::react::RN
+CSafeAreaProviderEventEmitter
+, facebook::react::StateData>
+::defaultSharedProps())
+  
+  ld.lld: error: undefined 
+symbol: __cxa_guard_release
+  >>> referenced by 
+Props.cpp:31 
+(C:/Users/MANCHEM HIMESH/OneD
+rive/Desktop/AttendanceApp/no
+de_modules/react-native-safe-
+area-context/android/build/ge
+nerated/source/codegen/jni/re
+act/renderer/components/safea
+reacontext/Props.cpp:31)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/5faeefb7c9cece80b4
+08a36b767483e1/components/saf
+eareacontext/Props.cpp.o:(fac
+ebook::react::RNCSafeAreaProv
+iderProps::getDiffProps(faceb
+ook::react::Props const*) 
+const)
+  >>> referenced by 
+Props.cpp:58 
+(C:/Users/MANCHEM HIMESH/OneD
+rive/Desktop/AttendanceApp/no
+de_modules/react-native-safe-
+area-context/android/build/ge
+nerated/source/codegen/jni/re
+act/renderer/components/safea
+reacontext/Props.cpp:58)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/5faeefb7c9cece80b4
+08a36b767483e1/components/saf
+eareacontext/Props.cpp.o:(fac
+ebook::react::RNCSafeAreaView
+Props::getDiffProps(facebook:
+:react::Props const*) const)
+  >>> referenced by 
+ConcreteShadowNode.h:97 
+(C:/Users/MANCHEM HIMESH/.gra
+dle/caches/9.3.1/transforms/2
+36808c8bf210c3c94b02761828185
+0c/workspace/transformed/reac
+t-android-0.86.2-debug/prefab
+/modules/reactnative/include/
+react/renderer/core/ConcreteS
+hadowNode.h:97)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/cff30126cb86b5ef84
+94f713c3044ee4/ComponentDescr
+iptors.cpp.o:(facebook::react
+::ConcreteShadowNode<&faceboo
+k::react::RNCSafeAreaProvider
+ComponentName.<char const at 
+offset 0>, facebook::react::Y
+ogaLayoutableShadowNode, face
+book::react::RNCSafeAreaProvi
+derProps, facebook::react::RN
+CSafeAreaProviderEventEmitter
+, facebook::react::StateData>
+::defaultSharedProps())
+  
+  ld.lld: error: undefined 
+symbol: __cxa_guard_abort
+  >>> referenced by 
+Props.cpp:31 
+(C:/Users/MANCHEM HIMESH/OneD
+rive/Desktop/AttendanceApp/no
+de_modules/react-native-safe-
+area-context/android/build/ge
+nerated/source/codegen/jni/re
+act/renderer/components/safea
+reacontext/Props.cpp:31)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/5faeefb7c9cece80b4
+08a36b767483e1/components/saf
+eareacontext/Props.cpp.o:(fac
+ebook::react::RNCSafeAreaProv
+iderProps::getDiffProps(faceb
+ook::react::Props const*) 
+const)
+  >>> referenced by 
+Props.cpp:58 
+(C:/Users/MANCHEM HIMESH/OneD
+rive/Desktop/AttendanceApp/no
+de_modules/react-native-safe-
+area-context/android/build/ge
+nerated/source/codegen/jni/re
+act/renderer/components/safea
+reacontext/Props.cpp:58)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/5faeefb7c9cece80b4
+08a36b767483e1/components/saf
+eareacontext/Props.cpp.o:(fac
+ebook::react::RNCSafeAreaView
+Props::getDiffProps(facebook:
+:react::Props const*) const)
+  >>> referenced by 
+ConcreteShadowNode.h:97 
+(C:/Users/MANCHEM HIMESH/.gra
+dle/caches/9.3.1/transforms/2
+36808c8bf210c3c94b02761828185
+0c/workspace/transformed/reac
+t-android-0.86.2-debug/prefab
+/modules/reactnative/include/
+react/renderer/core/ConcreteS
+hadowNode.h:97)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/cff30126cb86b5ef84
+94f713c3044ee4/ComponentDescr
+iptors.cpp.o:(facebook::react
+::ConcreteShadowNode<&faceboo
+k::react::RNCSafeAreaProvider
+ComponentName.<char const at 
+offset 0>, facebook::react::Y
+ogaLayoutableShadowNode, face
+book::react::RNCSafeAreaProvi
+derProps, facebook::react::RN
+CSafeAreaProviderEventEmitter
+, facebook::react::StateData>
+::defaultSharedProps())
+  
+  ld.lld: error: undefined 
+symbol: __cxa_begin_catch
+  >>> referenced by 
+propsConversions.h:190 
+(C:/Users/MANCHEM HIMESH/.gra
+dle/caches/9.3.1/transforms/2
+36808c8bf210c3c94b02761828185
+0c/workspace/transformed/reac
+t-android-0.86.2-debug/prefab
+/modules/reactnative/include/
+react/renderer/core/propsConv
+ersions.h:190)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/5faeefb7c9cece80b4
+08a36b767483e1/components/saf
+eareacontext/Props.cpp.o:(fac
+ebook::react::RNCSafeAreaView
+Mode facebook::react::convert
+RawProp<facebook::react::RNCS
+afeAreaViewMode, facebook::re
+act::RNCSafeAreaViewMode>(fac
+ebook::react::PropsParserCont
+ext const&, 
+facebook::react::RawProps 
+const&, char const*, facebook
+::react::RNCSafeAreaViewMode 
+const&, facebook::react::RNCS
+afeAreaViewMode const&, char 
+const*, char const*))
+  >>> referenced by 
+propsConversions.h:190 
+(C:/Users/MANCHEM HIMESH/.gra
+dle/caches/9.3.1/transforms/2
+36808c8bf210c3c94b02761828185
+0c/workspace/transformed/reac
+t-android-0.86.2-debug/prefab
+/modules/reactnative/include/
+react/renderer/core/propsConv
+ersions.h:190)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/5faeefb7c9cece80b4
+08a36b767483e1/components/saf
+eareacontext/Props.cpp.o:(fac
+ebook::react::RNCSafeAreaView
+EdgesStruct facebook::react::
+convertRawProp<facebook::reac
+t::RNCSafeAreaViewEdgesStruct
+, facebook::react::RNCSafeAre
+aViewEdgesStruct>(facebook::r
+eact::PropsParserContext 
+const&, 
+facebook::react::RawProps 
+const&, char const*, facebook
+::react::RNCSafeAreaViewEdges
+Struct const&, facebook::reac
+t::RNCSafeAreaViewEdgesStruct
+ const&, char const*, char 
+const*))
+  >>> referenced by 
+RNCSafeAreaViewShadowNode.cpp
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/f632fba4c4ab406c80
+3d005517aeb410/RNCSafeAreaVie
+wShadowNode.cpp.o:(__clang_ca
+ll_terminate)
+  >>> referenced 1 more times
+  
+  ld.lld: error: undefined 
+symbol: __cxa_end_catch
+  >>> referenced by 
+propsConversions.h:196 
+(C:/Users/MANCHEM HIMESH/.gra
+dle/caches/9.3.1/transforms/2
+36808c8bf210c3c94b02761828185
+0c/workspace/transformed/reac
+t-android-0.86.2-debug/prefab
+/modules/reactnative/include/
+react/renderer/core/propsConv
+ersions.h:196)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/5faeefb7c9cece80b4
+08a36b767483e1/components/saf
+eareacontext/Props.cpp.o:(fac
+ebook::react::RNCSafeAreaView
+Mode facebook::react::convert
+RawProp<facebook::react::RNCS
+afeAreaViewMode, facebook::re
+act::RNCSafeAreaViewMode>(fac
+ebook::react::PropsParserCont
+ext const&, 
+facebook::react::RawProps 
+const&, char const*, facebook
+::react::RNCSafeAreaViewMode 
+const&, facebook::react::RNCS
+afeAreaViewMode const&, char 
+const*, char const*))
+  >>> referenced by 
+propsConversions.h:196 
+(C:/Users/MANCHEM HIMESH/.gra
+dle/caches/9.3.1/transforms/2
+36808c8bf210c3c94b02761828185
+0c/workspace/transformed/reac
+t-android-0.86.2-debug/prefab
+/modules/reactnative/include/
+react/renderer/core/propsConv
+ersions.h:196)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/5faeefb7c9cece80b4
+08a36b767483e1/components/saf
+eareacontext/Props.cpp.o:(fac
+ebook::react::RNCSafeAreaView
+Mode facebook::react::convert
+RawProp<facebook::react::RNCS
+afeAreaViewMode, facebook::re
+act::RNCSafeAreaViewMode>(fac
+ebook::react::PropsParserCont
+ext const&, 
+facebook::react::RawProps 
+const&, char const*, facebook
+::react::RNCSafeAreaViewMode 
+const&, facebook::react::RNCS
+afeAreaViewMode const&, char 
+const*, char const*))
+  >>> referenced by 
+propsConversions.h:196 
+(C:/Users/MANCHEM HIMESH/.gra
+dle/caches/9.3.1/transforms/2
+36808c8bf210c3c94b02761828185
+0c/workspace/transformed/reac
+t-android-0.86.2-debug/prefab
+/modules/reactnative/include/
+react/renderer/core/propsConv
+ersions.h:196)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/5faeefb7c9cece80b4
+08a36b767483e1/components/saf
+eareacontext/Props.cpp.o:(fac
+ebook::react::RNCSafeAreaView
+EdgesStruct facebook::react::
+convertRawProp<facebook::reac
+t::RNCSafeAreaViewEdgesStruct
+, facebook::react::RNCSafeAre
+aViewEdgesStruct>(facebook::r
+eact::PropsParserContext 
+const&, 
+facebook::react::RawProps 
+const&, char const*, facebook
+::react::RNCSafeAreaViewEdges
+Struct const&, facebook::reac
+t::RNCSafeAreaViewEdgesStruct
+ const&, char const*, char 
+const*))
+  >>> referenced 3 more times
+  
+  ld.lld: error: undefined 
+symbol: std::__ndk1::basic_st
+ring<char, std::__ndk1::char_
+traits<char>, std::__ndk1::al
+locator<char>>::basic_string(
+std::__ndk1::basic_string<cha
+r, std::__ndk1::char_traits<c
+har>, std::__ndk1::allocator<
+char>> const&)
+  >>> referenced by RNCSafeAr
+eaViewShadowNode.cpp:92 
+(C:/Users/MANCHEM HIMESH/OneD
+rive/Desktop/AttendanceApp/no
+de_modules/react-native-safe-
+area-context/common/cpp/react
+/renderer/components/safearea
+context/RNCSafeAreaViewShadow
+Node.cpp:92)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/f632fba4c4ab406c80
+3d005517aeb410/RNCSafeAreaVie
+wShadowNode.cpp.o:(facebook::
+react::RNCSafeAreaViewShadowN
+ode::adjustLayoutWithState())
+  >>> referenced by RNCSafeAr
+eaViewShadowNode.cpp:94 
+(C:/Users/MANCHEM HIMESH/OneD
+rive/Desktop/AttendanceApp/no
+de_modules/react-native-safe-
+area-context/common/cpp/react
+/renderer/components/safearea
+context/RNCSafeAreaViewShadow
+Node.cpp:94)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/f632fba4c4ab406c80
+3d005517aeb410/RNCSafeAreaVie
+wShadowNode.cpp.o:(facebook::
+react::RNCSafeAreaViewShadowN
+ode::adjustLayoutWithState())
+  >>> referenced by RNCSafeAr
+eaViewShadowNode.cpp:96 
+(C:/Users/MANCHEM HIMESH/OneD
+rive/Desktop/AttendanceApp/no
+de_modules/react-native-safe-
+area-context/common/cpp/react
+/renderer/components/safearea
+context/RNCSafeAreaViewShadow
+Node.cpp:96)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/f632fba4c4ab406c80
+3d005517aeb410/RNCSafeAreaVie
+wShadowNode.cpp.o:(facebook::
+react::RNCSafeAreaViewShadowN
+ode::adjustLayoutWithState())
+  >>> referenced 12 more 
+times
+  
+  ld.lld: error: undefined 
+symbol: operator 
+new(unsigned long)
+  >>> referenced by 
+unique_ptr.h:601 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/__memory/
+unique_ptr.h:601)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/cff30126cb86b5ef84
+94f713c3044ee4/ComponentDescr
+iptors.cpp.o:(std::__ndk1::__
+unique_if<facebook::react::Co
+ncreteComponentDescriptor<fac
+ebook::react::ConcreteViewSha
+dowNode<&facebook::react::RNC
+SafeAreaProviderComponentName
+.<char const at offset 0>, fa
+cebook::react::RNCSafeAreaPro
+viderProps, facebook::react::
+RNCSafeAreaProviderEventEmitt
+er, 
+facebook::react::StateData>> 
+const>::__unique_single std::
+__ndk1::make_unique[abi:ne180
+000]<facebook::react::Concret
+eComponentDescriptor<facebook
+::react::ConcreteViewShadowNo
+de<&facebook::react::RNCSafeA
+reaProviderComponentName.<cha
+r const at offset 0>, faceboo
+k::react::RNCSafeAreaProvider
+Props, facebook::react::RNCSa
+feAreaProviderEventEmitter, 
+facebook::react::StateData>> 
+const, facebook::react::Compo
+nentDescriptorParameters cons
+t&>(facebook::react::Componen
+tDescriptorParameters 
+const&))
+  >>> referenced by 
+unique_ptr.h:601 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/__memory/
+unique_ptr.h:601)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/f632fba4c4ab406c80
+3d005517aeb410/RNCSafeAreaVie
+wShadowNode.cpp.o:(std::__ndk
+1::__unique_if<facebook::yoga
+::SmallValueBuffer<4ul>::Over
+flow>::__unique_single std::_
+_ndk1::make_unique[abi:ne1800
+00]<facebook::yoga::SmallValu
+eBuffer<4ul>::Overflow>())
+  >>> referenced by new:271 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/new:271)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/f632fba4c4ab406c80
+3d005517aeb410/RNCSafeAreaVie
+wShadowNode.cpp.o:(void* std:
+:__ndk1::__libcpp_operator_ne
+w[abi:ne180000]<unsigned 
+long>(unsigned long))
+  
+  ld.lld: error: undefined 
+symbol: std::__ndk1::__next_p
+rime(unsigned long)
+  >>> referenced by 
+__hash_table:1657 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/__hash_ta
+ble:1657)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/f0a295ab1b87e90017
+2b4067f0bc178b/jni/safeareaco
+ntext-generated.cpp.o:(void s
+td::__ndk1::__hash_table<std:
+:__ndk1::__hash_value_type<st
+d::__ndk1::basic_string<char,
+ std::__ndk1::char_traits<cha
+r>, std::__ndk1::allocator<ch
+ar>>, facebook::react::TurboM
+odule::MethodMetadata>, std::
+__ndk1::__unordered_map_hashe
+r<std::__ndk1::basic_string<c
+har, std::__ndk1::char_traits
+<char>, std::__ndk1::allocato
+r<char>>, std::__ndk1::__hash
+_value_type<std::__ndk1::basi
+c_string<char, std::__ndk1::c
+har_traits<char>, std::__ndk1
+::allocator<char>>, facebook:
+:react::TurboModule::MethodMe
+tadata>, std::__ndk1::hash<st
+d::__ndk1::basic_string<char,
+ std::__ndk1::char_traits<cha
+r>, std::__ndk1::allocator<ch
+ar>>>, std::__ndk1::equal_to<
+std::__ndk1::basic_string<cha
+r, std::__ndk1::char_traits<c
+har>, std::__ndk1::allocator<
+char>>>, true>, std::__ndk1::
+__unordered_map_equal<std::__
+ndk1::basic_string<char, std:
+:__ndk1::char_traits<char>, s
+td::__ndk1::allocator<char>>,
+ std::__ndk1::__hash_value_ty
+pe<std::__ndk1::basic_string<
+char, std::__ndk1::char_trait
+s<char>, std::__ndk1::allocat
+or<char>>, facebook::react::T
+urboModule::MethodMetadata>, 
+std::__ndk1::equal_to<std::__
+ndk1::basic_string<char, std:
+:__ndk1::char_traits<char>, s
+td::__ndk1::allocator<char>>>
+, std::__ndk1::hash<std::__nd
+k1::basic_string<char, std::_
+_ndk1::char_traits<char>, std
+::__ndk1::allocator<char>>>, 
+true>, std::__ndk1::allocator
+<std::__ndk1::__hash_value_ty
+pe<std::__ndk1::basic_string<
+char, std::__ndk1::char_trait
+s<char>, std::__ndk1::allocat
+or<char>>, facebook::react::T
+urboModule::MethodMetadata>>>
+::__rehash<true>(unsigned 
+long))
+  >>> referenced by 
+__hash_table:1665 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/__hash_ta
+ble:1665)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/f0a295ab1b87e90017
+2b4067f0bc178b/jni/safeareaco
+ntext-generated.cpp.o:(void s
+td::__ndk1::__hash_table<std:
+:__ndk1::__hash_value_type<st
+d::__ndk1::basic_string<char,
+ std::__ndk1::char_traits<cha
+r>, std::__ndk1::allocator<ch
+ar>>, facebook::react::TurboM
+odule::MethodMetadata>, std::
+__ndk1::__unordered_map_hashe
+r<std::__ndk1::basic_string<c
+har, std::__ndk1::char_traits
+<char>, std::__ndk1::allocato
+r<char>>, std::__ndk1::__hash
+_value_type<std::__ndk1::basi
+c_string<char, std::__ndk1::c
+har_traits<char>, std::__ndk1
+::allocator<char>>, facebook:
+:react::TurboModule::MethodMe
+tadata>, std::__ndk1::hash<st
+d::__ndk1::basic_string<char,
+ std::__ndk1::char_traits<cha
+r>, std::__ndk1::allocator<ch
+ar>>>, std::__ndk1::equal_to<
+std::__ndk1::basic_string<cha
+r, std::__ndk1::char_traits<c
+har>, std::__ndk1::allocator<
+char>>>, true>, std::__ndk1::
+__unordered_map_equal<std::__
+ndk1::basic_string<char, std:
+:__ndk1::char_traits<char>, s
+td::__ndk1::allocator<char>>,
+ std::__ndk1::__hash_value_ty
+pe<std::__ndk1::basic_string<
+char, std::__ndk1::char_trait
+s<char>, std::__ndk1::allocat
+or<char>>, facebook::react::T
+urboModule::MethodMetadata>, 
+std::__ndk1::equal_to<std::__
+ndk1::basic_string<char, std:
+:__ndk1::char_traits<char>, s
+td::__ndk1::allocator<char>>>
+, std::__ndk1::hash<std::__nd
+k1::basic_string<char, std::_
+_ndk1::char_traits<char>, std
+::__ndk1::allocator<char>>>, 
+true>, std::__ndk1::allocator
+<std::__ndk1::__hash_value_ty
+pe<std::__ndk1::basic_string<
+char, std::__ndk1::char_trait
+s<char>, std::__ndk1::allocat
+or<char>>, facebook::react::T
+urboModule::MethodMetadata>>>
+::__rehash<true>(unsigned 
+long))
+  >>> referenced by 
+__hash_table:1657 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/__hash_ta
+ble:1657)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/5faeefb7c9cece80b4
+08a36b767483e1/components/saf
+eareacontext/Props.cpp.o:(voi
+d std::__ndk1::__hash_table<s
+td::__ndk1::__hash_value_type
+<std::__ndk1::basic_string<ch
+ar, std::__ndk1::char_traits<
+char>, std::__ndk1::allocator
+<char>>, 
+facebook::react::RawValue>, s
+td::__ndk1::__unordered_map_h
+asher<std::__ndk1::basic_stri
+ng<char, std::__ndk1::char_tr
+aits<char>, std::__ndk1::allo
+cator<char>>, std::__ndk1::__
+hash_value_type<std::__ndk1::
+basic_string<char, std::__ndk
+1::char_traits<char>, std::__
+ndk1::allocator<char>>, 
+facebook::react::RawValue>, s
+td::__ndk1::hash<std::__ndk1:
+:basic_string<char, std::__nd
+k1::char_traits<char>, std::_
+_ndk1::allocator<char>>>, std
+::__ndk1::equal_to<std::__ndk
+1::basic_string<char, std::__
+ndk1::char_traits<char>, std:
+:__ndk1::allocator<char>>>, 
+true>, std::__ndk1::__unorder
+ed_map_equal<std::__ndk1::bas
+ic_string<char, std::__ndk1::
+char_traits<char>, std::__ndk
+1::allocator<char>>, std::__n
+dk1::__hash_value_type<std::_
+_ndk1::basic_string<char, std
+::__ndk1::char_traits<char>, 
+std::__ndk1::allocator<char>>
+, 
+facebook::react::RawValue>, s
+td::__ndk1::equal_to<std::__n
+dk1::basic_string<char, std::
+__ndk1::char_traits<char>, st
+d::__ndk1::allocator<char>>>,
+ std::__ndk1::hash<std::__ndk
+1::basic_string<char, std::__
+ndk1::char_traits<char>, std:
+:__ndk1::allocator<char>>>, 
+true>, std::__ndk1::allocator
+<std::__ndk1::__hash_value_ty
+pe<std::__ndk1::basic_string<
+char, std::__ndk1::char_trait
+s<char>, std::__ndk1::allocat
+or<char>>, facebook::react::R
+awValue>>>::__rehash<true>(un
+signed long))
+  >>> referenced 1 more times
+  
+  ld.lld: error: undefined 
+symbol: std::__ndk1::__shared
+_weak_count::~__shared_weak_c
+ount()
+  >>> referenced by 
+shared_ptr.h:263 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/__memory/
+shared_ptr.h:263)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/f0a295ab1b87e90017
+2b4067f0bc178b/jni/safeareaco
+ntext-generated.cpp.o:(std::_
+_ndk1::__shared_ptr_emplace<f
+acebook::react::NativeSafeAre
+aContextSpecJSI, std::__ndk1:
+:allocator<facebook::react::N
+ativeSafeAreaContextSpecJSI>>
+::__shared_ptr_emplace[abi:ne
+180000]<facebook::react::Java
+TurboModule::InitParams 
+const&, std::__ndk1::allocato
+r<facebook::react::NativeSafe
+AreaContextSpecJSI>, 0>(std::
+__ndk1::allocator<facebook::r
+eact::NativeSafeAreaContextSp
+ecJSI>, facebook::react::Java
+TurboModule::InitParams 
+const&))
+  >>> referenced by 
+shared_ptr.h:246 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/__memory/
+shared_ptr.h:246)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/f0a295ab1b87e90017
+2b4067f0bc178b/jni/safeareaco
+ntext-generated.cpp.o:(std::_
+_ndk1::__shared_ptr_emplace<f
+acebook::react::NativeSafeAre
+aContextSpecJSI, std::__ndk1:
+:allocator<facebook::react::N
+ativeSafeAreaContextSpecJSI>>
+::~__shared_ptr_emplace())
+  >>> referenced by 
+shared_ptr.h:263 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/__memory/
+shared_ptr.h:263)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/cff30126cb86b5ef84
+94f713c3044ee4/ComponentDescr
+iptors.cpp.o:(std::__ndk1::__
+shared_ptr_emplace<facebook::
+react::ConcreteViewShadowNode
+<&facebook::react::RNCSafeAre
+aProviderComponentName.<char 
+const at offset 0>, facebook:
+:react::RNCSafeAreaProviderPr
+ops, facebook::react::RNCSafe
+AreaProviderEventEmitter, 
+facebook::react::StateData>, 
+std::__ndk1::allocator<facebo
+ok::react::ConcreteViewShadow
+Node<&facebook::react::RNCSaf
+eAreaProviderComponentName.<c
+har const at offset 0>, faceb
+ook::react::RNCSafeAreaProvid
+erProps, facebook::react::RNC
+SafeAreaProviderEventEmitter,
+ facebook::react::StateData>>
+>::__shared_ptr_emplace[abi:n
+e180000]<facebook::react::Sha
+dowNodeFragment const&, std::
+__ndk1::shared_ptr<facebook::
+react::ShadowNodeFamily> 
+const&, facebook::react::Shad
+owNodeTraits, std::__ndk1::al
+locator<facebook::react::Conc
+reteViewShadowNode<&facebook:
+:react::RNCSafeAreaProviderCo
+mponentName.<char const at 
+offset 0>, facebook::react::R
+NCSafeAreaProviderProps, face
+book::react::RNCSafeAreaProvi
+derEventEmitter, facebook::re
+act::StateData>>, 0>(std::__n
+dk1::allocator<facebook::reac
+t::ConcreteViewShadowNode<&fa
+cebook::react::RNCSafeAreaPro
+viderComponentName.<char 
+const at offset 0>, facebook:
+:react::RNCSafeAreaProviderPr
+ops, facebook::react::RNCSafe
+AreaProviderEventEmitter, fac
+ebook::react::StateData>>, fa
+cebook::react::ShadowNodeFrag
+ment const&, std::__ndk1::sha
+red_ptr<facebook::react::Shad
+owNodeFamily> const&, faceboo
+k::react::ShadowNodeTraits&&)
+)
+  >>> referenced 14 more 
+times
+  
+  ld.lld: error: undefined 
+symbol: std::__ndk1::__shared
+_mutex_base::__shared_mutex_b
+ase()
+  >>> referenced by 
+shared_mutex:190 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/shared_mu
+tex:190)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/cff30126cb86b5ef84
+94f713c3044ee4/ComponentDescr
+iptors.cpp.o:(std::__ndk1::sh
+ared_mutex::shared_mutex[abi:
+ne180000]())
+  
+  ld.lld: error: undefined 
+symbol: 
+__cxa_allocate_exception
+  >>> referenced by 
+stdexcept:249 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/stdexcept
+:249)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/f632fba4c4ab406c80
+3d005517aeb410/RNCSafeAreaVie
+wShadowNode.cpp.o:(std::__ndk
+1::__throw_out_of_range[abi:n
+e180000](char const*))
+  >>> referenced by 
+variant:287 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/variant:2
+87)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/5faeefb7c9cece80b4
+08a36b767483e1/components/saf
+eareacontext/Props.cpp.o:(std
+::__ndk1::__throw_bad_variant
+_access[abi:ne180000]())
+  >>> referenced by 
+stdexcept:241 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/stdexcept
+:241)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/f632fba4c4ab406c80
+3d005517aeb410/RNCSafeAreaVie
+wShadowNode.cpp.o:(std::__ndk
+1::__throw_length_error[abi:n
+e180000](char const*))
+  >>> referenced 2 more times
+  
+  ld.lld: error: undefined 
+symbol: typeinfo for 
+std::out_of_range
+  >>> referenced by 
+stdexcept:249 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/stdexcept
+:249)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/f632fba4c4ab406c80
+3d005517aeb410/RNCSafeAreaVie
+wShadowNode.cpp.o:(std::__ndk
+1::__throw_out_of_range[abi:n
+e180000](char const*))
+  >>> referenced by 
+stdexcept:249 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/stdexcept
+:249)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/f632fba4c4ab406c80
+3d005517aeb410/RNCSafeAreaVie
+wShadowNode.cpp.o:(std::__ndk
+1::__throw_out_of_range[abi:n
+e180000](char const*))
+  
+  ld.lld: error: undefined 
+symbol: std::out_of_range::~o
+ut_of_range()
+  >>> referenced by 
+stdexcept:249 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/stdexcept
+:249)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/f632fba4c4ab406c80
+3d005517aeb410/RNCSafeAreaVie
+wShadowNode.cpp.o:(std::__ndk
+1::__throw_out_of_range[abi:n
+e180000](char const*))
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.3.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+217 actionable tasks: 17 executed, 200 up-to-date
+  >>> referenced by 
+stdexcept:249 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/stdexcept
+:249)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/f632fba4c4ab406c80
+3d005517aeb410/RNCSafeAreaVie
+wShadowNode.cpp.o:(std::__ndk
+1::__throw_out_of_range[abi:n
+e180000](char const*))
+  
+  ld.lld: error: undefined 
+symbol: __cxa_throw
+  >>> referenced by 
+stdexcept:249 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/stdexcept
+:249)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/f632fba4c4ab406c80
+3d005517aeb410/RNCSafeAreaVie
+wShadowNode.cpp.o:(std::__ndk
+1::__throw_out_of_range[abi:n
+e180000](char const*))
+  >>> referenced by 
+variant:287 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/variant:2
+87)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/5faeefb7c9cece80b4
+08a36b767483e1/components/saf
+eareacontext/Props.cpp.o:(std
+::__ndk1::__throw_bad_variant
+_access[abi:ne180000]())
+  >>> referenced by 
+stdexcept:241 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/stdexcept
+:241)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/f632fba4c4ab406c80
+3d005517aeb410/RNCSafeAreaVie
+wShadowNode.cpp.o:(std::__ndk
+1::__throw_length_error[abi:n
+e180000](char const*))
+  >>> referenced 2 more times
+  
+  ld.lld: error: undefined 
+symbol: __cxa_free_exception
+  >>> referenced by 
+stdexcept:249 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/stdexcept
+:249)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/f632fba4c4ab406c80
+3d005517aeb410/RNCSafeAreaVie
+wShadowNode.cpp.o:(std::__ndk
+1::__throw_out_of_range[abi:n
+e180000](char const*))
+  >>> referenced by 
+stdexcept:241 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/stdexcept
+:241)
+  >>>               safeareac
+ontext_autolinked_build/CMake
+Files/react_codegen_safeareac
+ontext.dir/f632fba4c4ab406c80
+3d005517aeb410/RNCSafeAreaVie
+wShadowNode.cpp.o:(std::__ndk
+1::__throw_length_error[abi:n
+e180000](char const*))
+  
+  ld.lld: error: too many 
+errors emitted, stopping now 
+(use --error-limit=0 to see 
+all errors)
+  CLANG_~1: error: linker 
+command failed with exit 
+code 1 (use -v to see 
+invocation)
+  ninja: build stopped: 
+subcommand failed.
+  
+  C++ build system [build] 
+failed while executing:
+      @echo off
+      "C:\\Users\\MANCHEM HIM
+ESH\\AppData\\Local\\Android\
+\Sdk\\cmake\\3.22.1\\bin\\nin
+ja.exe" ^
+        -C ^
+        "C:\\Users\\MANCHEM H
+IMESH\\OneDrive\\Desktop\\Att
+endanceApp\\android\\app\\.cx
+x\\Debug\\161p704y\\arm64-v8a
+" ^
+        appmodules ^
+        
+react_codegen_safeareacontext
+    from C:\Users\MANCHEM HIM
+ESH\OneDrive\Desktop\Attendan
+ceApp\android\app
+
+* Try:
+> Run with --stacktrace 
+option to get the stack 
+trace.
+> Run with --info or --debug 
+option to get more log 
+output.
+> Run with --scan to get 
+full insights from a Build 
+Scan (powered by Develocity).
+> Get more help at 
+https://help.gradle.org.
+
+BUILD FAILED in 10s

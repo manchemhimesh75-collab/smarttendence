@@ -1,0 +1,1750 @@
+﻿> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:shared:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+> Task :gradle-plugin:shared:jar
+> Task :gradle-plugin:settings-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:processResources
+> Task :gradle-plugin:settings-plugin:classes
+> Task :gradle-plugin:settings-plugin:jar
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:processResources
+> Task :gradle-plugin:react-native-gradle-plugin:classes
+> Task :gradle-plugin:react-native-gradle-plugin:jar
+
+> Configure project :react-native-nitro-modules
+[NitroModules] ? Your app is boosted by nitro modules!
+
+> Configure project :react-native-quick-crypto
+[NitroModules] ? QuickCrypto is boosted by nitro!
+[QuickCrypto] Has libsodium disabled!
+
+> Task :app:generateAutolinkingNewArchitectureFiles UP-TO-DATE
+> Task :app:generateAutolinkingPackageList UP-TO-DATE
+> Task :app:generateCodegenSchemaFromJavaScript SKIPPED
+> Task :app:generateCodegenArtifactsFromSchema SKIPPED
+> Task :app:generateReactNativeEntryPoint UP-TO-DATE
+> Task :react-native-async-storage_async-storage:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-async-storage_async-storage:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-async-storage_async-storage:preBuild UP-TO-DATE
+> Task :react-native-community_netinfo:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-community_netinfo:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-community_netinfo:preBuild UP-TO-DATE
+> Task :react-native-get-random-values:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-get-random-values:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-get-random-values:preBuild UP-TO-DATE
+> Task :react-native-haptic-feedback:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-haptic-feedback:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-haptic-feedback:preBuild UP-TO-DATE
+> Task :react-native-nitro-modules:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-nitro-modules:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-nitro-modules:prepareHeaders UP-TO-DATE
+> Task :react-native-nitro-modules:preBuild UP-TO-DATE
+> Task :react-native-quick-crypto:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-quick-crypto:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-quick-crypto:preBuild UP-TO-DATE
+> Task :react-native-quick-sqlite:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-quick-sqlite:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-quick-sqlite:preBuild UP-TO-DATE
+> Task :react-native-safe-area-context:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-safe-area-context:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-safe-area-context:preBuild UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-async-storage_async-storage:preDebugBuild UP-TO-DATE
+> Task :react-native-async-storage_async-storage:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-community_netinfo:preDebugBuild UP-TO-DATE
+> Task :react-native-community_netinfo:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-get-random-values:preDebugBuild UP-TO-DATE
+> Task :react-native-get-random-values:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-haptic-feedback:preDebugBuild UP-TO-DATE
+> Task :react-native-haptic-feedback:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-nitro-modules:preDebugBuild UP-TO-DATE
+> Task :react-native-nitro-modules:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-quick-crypto:preDebugBuild UP-TO-DATE
+> Task :react-native-quick-crypto:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-quick-sqlite:preDebugBuild UP-TO-DATE
+> Task :react-native-quick-sqlite:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-safe-area-context:preDebugBuild UP-TO-DATE
+> Task :react-native-safe-area-context:writeDebugAarMetadata UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :react-native-async-storage_async-storage:generateDebugResValues UP-TO-DATE
+> Task :react-native-async-storage_async-storage:generateDebugResources UP-TO-DATE
+> Task :react-native-async-storage_async-storage:packageDebugResources UP-TO-DATE
+> Task :react-native-community_netinfo:generateDebugResValues UP-TO-DATE
+> Task :react-native-community_netinfo:generateDebugResources UP-TO-DATE
+> Task :react-native-community_netinfo:packageDebugResources UP-TO-DATE
+> Task :react-native-get-random-values:generateDebugResValues UP-TO-DATE
+> Task :react-native-get-random-values:generateDebugResources UP-TO-DATE
+> Task :react-native-get-random-values:packageDebugResources UP-TO-DATE
+> Task :react-native-haptic-feedback:generateDebugResValues UP-TO-DATE
+> Task :react-native-haptic-feedback:generateDebugResources UP-TO-DATE
+> Task :react-native-haptic-feedback:packageDebugResources UP-TO-DATE
+> Task :react-native-nitro-modules:generateDebugResValues UP-TO-DATE
+> Task :react-native-nitro-modules:generateDebugResources UP-TO-DATE
+> Task :react-native-nitro-modules:packageDebugResources UP-TO-DATE
+> Task :react-native-quick-crypto:generateDebugResValues UP-TO-DATE
+> Task :react-native-quick-crypto:generateDebugResources UP-TO-DATE
+> Task :react-native-quick-crypto:packageDebugResources UP-TO-DATE
+> Task :react-native-quick-sqlite:generateDebugResValues UP-TO-DATE
+> Task :react-native-quick-sqlite:generateDebugResources UP-TO-DATE
+> Task :react-native-quick-sqlite:packageDebugResources UP-TO-DATE
+> Task :react-native-safe-area-context:generateDebugResValues UP-TO-DATE
+> Task :react-native-safe-area-context:generateDebugResources UP-TO-DATE
+> Task :react-native-safe-area-context:packageDebugResources UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-async-storage_async-storage:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-async-storage_async-storage:processDebugManifest UP-TO-DATE
+> Task :react-native-community_netinfo:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-community_netinfo:processDebugManifest UP-TO-DATE
+> Task :react-native-get-random-values:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-get-random-values:processDebugManifest UP-TO-DATE
+> Task :react-native-haptic-feedback:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-haptic-feedback:processDebugManifest UP-TO-DATE
+> Task :react-native-nitro-modules:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-nitro-modules:processDebugManifest UP-TO-DATE
+> Task :react-native-quick-crypto:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-quick-crypto:processDebugManifest UP-TO-DATE
+> Task :react-native-quick-sqlite:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-quick-sqlite:processDebugManifest UP-TO-DATE
+> Task :react-native-safe-area-context:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-safe-area-context:processDebugManifest UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :react-native-async-storage_async-storage:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-async-storage_async-storage:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-async-storage_async-storage:generateDebugRFile UP-TO-DATE
+> Task :react-native-community_netinfo:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-community_netinfo:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-community_netinfo:generateDebugRFile UP-TO-DATE
+> Task :react-native-get-random-values:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-get-random-values:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-get-random-values:generateDebugRFile UP-TO-DATE
+> Task :react-native-haptic-feedback:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-haptic-feedback:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-haptic-feedback:generateDebugRFile UP-TO-DATE
+> Task :react-native-nitro-modules:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-nitro-modules:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-nitro-modules:generateDebugRFile UP-TO-DATE
+> Task :react-native-quick-crypto:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-quick-crypto:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-quick-crypto:generateDebugRFile UP-TO-DATE
+> Task :react-native-quick-sqlite:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-quick-sqlite:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-quick-sqlite:generateDebugRFile UP-TO-DATE
+> Task :react-native-safe-area-context:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-safe-area-context:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-safe-area-context:generateDebugRFile UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :react-native-async-storage_async-storage:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-async-storage_async-storage:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-async-storage_async-storage:kspDebugKotlin UP-TO-DATE
+> Task :react-native-async-storage_async-storage:compileDebugKotlin UP-TO-DATE
+> Task :react-native-async-storage_async-storage:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-async-storage_async-storage:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-async-storage_async-storage:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-community_netinfo:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-community_netinfo:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-community_netinfo:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-community_netinfo:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-get-random-values:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-get-random-values:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-get-random-values:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-get-random-values:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-haptic-feedback:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-haptic-feedback:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-haptic-feedback:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-haptic-feedback:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-nitro-modules:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-nitro-modules:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-nitro-modules:compileDebugKotlin UP-TO-DATE
+> Task :react-native-nitro-modules:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-nitro-modules:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-nitro-modules:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-quick-crypto:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-quick-crypto:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-quick-crypto:compileDebugKotlin UP-TO-DATE
+> Task :react-native-quick-crypto:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-quick-crypto:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-quick-crypto:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-quick-sqlite:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-quick-sqlite:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-quick-sqlite:compileDebugKotlin NO-SOURCE
+> Task :react-native-quick-sqlite:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-quick-sqlite:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-quick-sqlite:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-safe-area-context:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-safe-area-context:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-safe-area-context:compileDebugKotlin UP-TO-DATE
+> Task :react-native-safe-area-context:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-safe-area-context:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-safe-area-context:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :app:compileDebugKotlin UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:compileDebugJavaWithJavac UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :react-native-async-storage_async-storage:mergeDebugShaders UP-TO-DATE
+> Task :react-native-async-storage_async-storage:compileDebugShaders NO-SOURCE
+> Task :react-native-async-storage_async-storage:generateDebugAssets UP-TO-DATE
+> Task :react-native-async-storage_async-storage:mergeDebugAssets UP-TO-DATE
+> Task :react-native-community_netinfo:mergeDebugShaders UP-TO-DATE
+> Task :react-native-community_netinfo:compileDebugShaders NO-SOURCE
+> Task :react-native-community_netinfo:generateDebugAssets UP-TO-DATE
+> Task :react-native-community_netinfo:mergeDebugAssets UP-TO-DATE
+> Task :react-native-get-random-values:mergeDebugShaders UP-TO-DATE
+> Task :react-native-get-random-values:compileDebugShaders NO-SOURCE
+> Task :react-native-get-random-values:generateDebugAssets UP-TO-DATE
+> Task :react-native-get-random-values:mergeDebugAssets UP-TO-DATE
+> Task :react-native-haptic-feedback:mergeDebugShaders UP-TO-DATE
+> Task :react-native-haptic-feedback:compileDebugShaders NO-SOURCE
+> Task :react-native-haptic-feedback:generateDebugAssets UP-TO-DATE
+> Task :react-native-haptic-feedback:mergeDebugAssets UP-TO-DATE
+> Task :react-native-nitro-modules:mergeDebugShaders UP-TO-DATE
+> Task :react-native-nitro-modules:compileDebugShaders NO-SOURCE
+> Task :react-native-nitro-modules:generateDebugAssets UP-TO-DATE
+> Task :react-native-nitro-modules:mergeDebugAssets UP-TO-DATE
+> Task :react-native-quick-crypto:mergeDebugShaders UP-TO-DATE
+> Task :react-native-quick-crypto:compileDebugShaders NO-SOURCE
+> Task :react-native-quick-crypto:generateDebugAssets UP-TO-DATE
+> Task :react-native-quick-crypto:mergeDebugAssets UP-TO-DATE
+> Task :react-native-quick-sqlite:mergeDebugShaders UP-TO-DATE
+> Task :react-native-quick-sqlite:compileDebugShaders NO-SOURCE
+> Task :react-native-quick-sqlite:generateDebugAssets UP-TO-DATE
+> Task :react-native-quick-sqlite:mergeDebugAssets UP-TO-DATE
+> Task :react-native-safe-area-context:mergeDebugShaders UP-TO-DATE
+> Task :react-native-safe-area-context:compileDebugShaders NO-SOURCE
+> Task :react-native-safe-area-context:generateDebugAssets UP-TO-DATE
+> Task :react-native-safe-area-context:mergeDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :react-native-async-storage_async-storage:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-quick-crypto:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-nitro-modules:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-quick-sqlite:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-safe-area-context:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-community_netinfo:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-get-random-values:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-haptic-feedback:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:dexBuilderDebug UP-TO-DATE
+> Task :app:mergeDebugGlobalSynthetics UP-TO-DATE
+> Task :app:processDebugJavaRes UP-TO-DATE
+> Task :react-native-async-storage_async-storage:processDebugJavaRes UP-TO-DATE
+> Task :react-native-community_netinfo:processDebugJavaRes NO-SOURCE
+> Task :react-native-get-random-values:processDebugJavaRes NO-SOURCE
+> Task :react-native-haptic-feedback:processDebugJavaRes NO-SOURCE
+> Task :react-native-nitro-modules:processDebugJavaRes UP-TO-DATE
+> Task :react-native-quick-crypto:processDebugJavaRes UP-TO-DATE
+> Task :react-native-quick-sqlite:processDebugJavaRes NO-SOURCE
+> Task :react-native-safe-area-context:processDebugJavaRes UP-TO-DATE
+> Task :app:mergeDebugJavaResource UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :react-native-async-storage_async-storage:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :react-native-quick-crypto:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :react-native-nitro-modules:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :react-native-quick-sqlite:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :react-native-safe-area-context:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :react-native-community_netinfo:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :react-native-get-random-values:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :react-native-haptic-feedback:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :app:mergeProjectDexDebug UP-TO-DATE
+> Task :react-native-nitro-modules:configureCMakeDebug[arm64-v8a]
+> Task :app:mergeLibDexDebug UP-TO-DATE
+
+> Task :react-native-nitro-modules:buildCMakeDebug[arm64-v8a] FAILED
+C/C++: ninja: Entering directory `C:\Users\MANCHEM HIMESH\OneDrive\Desktop\AttendanceApp\node_modules\react-native-nitro-modules\android\.cxx\Debug\1of1w706\arm64-v8a'
+C/C++: ld.lld: error: undefined symbol: operator delete(void*)
+C/C++: >>> referenced by new:280 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/new:280)
+C/C++: >>>               CMakeFiles/NitroModules.dir/409596a7554005345491e15244a786ac/cpp/threading/ThreadPool.cpp.o:(margelo::nitro::ThreadPool::ThreadPool(char const*, unsigned long, unsigned long))
+C/C++: >>> referenced by new:280 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/new:280)
+C/C++: >>>               CMakeFiles/NitroModules.dir/409596a7554005345491e15244a786ac/cpp/core/BoxedHybridObject.cpp.o:(std::__ndk1::unordered_map<facebook::jsi::Runtime*, std::__ndk1::weak_ptr<margelo::nitro::JSICache>, std::__ndk1::hash<facebook::jsi::Runtime*>, std::__ndk1::equal_to<facebook::jsi::Runtime*>, std::__ndk1::allocator<std::__ndk1::pair<facebook::jsi::Runtime* const, std::__ndk1::weak_ptr<margelo::nitro::JSICache>>>>::~unordered_map[abi:ne180000]())
+C/C++: >>> referenced by new:280 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/new:280)
+C/C++: >>>               CMakeFiles/NitroModules.dir/409596a7554005345491e15244a786ac/cpp/core/BoxedHybridObject.cpp.o:(std::__ndk1::unordered_map<facebook::jsi::Runtime*, std::__ndk1::weak_ptr<margelo::nitro::JSICache>, std::__ndk1::hash<facebook::jsi::Runtime*>, std::__ndk1::equal_to<facebook::jsi::Runtime*>, std::__ndk1::allocator<std::__ndk1::pair<facebook::jsi::Runtime* const, std::__ndk1::weak_ptr<margelo::nitro::JSICache>>>>::~unordered_map[abi:ne180000]())
+C/C++: >>> referenced 1544 more times
+C/C++: ld.lld: error: undefined symbol: __cxa_guard_acquire
+C/C++: >>> referenced by BoxedHybridObject.cpp:0 (C:/Users/MANCHEM HIMESH/OneDrive/Desktop/AttendanceApp/node_modules/react-native-nitro-modules/cpp/core/BoxedHybridObject.cpp:0)
+C/C++: >>>               CMakeFiles/NitroModules.dir/409596a7554005345491e15244a786ac/cpp/core/BoxedHybridObject.cpp.o:(__cxx_global_var_init)
+C/C++: >>> referenced by JHybridObject.cpp:21 (C:/Users/MANCHEM HIMESH/OneDrive/Desktop/AttendanceApp/node_modules/react-native-nitro-modules/android/src/main/cpp/core/JHybridObject.cpp:21)
+C/C++: >>>               CMakeFiles/NitroModules.dir/src/main/cpp/core/JHybridObject.cpp.o:(margelo::nitro::JHybridObject::JavaPart::getJHybridObject())
+C/C++: >>> referenced by CoreClasses-inl.h:683 (C:/Users/MANCHEM HIMESH/.gradle/caches/9.3.1/transforms/5f0fade6957df6709b3ef496f25cded4/workspace/transformed/fbjni-0.7.0/prefab/modules/fbjni/include/fbjni/detail/CoreClasses-inl.h:683)
+C/C++: >>>               CMakeFiles/NitroModules.dir/src/main/cpp/core/JHybridObject.cpp.o:(facebook::jni::JavaClass<margelo::nitro::JHybridObject::JavaPart, facebook::jni::JObject, void>::javaClassStatic())
+C/C++: >>> referenced 143 more times
+C/C++: ld.lld: error: undefined symbol: __cxa_guard_release
+C/C++: >>> referenced by BoxedHybridObject.cpp:0 (C:/Users/MANCHEM HIMESH/OneDrive/Desktop/AttendanceApp/node_modules/react-native-nitro-modules/cpp/core/BoxedHybridObject.cpp:0)
+C/C++: >>>               CMakeFiles/NitroModules.dir/409596a7554005345491e15244a786ac/cpp/core/BoxedHybridObject.cpp.o:(__cxx_global_var_init)
+C/C++: >>> referenced by JHybridObject.cpp:21 (C:/Users/MANCHEM HIMESH/OneDrive/Desktop/AttendanceApp/node_modules/react-native-nitro-modules/android/src/main/cpp/core/JHybridObject.cpp:21)
+C/C++: >>>               CMakeFiles/NitroModules.dir/src/main/cpp/core/JHybridObject.cpp.o:(margelo::nitro::JHybridObject::JavaPart::getJHybridObject())
+C/C++: >>> referenced by CoreClasses-inl.h:683 (C:/Users/MANCHEM HIMESH/.gradle/caches/9.3.1/transforms/5f0fade6957df6709b3ef496f25cded4/workspace/transformed/fbjni-0.7.0/prefab/modules/fbjni/include/fbjni/detail/CoreClasses-inl.h:683)
+C/C++: >>>               CMakeFiles/NitroModules.dir/src/main/cpp/core/JHybridObject.cpp.o:(facebook::jni::JavaClass<margelo::nitro::JHybridObject::JavaPart, facebook::jni::JObject, void>::javaClassStatic())
+C/C++: >>> referenced 143 more times
+C/C++: ld.lld: error: undefined symbol: std::__ndk1::__shared_weak_count::__release_weak()
+C/C++: >>> referenced by shared_ptr.h:1396 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/__memory/shared_ptr.h:1396)
+C/C++: >>>               CMakeFiles/NitroModules.dir/a23753aefa54b86a791611a894bf96f5/react-native-nitro-modules/cpp/core/HybridObject.cpp.o:(margelo::nitro::HybridObject::HybridObject(char const*))
+C/C++: >>> referenced by shared_ptr.h:1396 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/__memory/shared_ptr.h:1396)
+C/C++: >>>               CMakeFiles/NitroModules.dir/409596a7554005345491e15244a786ac/cpp/core/BoxedHybridObject.cpp.o:(std::__ndk1::unordered_map<facebook::jsi::Runtime*, std::__ndk1::weak_ptr<margelo::nitro::JSICache>, std::__ndk1::hash<facebook::jsi::Runtime*>, std::__ndk1::equal_to<facebook::jsi::Runtime*>, std::__ndk1::allocator<std::__ndk1::pair<facebook::jsi::Runtime* const, std::__ndk1::weak_ptr<margelo::nitro::JSICache>>>>::~unordered_map[abi:ne180000]())
+C/C++: >>> referenced by shared_ptr.h:184 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/__memory/shared_ptr.h:184)
+C/C++: >>>               CMakeFiles/NitroModules.dir/409596a7554005345491e15244a786ac/cpp/core/BoxedHybridObject.cpp.o:(margelo::nitro::BoxedHybridObject::get(facebook::jsi::Runtime&, facebook::jsi::PropNameID const&)::$_0::~$_0())
+C/C++: >>> referenced 183 more times
+C/C++: ld.lld: error: undefined symbol: std::__ndk1::mutex::lock()
+C/C++: >>> referenced by unique_lock.h:41 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/__mutex/unique_lock.h:41)
+C/C++: >>>               CMakeFiles/NitroModules.dir/409596a7554005345491e15244a786ac/cpp/threading/ThreadPool.cpp.o:(margelo::nitro::ThreadPool::ThreadPool(char const*, unsigned long, unsigned long))
+C/C++: >>> referenced by unique_lock.h:41 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/__mutex/unique_lock.h:41)
+C/C++: >>>               CMakeFiles/NitroModules.dir/a23753aefa54b86a791611a894bf96f5/react-native-nitro-modules/cpp/core/Promise.cpp.o:(margelo::nitro::Promise<void>::~Promise())
+C/C++: >>> referenced by unique_lock.h:41 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/__mutex/unique_lock.h:41)
+C/C++: >>>               CMakeFiles/NitroModules.dir/409596a7554005345491e15244a786ac/cpp/threading/ThreadPool.cpp.o:(margelo::nitro::ThreadPool::run(std::__ndk1::function<void ()>&&))
+C/C++: >>> referenced 31 more times
+C/C++: ld.lld: error: undefined symbol: operator new(unsigned long)
+C/C++: >>> referenced by new:271 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/new:271)
+C/C++: >>>               CMakeFiles/NitroModules.dir/409596a7554005345491e15244a786ac/cpp/core/BoxedHybridObject.cpp.o:(margelo::nitro::BoxedHybridObject::getPropertyNames(facebook::jsi::Runtime&))
+C/C++: >>> referenced by new:271 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/new:271)
+C/C++: >>>               CMakeFiles/NitroModules.dir/409596a7554005345491e15244a786ac/cpp/prototype/HybridObjectPrototype.cpp.o:(margelo::nitro::HybridObjectPrototype::createPrototype(facebook::jsi::Runtime&, std::__ndk1::shared_ptr<margelo::nitro::Prototype> const&))
+C/C++: >>> referenced by Hybrid.h:226 (C:/Users/MANCHEM HIMESH/.gradle/caches/9.3.1/transforms/5f0fade6957df6709b3ef496f25cded4/workspace/transformed/fbjni-0.7.0/prefab/modules/fbjni/include/fbjni/detail/Hybrid.h:226)
+C/C++: >>>               CMakeFiles/NitroModules.dir/src/main/cpp/turbomodule/JNitroModules.cpp.o:(margelo::nitro::JNitroModules::initHybrid(facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<facebook::jni::HybridClass<margelo::nitro::JNitroModules, facebook::jni::detail::BaseHybridClass>::JavaPart, facebook::jni::JObject, void>::_javaobject*>))
+C/C++: >>> referenced 336 more times
+C/C++: ld.lld: error: undefined symbol: std::__ndk1::mutex::unlock()
+C/C++: >>> referenced by unique_lock.h:63 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/__mutex/unique_lock.h:63)
+C/C++: >>>               CMakeFiles/NitroModules.dir/409596a7554005345491e15244a786ac/cpp/threading/ThreadPool.cpp.o:(margelo::nitro::ThreadPool::ThreadPool(char const*, unsigned long, unsigned long))
+C/C++: >>> referenced by unique_lock.h:63 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/__mutex/unique_lock.h:63)
+C/C++: >>>               CMakeFiles/NitroModules.dir/409596a7554005345491e15244a786ac/cpp/threading/ThreadPool.cpp.o:(margelo::nitro::ThreadPool::ThreadPool(char const*, unsigned long, unsigned long))
+C/C++: >>> referenced by unique_lock.h:63 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/__mutex/unique_lock.h:63)
+C/C++: >>>               CMakeFiles/NitroModules.dir/a23753aefa54b86a791611a894bf96f5/react-native-nitro-modules/cpp/core/Promise.cpp.o:(margelo::nitro::Promise<void>::~Promise())
+C/C++: >>> referenced 58 more times
+C/C++: ld.lld: error: undefined symbol: std::__ndk1::condition_variable::~condition_variable()
+C/C++: >>> referenced by ThreadPool.cpp:23 (C:/Users/MANCHEM HIMESH/OneDrive/Desktop/AttendanceApp/node_modules/react-native-nitro-modules/cpp/threading/ThreadPool.cpp:23)
+C/C++: >>>               CMakeFiles/NitroModules.dir/409596a7554005345491e15244a786ac/cpp/threading/ThreadPool.cpp.o:(margelo::nitro::ThreadPool::ThreadPool(char const*, unsigned long, unsigned long))
+C/C++: >>> referenced by ThreadPool.cpp:90 (C:/Users/MANCHEM HIMESH/OneDrive/Desktop/AttendanceApp/node_modules/react-native-nitro-modules/cpp/threading/ThreadPool.cpp:90)
+C/C++: >>>               CMakeFiles/NitroModules.dir/409596a7554005345491e15244a786ac/cpp/threading/ThreadPool.cpp.o:(margelo::nitro::ThreadPool::~ThreadPool())
+C/C++: ld.lld: error: undefined symbol: std::__ndk1::mutex::~mutex()
+C/C++: >>> referenced by ThreadPool.cpp:23 (C:/Users/MANCHEM HIMESH/OneDrive/Desktop/AttendanceApp/node_modules/react-native-nitro-modules/cpp/threading/ThreadPool.cpp:23)
+C/C++: >>>               CMakeFiles/NitroModules.dir/409596a7554005345491e15244a786ac/cpp/threading/ThreadPool.cpp.o:(margelo::nitro::ThreadPool::ThreadPool(char const*, unsigned long, unsigned long))
+C/C++: >>> referenced by ReferenceState.hpp:23 (C:/Users/MANCHEM HIMESH/OneDrive/Desktop/AttendanceApp/node_modules/react-native-nitro-modules/cpp/utils/ReferenceState.hpp:23)
+C/C++: >>>               CMakeFiles/NitroModules.dir/409596a7554005345491e15244a786ac/cpp/utils/CommonGlobals.cpp.o:(margelo::nitro::CommonGlobals::getGlobalFunction(facebook::jsi::Runtime&, char const*, std::__ndk1::function<facebook::jsi::Function (facebook::jsi::Runtime&)>))
+C/C++: >>> referenced by ReferenceState.hpp:23 (C:/Users/MANCHEM HIMESH/OneDrive/Desktop/AttendanceApp/node_modules/react-native-nitro-modules/cpp/utils/ReferenceState.hpp:23)
+C/C++: >>>               CMakeFiles/NitroModules.dir/409596a7554005345491e15244a786ac/cpp/utils/CommonGlobals.cpp.o:(margelo::nitro::CommonGlobals::getGlobalFunction(facebook::jsi::Runtime&, char const*, std::__ndk1::function<facebook::jsi::Function (facebook::jsi::Runtime&)>))
+C/C++: >>> referenced 34 more times
+C/C++: ld.lld: error: undefined symbol: std::exception_ptr::~exception_ptr()
+C/C++: >>> referenced by Promise.hpp:362 (C:/Users/MANCHEM HIMESH/OneDrive/Desktop/AttendanceApp/node_modules/react-native-nitro-modules/cpp/core/Promise.hpp:362)
+C/C++: >>>               CMakeFiles/NitroModules.dir/a23753aefa54b86a791611a894bf96f5/react-native-nitro-modules/cpp/core/Promise.cpp.o:(margelo::nitro::Promise<void>::~Promise())
+C/C++: >>> referenced by Promise.cpp:17 (C:/Users/MANCHEM HIMESH/OneDrive/Desktop/AttendanceApp/node_modules/react-native-nitro-modules/cpp/core/Promise.cpp:17)
+C/C++: >>>               CMakeFiles/NitroModules.dir/a23753aefa54b86a791611a894bf96f5/react-native-nitro-modules/cpp/core/Promise.cpp.o:(margelo::nitro::Promise<void>::~Promise())
+C/C++: >>> referenced by Promise.cpp:15 (C:/Users/MANCHEM HIMESH/OneDrive/Desktop/AttendanceApp/node_modules/react-native-nitro-modules/cpp/core/Promise.cpp:15)
+C/C++: >>>               CMakeFiles/NitroModules.dir/a23753aefa54b86a791611a894bf96f5/react-native-nitro-modules/cpp/core/Promise.cpp.o:(margelo::nitro::Promise<void>::~Promise())
+C/C++: >>> referenced 68 more times
+C/C++: ld.lld: error: undefined symbol: vtable for __cxxabiv1::__si_class_type_info
+C/C++: >>> referenced by BoxedHybridObject.cpp
+C/C++: >>>               CMakeFiles/NitroModules.dir/409596a7554005345491e15244a786ac/cpp/core/BoxedHybridObject.cpp.o:(typeinfo for margelo::nitro::BoxedHybridObject)
+C/C++: >>> referenced by BoxedHybridObject.cpp
+C/C++: >>>               CMakeFiles/NitroModules.dir/409596a7554005345491e15244a786ac/cpp/core/BoxedHybridObject.cpp.o:(typeinfo for std::__ndk1::__function::__func<margelo::nitro::BoxedHybridObject::get(facebook::jsi::Runtime&, facebook::jsi::PropNameID const&)::$_0, std::__ndk1::allocator<margelo::nitro::BoxedHybridObject::get(facebook::jsi::Runtime&, facebook::jsi::PropNameID const&)::$_0>, facebook::jsi::Value (facebook::jsi::Runtime&, facebook::jsi::Value const&, facebook::jsi::Value const*, unsigned long)>)
+C/C++: >>> referenced by InstallNitro.cpp
+C/C++: >>>               CMakeFiles/NitroModules.dir/409596a7554005345491e15244a786ac/cpp/entrypoint/InstallNitro.cpp.o:(typeinfo for std::__ndk1::__shared_ptr_emplace<margelo::nitro::HybridNitroModulesProxy, std::__ndk1::allocator<margelo::nitro::HybridNitroModulesProxy>>)
+C/C++: >>> referenced 106 more times
+C/C++: >>> the vtable symbol may be undefined because the class is missing its key function (see https://lld.llvm.org/missingkeyfunction)
+C/C++: ld.lld: error: undefined symbol: vtable for __cxxabiv1::__class_type_info
+C/C++: >>> referenced by BoxedHybridObject.cpp
+C/C++: >>>               CMakeFiles/NitroModules.dir/409596a7554005345491e15244a786ac/cpp/core/BoxedHybridObject.cpp.o:(typeinfo for std::__ndk1::__function::__base<facebook::jsi::Value (facebook::jsi::Runtime&, facebook::jsi::Value const&, facebook::jsi::Value const*, unsigned long)>)
+C/C++: >>> referenced by BoxedHybridObject.cpp
+C/C++: >>>               CMakeFiles/NitroModules.dir/409596a7554005345491e15244a786ac/cpp/core/BoxedHybridObject.cpp.o:(typeinfo for margelo::nitro::BoxedHybridObject::get(facebook::jsi::Runtime&, facebook::jsi::PropNameID const&)::$_0)
+C/C++: >>> referenced by ThreadUtils.cpp
+C/C++: >>>               CMakeFiles/NitroModules.dir/src/main/cpp/platform/ThreadUtils.cpp.o:(typeinfo for margelo::nitro::ThreadUtils::setThreadName(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>> const&)::$_0)
+C/C++: >>> referenced 48 more times
+C/C++: >>> the vtable symbol may be undefined because the class is missing its key function (see https://lld.llvm.org/missingkeyfunction)
+C/C++: ld.lld: error: undefined symbol: __cxa_allocate_exception
+C/C++: >>> referenced by NitroLogger.cpp:25 (C:/Users/MANCHEM HIMESH/OneDrive/Desktop/AttendanceApp/node_modules/react-native-nitro-modules/android/src/main/cpp/platform/NitroLogger.cpp:25)
+C/C++: >>>               CMakeFiles/NitroModules.dir/src/main/cpp/platform/NitroLogger.cpp.o:(margelo::nitro::levelToAndroidLevel(margelo::nitro::LogLevel))
+C/C++: >>> referenced by NitroLogger.cpp:25 (C:/Users/MANCHEM HIMESH/OneDrive/Desktop/AttendanceApp/node_modules/react-native-nitro-modules/android/src/main/cpp/platform/NitroLogger.cpp:25)
+C/C++: >>>               CMakeFiles/NitroModules.dir/src/main/cpp/platform/NitroLogger.cpp.o:(margelo::nitro::Logger::nativeLog(margelo::nitro::LogLevel, char const*, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>> const&))
+C/C++: >>> referenced by References-inl.h:120 (C:/Users/MANCHEM HIMESH/.gradle/caches/9.3.1/transforms/5f0fade6957df6709b3ef496f25cded4/workspace/transformed/fbjni-0.7.0/prefab/modules/fbjni/include/fbjni/detail/References-inl.h:120)
+C/C++: >>>               CMakeFiles/NitroModules.dir/src/main/cpp/core/JHybridObject.cpp.o:(std::__ndk1::enable_if<IsNonWeakReference<facebook::jni::detail::JTypeFor<margelo::nitro::JHybridObject::JavaPart, facebook::jni::JObject, void>::_javaobject*>(), facebook::jni::basic_strong_ref<facebook::jni::reference_traits<facebook::jni::detail::JTypeFor<margelo::nitro::JHybridObject::JavaPart, facebook::jni::JObject, void>::_javaobject*>::plain_jni_reference_t, facebook::jni::LocalReferenceAllocator>>::type facebook::jni::make_local<facebook::jni::detail::JTypeFor<margelo::nitro::JHybridObject::JavaPart, facebook::jni::JObject, void>::_javaobject*>(facebook::jni::detail::JTypeFor<margelo::nitro::JHybridObject::JavaPart, facebook::jni::JObject, void>::_javaobject* const&))
+C/C++: >>> referenced 163 more times
+C/C++: ld.lld: error: undefined symbol: typeinfo for std::invalid_argument
+C/C++: >>> referenced by NitroLogger.cpp:25 (C:/Users/MANCHEM HIMESH/OneDrive/Desktop/AttendanceApp/node_modules/react-native-nitro-modules/android/src/main/cpp/platform/NitroLogger.cpp:25)
+C/C++: >>>               CMakeFiles/NitroModules.dir/src/main/cpp/platform/NitroLogger.cpp.o:(margelo::nitro::levelToAndroidLevel(margelo::nitro::LogLevel))
+C/C++: >>> referenced by NitroLogger.cpp:25 (C:/Users/MANCHEM HIMESH/OneDrive/Desktop/AttendanceApp/node_modules/react-native-nitro-modules/android/src/main/cpp/platform/NitroLogger.cpp:25)
+C/C++: >>>               CMakeFiles/NitroModules.dir/src/main/cpp/platform/NitroLogger.cpp.o:(margelo::nitro::levelToAndroidLevel(margelo::nitro::LogLevel))
+C/C++: >>> referenced by NitroLogger.cpp:25 (C:/Users/MANCHEM HIMESH/OneDrive/Desktop/AttendanceApp/node_modules/react-native-nitro-modules/android/src/main/cpp/platform/NitroLogger.cpp:25)
+C/C++: >>>               CMakeFiles/NitroModules.dir/src/main/cpp/platform/NitroLogger.cpp.o:(margelo::nitro::Logger::nativeLog(margelo::nitro::LogLevel, char const*, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>> const&))
+C/C++: >>> referenced 5 more times
+C/C++: ld.lld: error: undefined symbol: std::invalid_argument::~invalid_argument()
+C/C++: >>> referenced by NitroLogger.cpp:25 (C:/Users/MANCHEM HIMESH/OneDrive/Desktop/AttendanceApp/node_modules/react-native-nitro-modules/android/src/main/cpp/platform/NitroLogger.cpp:25)
+C/C++: >>>               CMakeFiles/NitroModules.dir/src/main/cpp/platform/NitroLogger.cpp.o:(margelo::nitro::levelToAndroidLevel(margelo::nitro::LogLevel))
+C/C++: >>> referenced by NitroLogger.cpp:25 (C:/Users/MANCHEM HIMESH/OneDrive/Desktop/AttendanceApp/node_modules/react-native-nitro-modules/android/src/main/cpp/platform/NitroLogger.cpp:25)
+C/C++: >>>               CMakeFiles/NitroModules.dir/src/main/cpp/platform/NitroLogger.cpp.o:(margelo::nitro::levelToAndroidLevel(margelo::nitro::LogLevel))
+C/C++: >>> referenced by NitroLogger.cpp:25 (C:/Users/MANCHEM HIMESH/OneDrive/Desktop/AttendanceApp/node_modules/react-native-nitro-modules/android/src/main/cpp/platform/NitroLogger.cpp:25)
+C/C++: >>>               CMakeFiles/NitroModules.dir/src/main/cpp/platform/NitroLogger.cpp.o:(margelo::nitro::Logger::nativeLog(margelo::nitro::LogLevel, char const*, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>> const&))
+C/C++: >>> referenced 5 more times
+C/C++: ld.lld: error: undefined symbol: __cxa_throw
+C/C++: >>> referenced by NitroLogger.cpp:25 (C:/Users/MANCHEM HIMESH/OneDrive/Desktop/AttendanceApp/node_modules/react-native-nitro-modules/android/src/main/cpp/platform/NitroLogger.cpp:25)
+C/C++: >>>               CMakeFiles/NitroModules.dir/src/main/cpp/platform/NitroLogger.cpp.o:(margelo::nitro::levelToAndroidLevel(margelo::nitro::LogLevel))
+C/C++: >>> referenced by NitroLogger.cpp:25 (C:/Users/MANCHEM HIMESH/OneDrive/Desktop/AttendanceApp/node_modules/react-native-nitro-modules/android/src/main/cpp/platform/NitroLogger.cpp:25)
+C/C++: >>>               CMakeFiles/NitroModules.dir/src/main/cpp/platform/NitroLogger.cpp.o:(margelo::nitro::Logger::nativeLog(margelo::nitro::LogLevel, char const*, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>> const&))
+C/C++: >>> referenced by References-inl.h:120 (C:/Users/MANCHEM HIMESH/.gradle/caches/9.3.1/transforms/5f0fade6957df6709b3ef496f25cded4/workspace/transformed/fbjni-0.7.0/prefab/modules/fbjni/include/fbjni/detail/References-inl.h:120)
+C/C++: >>>               CMakeFiles/NitroModules.dir/src/main/cpp/core/JHybridObject.cpp.o:(std::__ndk1::enable_if<IsNonWeakReference<facebook::jni::detail::JTypeFor<margelo::nitro::JHybridObject::JavaPart, facebook::jni::JObject, void>::_javaobject*>(), facebook::jni::basic_strong_ref<facebook::jni::reference_traits<facebook::jni::detail::JTypeFor<margelo::nitro::JHybridObject::JavaPart, facebook::jni::JObject, void>::_javaobject*>::plain_jni_reference_t, facebook::jni::LocalReferenceAllocator>>::type facebook::jni::make_local<facebook::jni::detail::JTypeFor<margelo::nitro::JHybridObject::JavaPart, facebook::jni::JObject, void>::_javaobject*>(facebook::jni::detail::JTypeFor<margelo::nitro::JHybridObject::JavaPart, facebook::jni::JObject, void>::_javaobject* const&))
+C/C++: >>> referenced 160 more times
+C/C++: ld.lld: error: undefined symbol: __cxa_free_exception
+C/C++: >>> referenced by NitroLogger.cpp:25 (C:/Users/MANCHEM HIMESH/OneDrive/Desktop/AttendanceApp/node_modules/react-native-nitro-modules/android/src/main/cpp/platform/NitroLogger.cpp:25)
+C/C++: >>>               CMakeFiles/NitroModules.dir/src/main/cpp/platform/NitroLogger.cpp.o:(margelo::nitro::levelToAndroidLevel(margelo::nitro::LogLevel))
+C/C++: >>> referenced by NitroLogger.cpp:25 (C:/Users/MANCHEM HIMESH/OneDrive/Desktop/AttendanceApp/node_modules/react-native-nitro-modules/android/src/main/cpp/platform/NitroLogger.cpp:25)
+C/C++: >>>               CMakeFiles/NitroModules.dir/src/main/cpp/platform/NitroLogger.cpp.o:(margelo::nitro::Logger::nativeLog(margelo::nitro::LogLevel, char const*, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>> const&))
+C/C++: >>> referenced by new:0 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/new:0)
+C/C++: >>>               CMakeFiles/NitroModules.dir/409596a7554005345491e15244a786ac/cpp/entrypoint/HybridNitroModulesProxy.cpp.o:(void margelo::nitro::Prototype::registerHybridMethod<margelo::nitro::HybridNitroModulesProxy, std::__ndk1::shared_ptr<margelo::nitro::HybridObject>, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>> const&>(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>>, std::__ndk1::shared_ptr<margelo::nitro::HybridObject> (margelo::nitro::HybridNitroModulesProxy::*)(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>> const&)))
+C/C++: >>> referenced 121 more times
+C/C++: ld.lld: error: undefined symbol: __dynamic_cast
+C/C++: >>> referenced by shared_ptr.h:1236 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/__memory/shared_ptr.h:1236)
+C/C++: >>>               CMakeFiles/NitroModules.dir/409596a7554005345491e15244a786ac/cpp/entrypoint/HybridNitroModulesProxy.cpp.o:(margelo::nitro::HybridNitroModulesProxy::isHybridObject(facebook::jsi::Runtime&, facebook::jsi::Value const&, facebook::jsi::Value const*, unsigned long))
+C/C++: >>> referenced by shared_ptr.h:1236 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/__memory/shared_ptr.h:1236)
+C/C++: >>>               CMakeFiles/NitroModules.dir/src/main/cpp/core/JHybridObject.cpp.o:(margelo::nitro::JHybridObject::equals(std::__ndk1::shared_ptr<margelo::nitro::HybridObject> const&))
+C/C++: >>> referenced by shared_ptr.h:1236 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/__memory/shared_ptr.h:1236)
+C/C++: >>>               CMakeFiles/NitroModules.dir/409596a7554005345491e15244a786ac/cpp/threading/Dispatcher.cpp.o:(margelo::nitro::JSIConverter<std::__ndk1::shared_ptr<margelo::nitro::Dispatcher>, void>::fromJSI(facebook::jsi::Runtime&, facebook::jsi::Value const&))
+C/C++: >>> referenced 3 more times
+C/C++: ld.lld: error: undefined symbol: std::logic_error::logic_error(char const*)
+C/C++: >>> referenced by stdexcept:140 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/stdexcept:140)
+C/C++: >>>               CMakeFiles/NitroModules.dir/src/main/cpp/platform/NitroLogger.cpp.o:(std::invalid_argument::invalid_argument[abi:ne180000](char const*))
+C/C++: >>> referenced by stdexcept:152 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/stdexcept:152)
+C/C++: >>>               CMakeFiles/NitroModules.dir/a23753aefa54b86a791611a894bf96f5/react-native-nitro-modules/cpp/core/AnyMap.cpp.o:(std::length_error::length_error[abi:ne180000](char const*))
+C/C++: >>> referenced by stdexcept:140 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/stdexcept:140)
+C/C++: >>>               CMakeFiles/NitroModules.dir/src/main/cpp/turbomodule/JNitroModules.cpp.o:(margelo::nitro::JNitroModules::install(long, facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<facebook::jni::HybridClass<facebook::react::CallInvokerHolder, facebook::jni::detail::BaseHybridClass>::JavaPart, facebook::jni::JObject, void>::_javaobject*>))
+C/C++: ld.lld: error: undefined symbol: vtable for std::invalid_argument
+C/C++: >>> referenced by stdexcept:140 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/stdexcept:140)
+C/C++: >>>               CMakeFiles/NitroModules.dir/src/main/cpp/platform/NitroLogger.cpp.o:(std::invalid_argument::invalid_argument[abi:ne180000](char const*))
+C/C++: >>> referenced by stdexcept:140 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/stdexcept:140)
+C/C++: >>>               CMakeFiles/NitroModules.dir/src/main/cpp/platform/NitroLogger.cpp.o:(std::invalid_argument::invalid_argument[abi:ne180000](char const*))
+C/C++: >>> referenced by stdexcept:140 (C:/Users/MANCHEM HIMESH/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/stdexcept:140)
+C/C++: >>>               CMakeFiles/NitroModules.dir/src/main/cpp/turbomodule/JNitroModules.cpp.o:(margelo::nitro::JNitroModules::install(long, facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<facebook::jni::HybridClass<facebook::react::CallInvokerHolder, facebook::jni::detail::BaseHybridClass>::JavaPart, facebook::jni::JObject, void>::_javaobject*>))
+C/C++: >>> referenced 1 more times
+C/C++: >>> the vtable symbol may be undefined because the class is missing its key function (see https://lld.llvm.org/missingkeyfunction)
+C/C++: ld.lld: error: too many errors emitted, stopping now (use --error-limit=0 to see all errors)
+C/C++: CLANG_~1: error: linker command failed with exit code 1 (use -v to see invocation)
+C/C++: ninja: build stopped: subcommand failed.
+
+[Incubating] Problems report is available at: file:///C:/Users/MANCHEM%20HIMESH/OneDrive/Desktop/AttendanceApp/android/build/reports/problems/problems-report.html
+.\gradlew : 
+At line:1 char:1
++ .\gradlew assembleDebug 
+--console=plain > 
+build_output2.log 2>&1 ; Ge 
+...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~
+    + CategoryInfo           
+   : NotSpecified: (:String  
+  ) [], RemoteException
+    + FullyQualifiedErrorId  
+   : NativeCommandError
+ 
+FAILURE: Build failed with 
+an exception.
+
+* What went wrong:
+Execution failed for task ':r
+eact-native-nitro-modules:bui
+ldCMakeDebug[arm64-v8a]'.
+> com.android.ide.common.proc
+ess.ProcessException: ninja: 
+Entering directory 
+`C:\Users\MANCHEM HIMESH\OneD
+rive\Desktop\AttendanceApp\no
+de_modules\react-native-nitro
+-modules\android\.cxx\Debug\1
+of1w706\arm64-v8a'
+  [1/1] Linking CXX shared 
+library ..\..\..\..\build\int
+ermediates\cxx\Debug\1of1w706
+\obj\arm64-v8a\libNitroModule
+s.so
+  FAILED: ../../../../build/i
+ntermediates/cxx/Debug/1of1w7
+06/obj/arm64-v8a/libNitroModu
+les.so 
+  cmd.exe /C "cd . && C:\User
+s\MANCHE~1\AppData\Local\Andr
+oid\Sdk\ndk\271~1.122\TOOLCH~
+1\llvm\prebuilt\WINDOW~1\bin\
+CLANG_~1.EXE --target=aarch64
+-none-linux-android24 
+--sysroot="C:/Users/MANCHEM H
+IMESH/AppData/Local/Android/S
+dk/ndk/27.1.12297006/toolchai
+ns/llvm/prebuilt/windows-x86_
+64/sysroot" -fPIC -g 
+-DANDROID -fdata-sections 
+-ffunction-sections 
+-funwind-tables 
+-fstack-protector-strong 
+-no-canonical-prefixes -D__BI
+ONIC_NO_PAGE_SIZE_MACRO 
+-D_FORTIFY_SOURCE=2 -Wformat 
+-Werror=format-security  
+-frtti -fexceptions -Wall 
+-Wextra 
+-fstack-protector-all -O1 -g 
+-O2 -fno-limit-debug-info  
+-Wl,-z,max-page-size=16384 
+-Wl,--build-id=sha1 
+-Wl,--no-rosegment 
+-Wl,--no-undefined-version 
+-Wl,--fatal-warnings 
+-Wl,--no-undefined 
+-Qunused-arguments -shared -W
+l,-soname,libNitroModules.so 
+-o ..\..\..\..\build\intermed
+iates\cxx\Debug\1of1w706\obj\
+arm64-v8a\libNitroModules.so 
+CMakeFiles/NitroModules.dir/a
+23753aefa54b86a791611a894bf96
+f5/react-native-nitro-modules
+/cpp/core/AnyMap.cpp.o CMakeF
+iles/NitroModules.dir/a23753a
+efa54b86a791611a894bf96f5/rea
+ct-native-nitro-modules/cpp/c
+ore/ArrayBuffer.cpp.o CMakeFi
+les/NitroModules.dir/409596a7
+554005345491e15244a786ac/cpp/
+core/BoxedHybridObject.cpp.o 
+CMakeFiles/NitroModules.dir/a
+23753aefa54b86a791611a894bf96
+f5/react-native-nitro-modules
+/cpp/core/HybridObject.cpp.o 
+CMakeFiles/NitroModules.dir/a
+23753aefa54b86a791611a894bf96
+f5/react-native-nitro-modules
+/cpp/core/Promise.cpp.o CMake
+Files/NitroModules.dir/409596
+a7554005345491e15244a786ac/cp
+p/entrypoint/HybridNitroModul
+esProxy.cpp.o CMakeFiles/Nitr
+oModules.dir/409596a755400534
+5491e15244a786ac/cpp/entrypoi
+nt/InstallNitro.cpp.o CMakeFi
+les/NitroModules.dir/a23753ae
+fa54b86a791611a894bf96f5/reac
+t-native-nitro-modules/cpp/js
+i/JSICache.cpp.o CMakeFiles/N
+itroModules.dir/409596a755400
+5345491e15244a786ac/cpp/proto
+type/HybridObjectPrototype.cp
+p.o CMakeFiles/NitroModules.d
+ir/409596a7554005345491e15244
+a786ac/cpp/registry/HybridObj
+ectRegistry.cpp.o CMakeFiles/
+NitroModules.dir/409596a75540
+05345491e15244a786ac/cpp/thre
+ading/Dispatcher.cpp.o CMakeF
+iles/NitroModules.dir/409596a
+7554005345491e15244a786ac/cpp
+/threading/ThreadPool.cpp.o C
+MakeFiles/NitroModules.dir/40
+9596a7554005345491e15244a786a
+c/cpp/utils/CommonGlobals.cpp
+.o CMakeFiles/NitroModules.di
+r/409596a7554005345491e15244a
+786ac/cpp/utils/NitroTypeInfo
+.cpp.o CMakeFiles/NitroModule
+s.dir/409596a7554005345491e15
+244a786ac/cpp/utils/PropNameI
+DCache.cpp.o CMakeFiles/Nitro
+Modules.dir/409596a7554005345
+491e15244a786ac/cpp/views/Raw
+PropsCompat.cpp.o CMakeFiles/
+NitroModules.dir/src/main/cpp
+/JNIOnLoad.cpp.o CMakeFiles/N
+itroModules.dir/src/main/cpp/
+core/JAnyMap.cpp.o CMakeFiles
+/NitroModules.dir/src/main/cp
+p/core/JHybridObject.cpp.o CM
+akeFiles/NitroModules.dir/src
+/main/cpp/platform/NitroLogge
+r.cpp.o CMakeFiles/NitroModul
+es.dir/src/main/cpp/platform/
+ThreadUtils.cpp.o CMakeFiles/
+NitroModules.dir/src/main/cpp
+/threading/UIThreadDispatcher
+.cpp.o CMakeFiles/NitroModule
+s.dir/src/main/cpp/turbomodul
+e/JNitroModules.cpp.o CMakeFi
+les/NitroModules.dir/src/main
+/cpp/utils/JHardwareBufferUti
+ls.cpp.o  "C:/Users/MANCHEM H
+IMESH/AppData/Local/Android/S
+dk/ndk/27.1.12297006/toolchai
+ns/llvm/prebuilt/windows-x86_
+64/sysroot/usr/lib/aarch64-li
+nux-android/24/liblog.so"  
+-landroid  "C:/Users/MANCHEM 
+HIMESH/.gradle/caches/9.3.1/t
+ransforms/5f0fade6957df6709b3
+ef496f25cded4/workspace/trans
+formed/fbjni-0.7.0/prefab/mod
+ules/fbjni/libs/android.arm64
+-v8a/libfbjni.so"  
+"C:/Users/MANCHEM HIMESH/.gra
+dle/caches/9.3.1/transforms/2
+36808c8bf210c3c94b02761828185
+0c/workspace/transformed/reac
+t-android-0.86.2-debug/prefab
+/modules/jsi/libs/android.arm
+64-v8a/libjsi.so"  
+"C:/Users/MANCHEM HIMESH/.gra
+dle/caches/9.3.1/transforms/2
+36808c8bf210c3c94b02761828185
+0c/workspace/transformed/reac
+t-android-0.86.2-debug/prefab
+/modules/reactnative/libs/and
+roid.arm64-v8a/libreactnative
+.so"  -latomic -lm && cd ."
+  ld.lld: error: undefined 
+symbol: operator 
+delete(void*)
+  >>> referenced by new:280 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/new:280)
+  >>>               CMakeFile
+s/NitroModules.dir/409596a755
+4005345491e15244a786ac/cpp/th
+reading/ThreadPool.cpp.o:(mar
+gelo::nitro::ThreadPool::Thre
+adPool(char const*, unsigned 
+long, unsigned long))
+  >>> referenced by new:280 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/new:280)
+  >>>               CMakeFile
+s/NitroModules.dir/409596a755
+4005345491e15244a786ac/cpp/co
+re/BoxedHybridObject.cpp.o:(s
+td::__ndk1::unordered_map<fac
+ebook::jsi::Runtime*, std::__
+ndk1::weak_ptr<margelo::nitro
+::JSICache>, std::__ndk1::has
+h<facebook::jsi::Runtime*>, s
+td::__ndk1::equal_to<facebook
+::jsi::Runtime*>, std::__ndk1
+::allocator<std::__ndk1::pair
+<facebook::jsi::Runtime* 
+const, std::__ndk1::weak_ptr<
+margelo::nitro::JSICache>>>>:
+:~unordered_map[abi:ne180000]
+())
+  >>> referenced by new:280 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/new:280)
+  >>>               CMakeFile
+s/NitroModules.dir/409596a755
+4005345491e15244a786ac/cpp/co
+re/BoxedHybridObject.cpp.o:(s
+td::__ndk1::unordered_map<fac
+ebook::jsi::Runtime*, std::__
+ndk1::weak_ptr<margelo::nitro
+::JSICache>, std::__ndk1::has
+h<facebook::jsi::Runtime*>, s
+td::__ndk1::equal_to<facebook
+::jsi::Runtime*>, std::__ndk1
+::allocator<std::__ndk1::pair
+<facebook::jsi::Runtime* 
+const, std::__ndk1::weak_ptr<
+margelo::nitro::JSICache>>>>:
+:~unordered_map[abi:ne180000]
+())
+  >>> referenced 1544 more 
+times
+  
+  ld.lld: error: undefined 
+symbol: __cxa_guard_acquire
+  >>> referenced by 
+BoxedHybridObject.cpp:0 
+(C:/Users/MANCHEM HIMESH/OneD
+rive/Desktop/AttendanceApp/no
+de_modules/react-native-nitro
+-modules/cpp/core/BoxedHybrid
+Object.cpp:0)
+  >>>               CMakeFile
+s/NitroModules.dir/409596a755
+4005345491e15244a786ac/cpp/co
+re/BoxedHybridObject.cpp.o:(_
+_cxx_global_var_init)
+  >>> referenced by 
+JHybridObject.cpp:21 
+(C:/Users/MANCHEM HIMESH/OneD
+rive/Desktop/AttendanceApp/no
+de_modules/react-native-nitro
+-modules/android/src/main/cpp
+/core/JHybridObject.cpp:21)
+  >>>               CMakeFile
+s/NitroModules.dir/src/main/c
+pp/core/JHybridObject.cpp.o:(
+margelo::nitro::JHybridObject
+::JavaPart::getJHybridObject(
+))
+  >>> referenced by 
+CoreClasses-inl.h:683 
+(C:/Users/MANCHEM HIMESH/.gra
+dle/caches/9.3.1/transforms/5
+f0fade6957df6709b3ef496f25cde
+d4/workspace/transformed/fbjn
+i-0.7.0/prefab/modules/fbjni/
+include/fbjni/detail/CoreClas
+ses-inl.h:683)
+  >>>               CMakeFile
+s/NitroModules.dir/src/main/c
+pp/core/JHybridObject.cpp.o:(
+facebook::jni::JavaClass<marg
+elo::nitro::JHybridObject::Ja
+vaPart, 
+facebook::jni::JObject, 
+void>::javaClassStatic())
+  >>> referenced 143 more 
+times
+  
+  ld.lld: error: undefined 
+symbol: __cxa_guard_release
+  >>> referenced by 
+BoxedHybridObject.cpp:0 
+(C:/Users/MANCHEM HIMESH/OneD
+rive/Desktop/AttendanceApp/no
+de_modules/react-native-nitro
+-modules/cpp/core/BoxedHybrid
+Object.cpp:0)
+  >>>               CMakeFile
+s/NitroModules.dir/409596a755
+4005345491e15244a786ac/cpp/co
+re/BoxedHybridObject.cpp.o:(_
+_cxx_global_var_init)
+  >>> referenced by 
+JHybridObject.cpp:21 
+(C:/Users/MANCHEM HIMESH/OneD
+rive/Desktop/AttendanceApp/no
+de_modules/react-native-nitro
+-modules/android/src/main/cpp
+/core/JHybridObject.cpp:21)
+  >>>               CMakeFile
+s/NitroModules.dir/src/main/c
+pp/core/JHybridObject.cpp.o:(
+margelo::nitro::JHybridObject
+::JavaPart::getJHybridObject(
+))
+  >>> referenced by 
+CoreClasses-inl.h:683 
+(C:/Users/MANCHEM HIMESH/.gra
+dle/caches/9.3.1/transforms/5
+f0fade6957df6709b3ef496f25cde
+d4/workspace/transformed/fbjn
+i-0.7.0/prefab/modules/fbjni/
+include/fbjni/detail/CoreClas
+ses-inl.h:683)
+  >>>               CMakeFile
+s/NitroModules.dir/src/main/c
+pp/core/JHybridObject.cpp.o:(
+facebook::jni::JavaClass<marg
+elo::nitro::JHybridObject::Ja
+vaPart, 
+facebook::jni::JObject, 
+void>::javaClassStatic())
+  >>> referenced 143 more 
+times
+  
+  ld.lld: error: undefined 
+symbol: std::__ndk1::__shared
+_weak_count::__release_weak()
+  >>> referenced by 
+shared_ptr.h:1396 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/__memory/
+shared_ptr.h:1396)
+  >>>               CMakeFile
+s/NitroModules.dir/a23753aefa
+54b86a791611a894bf96f5/react-
+native-nitro-modules/cpp/core
+/HybridObject.cpp.o:(margelo:
+:nitro::HybridObject::HybridO
+bject(char const*))
+  >>> referenced by 
+shared_ptr.h:1396 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/__memory/
+shared_ptr.h:1396)
+  >>>               CMakeFile
+s/NitroModules.dir/409596a755
+4005345491e15244a786ac/cpp/co
+re/BoxedHybridObject.cpp.o:(s
+td::__ndk1::unordered_map<fac
+ebook::jsi::Runtime*, std::__
+ndk1::weak_ptr<margelo::nitro
+::JSICache>, std::__ndk1::has
+h<facebook::jsi::Runtime*>, s
+td::__ndk1::equal_to<facebook
+::jsi::Runtime*>, std::__ndk1
+::allocator<std::__ndk1::pair
+<facebook::jsi::Runtime* 
+const, std::__ndk1::weak_ptr<
+margelo::nitro::JSICache>>>>:
+:~unordered_map[abi:ne180000]
+())
+  >>> referenced by 
+shared_ptr.h:184 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/__memory/
+shared_ptr.h:184)
+  >>>               CMakeFile
+s/NitroModules.dir/409596a755
+4005345491e15244a786ac/cpp/co
+re/BoxedHybridObject.cpp.o:(m
+argelo::nitro::BoxedHybridObj
+ect::get(facebook::jsi::Runti
+me&, 
+facebook::jsi::PropNameID 
+const&)::$_0::~$_0())
+  >>> referenced 183 more 
+times
+  
+  ld.lld: error: undefined 
+symbol: 
+std::__ndk1::mutex::lock()
+  >>> referenced by 
+unique_lock.h:41 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/__mutex/u
+nique_lock.h:41)
+  >>>               CMakeFile
+s/NitroModules.dir/409596a755
+4005345491e15244a786ac/cpp/th
+reading/ThreadPool.cpp.o:(mar
+gelo::nitro::ThreadPool::Thre
+adPool(char const*, unsigned 
+long, unsigned long))
+  >>> referenced by 
+unique_lock.h:41 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/__mutex/u
+nique_lock.h:41)
+  >>>               CMakeFile
+s/NitroModules.dir/a23753aefa
+54b86a791611a894bf96f5/react-
+native-nitro-modules/cpp/core
+/Promise.cpp.o:(margelo::nitr
+o::Promise<void>::~Promise())
+  >>> referenced by 
+unique_lock.h:41 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/__mutex/u
+nique_lock.h:41)
+  >>>               CMakeFile
+s/NitroModules.dir/409596a755
+4005345491e15244a786ac/cpp/th
+reading/ThreadPool.cpp.o:(mar
+gelo::nitro::ThreadPool::run(
+std::__ndk1::function<void 
+()>&&))
+  >>> referenced 31 more 
+times
+  
+  ld.lld: error: undefined 
+symbol: operator 
+new(unsigned long)
+  >>> referenced by new:271 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/new:271)
+  >>>               CMakeFile
+s/NitroModules.dir/409596a755
+4005345491e15244a786ac/cpp/co
+re/BoxedHybridObject.cpp.o:(m
+argelo::nitro::BoxedHybridObj
+ect::getPropertyNames(faceboo
+k::jsi::Runtime&))
+  >>> referenced by new:271 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/new:271)
+  >>>               CMakeFile
+s/NitroModules.dir/409596a755
+4005345491e15244a786ac/cpp/pr
+ototype/HybridObjectPrototype
+.cpp.o:(margelo::nitro::Hybri
+dObjectPrototype::createProto
+type(facebook::jsi::Runtime&,
+ std::__ndk1::shared_ptr<marg
+elo::nitro::Prototype> 
+const&))
+  >>> referenced by 
+Hybrid.h:226 
+(C:/Users/MANCHEM HIMESH/.gra
+dle/caches/9.3.1/transforms/5
+f0fade6957df6709b3ef496f25cde
+d4/workspace/transformed/fbjn
+i-0.7.0/prefab/modules/fbjni/
+include/fbjni/detail/Hybrid.h
+:226)
+  >>>               CMakeFile
+s/NitroModules.dir/src/main/c
+pp/turbomodule/JNitroModules.
+cpp.o:(margelo::nitro::JNitro
+Modules::initHybrid(facebook:
+:jni::alias_ref<facebook::jni
+::detail::JTypeFor<facebook::
+jni::HybridClass<margelo::nit
+ro::JNitroModules, facebook::
+jni::detail::BaseHybridClass>
+::JavaPart, 
+facebook::jni::JObject, 
+void>::_javaobject*>))
+  >>> referenced 336 more 
+times
+  
+  ld.lld: error: undefined 
+symbol: 
+std::__ndk1::mutex::unlock()
+  >>> referenced by 
+unique_lock.h:63 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/__mutex/u
+nique_lock.h:63)
+  >>>               CMakeFile
+s/NitroModules.dir/409596a755
+4005345491e15244a786ac/cpp/th
+reading/ThreadPool.cpp.o:(mar
+gelo::nitro::ThreadPool::Thre
+adPool(char const*, unsigned 
+long, unsigned long))
+  >>> referenced by 
+unique_lock.h:63 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/__mutex/u
+nique_lock.h:63)
+  >>>               CMakeFile
+s/NitroModules.dir/409596a755
+4005345491e15244a786ac/cpp/th
+reading/ThreadPool.cpp.o:(mar
+gelo::nitro::ThreadPool::Thre
+adPool(char const*, unsigned 
+long, unsigned long))
+  >>> referenced by 
+unique_lock.h:63 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/__mutex/u
+nique_lock.h:63)
+  >>>               CMakeFile
+s/NitroModules.dir/a23753aefa
+54b86a791611a894bf96f5/react-
+native-nitro-modules/cpp/core
+/Promise.cpp.o:(margelo::nitr
+o::Promise<void>::~Promise())
+  >>> referenced 58 more 
+times
+  
+  ld.lld: error: undefined 
+symbol: std::__ndk1::conditio
+n_variable::~condition_variab
+le()
+  >>> referenced by 
+ThreadPool.cpp:23 
+(C:/Users/MANCHEM HIMESH/OneD
+rive/Desktop/AttendanceApp/no
+de_modules/react-native-nitro
+-modules/cpp/threading/Thread
+Pool.cpp:23)
+  >>>               CMakeFile
+s/NitroModules.dir/409596a755
+4005345491e15244a786ac/cpp/th
+reading/ThreadPool.cpp.o:(mar
+gelo::nitro::ThreadPool::Thre
+adPool(char const*, unsigned 
+long, unsigned long))
+  >>> referenced by 
+ThreadPool.cpp:90 
+(C:/Users/MANCHEM HIMESH/OneD
+rive/Desktop/AttendanceApp/no
+de_modules/react-native-nitro
+-modules/cpp/threading/Thread
+Pool.cpp:90)
+  >>>               CMakeFile
+s/NitroModules.dir/409596a755
+4005345491e15244a786ac/cpp/th
+reading/ThreadPool.cpp.o:(mar
+gelo::nitro::ThreadPool::~Thr
+eadPool())
+  
+  ld.lld: error: undefined 
+symbol: 
+std::__ndk1::mutex::~mutex()
+  >>> referenced by 
+ThreadPool.cpp:23 
+(C:/Users/MANCHEM HIMESH/OneD
+rive/Desktop/AttendanceApp/no
+de_modules/react-native-nitro
+-modules/cpp/threading/Thread
+Pool.cpp:23)
+  >>>               CMakeFile
+s/NitroModules.dir/409596a755
+4005345491e15244a786ac/cpp/th
+reading/ThreadPool.cpp.o:(mar
+gelo::nitro::ThreadPool::Thre
+adPool(char const*, unsigned 
+long, unsigned long))
+  >>> referenced by 
+ReferenceState.hpp:23 
+(C:/Users/MANCHEM HIMESH/OneD
+rive/Desktop/AttendanceApp/no
+de_modules/react-native-nitro
+-modules/cpp/utils/ReferenceS
+tate.hpp:23)
+  >>>               CMakeFile
+s/NitroModules.dir/409596a755
+4005345491e15244a786ac/cpp/ut
+ils/CommonGlobals.cpp.o:(marg
+elo::nitro::CommonGlobals::ge
+tGlobalFunction(facebook::jsi
+::Runtime&, char const*, std:
+:__ndk1::function<facebook::j
+si::Function 
+(facebook::jsi::Runtime&)>))
+  >>> referenced by 
+ReferenceState.hpp:23 
+(C:/Users/MANCHEM HIMESH/OneD
+rive/Desktop/AttendanceApp/no
+de_modules/react-native-nitro
+-modules/cpp/utils/ReferenceS
+tate.hpp:23)
+  >>>               CMakeFile
+s/NitroModules.dir/409596a755
+4005345491e15244a786ac/cpp/ut
+ils/CommonGlobals.cpp.o:(marg
+elo::nitro::CommonGlobals::ge
+tGlobalFunction(facebook::jsi
+::Runtime&, char const*, std:
+:__ndk1::function<facebook::j
+si::Function 
+(facebook::jsi::Runtime&)>))
+  >>> referenced 34 more 
+times
+  
+  ld.lld: error: undefined 
+symbol: std::exception_ptr::~
+exception_ptr()
+  >>> referenced by 
+Promise.hpp:362 
+(C:/Users/MANCHEM HIMESH/OneD
+rive/Desktop/AttendanceApp/no
+de_modules/react-native-nitro
+-modules/cpp/core/Promise.hpp
+:362)
+  >>>               CMakeFile
+s/NitroModules.dir/a23753aefa
+54b86a791611a894bf96f5/react-
+native-nitro-modules/cpp/core
+/Promise.cpp.o:(margelo::nitr
+o::Promise<void>::~Promise())
+  >>> referenced by 
+Promise.cpp:17 
+(C:/Users/MANCHEM HIMESH/OneD
+rive/Desktop/AttendanceApp/no
+de_modules/react-native-nitro
+-modules/cpp/core/Promise.cpp
+:17)
+  >>>               CMakeFile
+s/NitroModules.dir/a23753aefa
+54b86a791611a894bf96f5/react-
+native-nitro-modules/cpp/core
+/Promise.cpp.o:(margelo::nitr
+o::Promise<void>::~Promise())
+  >>> referenced by 
+Promise.cpp:15 
+(C:/Users/MANCHEM HIMESH/OneD
+rive/Desktop/AttendanceApp/no
+de_modules/react-native-nitro
+-modules/cpp/core/Promise.cpp
+:15)
+  >>>               CMakeFile
+s/NitroModules.dir/a23753aefa
+54b86a791611a894bf96f5/react-
+native-nitro-modules/cpp/core
+/Promise.cpp.o:(margelo::nitr
+o::Promise<void>::~Promise())
+  >>> referenced 68 more 
+times
+  
+  ld.lld: error: undefined 
+symbol: vtable for __cxxabiv1
+::__si_class_type_info
+  >>> referenced by 
+BoxedHybridObject.cpp
+  >>>               CMakeFile
+s/NitroModules.dir/409596a755
+4005345491e15244a786ac/cpp/co
+re/BoxedHybridObject.cpp.o:(t
+ypeinfo for margelo::nitro::B
+oxedHybridObject)
+  >>> referenced by 
+BoxedHybridObject.cpp
+  >>>               CMakeFile
+s/NitroModules.dir/409596a755
+4005345491e15244a786ac/cpp/co
+re/BoxedHybridObject.cpp.o:(t
+ypeinfo for std::__ndk1::__fu
+nction::__func<margelo::nitro
+::BoxedHybridObject::get(face
+book::jsi::Runtime&, 
+facebook::jsi::PropNameID 
+const&)::$_0, std::__ndk1::al
+locator<margelo::nitro::Boxed
+HybridObject::get(facebook::j
+si::Runtime&, 
+facebook::jsi::PropNameID 
+const&)::$_0>, 
+facebook::jsi::Value 
+(facebook::jsi::Runtime&, 
+facebook::jsi::Value const&, 
+facebook::jsi::Value const*, 
+unsigned long)>)
+  >>> referenced by 
+InstallNitro.cpp
+  >>>               CMakeFile
+s/NitroModules.dir/409596a755
+4005345491e15244a786ac/cpp/en
+trypoint/InstallNitro.cpp.o:(
+typeinfo for std::__ndk1::__s
+hared_ptr_emplace<margelo::ni
+tro::HybridNitroModulesProxy,
+ std::__ndk1::allocator<marge
+lo::nitro::HybridNitroModules
+Proxy>>)
+  >>> referenced 106 more 
+times
+  >>> the vtable symbol may 
+be undefined because the 
+class is missing its key 
+function (see https://lld.llv
+m.org/missingkeyfunction)
+  
+  ld.lld: error: undefined 
+symbol: vtable for 
+__cxxabiv1::__class_type_info
+  >>> referenced by 
+BoxedHybridObject.cpp
+  >>>               CMakeFile
+s/NitroModules.dir/409596a755
+4005345491e15244a786ac/cpp/co
+re/BoxedHybridObject.cpp.o:(t
+ypeinfo for std::__ndk1::__fu
+nction::__base<facebook::jsi:
+:Value 
+(facebook::jsi::Runtime&, 
+facebook::jsi::Value const&, 
+facebook::jsi::Value const*, 
+unsigned long)>)
+  >>> referenced by 
+BoxedHybridObject.cpp
+  >>>               CMakeFile
+s/NitroModules.dir/409596a755
+4005345491e15244a786ac/cpp/co
+re/BoxedHybridObject.cpp.o:(t
+ypeinfo for margelo::nitro::B
+oxedHybridObject::get(faceboo
+k::jsi::Runtime&, 
+facebook::jsi::PropNameID 
+const&)::$_0)
+  >>> referenced by 
+ThreadUtils.cpp
+  >>>               CMakeFile
+s/NitroModules.dir/src/main/c
+pp/platform/ThreadUtils.cpp.o
+:(typeinfo for margelo::nitro
+::ThreadUtils::setThreadName(
+std::__ndk1::basic_string<cha
+r, std::__ndk1::char_traits<c
+har>, std::__ndk1::allocator<
+char>> const&)::$_0)
+  >>> referenced 48 more 
+times
+  >>> the vtable symbol may 
+be undefined because the 
+class is missing its key 
+function (see https://lld.llv
+m.org/missingkeyfunction)
+  
+  ld.lld: error: undefined 
+symbol: 
+__cxa_allocate_exception
+  >>> referenced by 
+NitroLogger.cpp:25 
+(C:/Users/MANCHEM HIMESH/OneD
+rive/Desktop/AttendanceApp/no
+de_modules/react-native-nitro
+-modules/android/src/main/cpp
+/platform/NitroLogger.cpp:25)
+  >>>               CMakeFile
+s/NitroModules.dir/src/main/c
+pp/platform/NitroLogger.cpp.o
+:(margelo::nitro::levelToAndr
+oidLevel(margelo::nitro::LogL
+evel))
+  >>> referenced by 
+NitroLogger.cpp:25 
+(C:/Users/MANCHEM HIMESH/OneD
+rive/Desktop/AttendanceApp/no
+de_modules/react-native-nitro
+-modules/android/src/main/cpp
+/platform/NitroLogger.cpp:25)
+  >>>               CMakeFile
+s/NitroModules.dir/src/main/c
+pp/platform/NitroLogger.cpp.o
+:(margelo::nitro::Logger::nat
+iveLog(margelo::nitro::LogLev
+el, char const*, std::__ndk1:
+:basic_string<char, std::__nd
+k1::char_traits<char>, std::_
+_ndk1::allocator<char>> 
+const&))
+  >>> referenced by 
+References-inl.h:120 
+(C:/Users/MANCHEM HIMESH/.gra
+dle/caches/9.3.1/transforms/5
+f0fade6957df6709b3ef496f25cde
+d4/workspace/transformed/fbjn
+i-0.7.0/prefab/modules/fbjni/
+include/fbjni/detail/Referenc
+es-inl.h:120)
+  >>>               CMakeFile
+s/NitroModules.dir/src/main/c
+pp/core/JHybridObject.cpp.o:(
+std::__ndk1::enable_if<IsNonW
+eakReference<facebook::jni::d
+etail::JTypeFor<margelo::nitr
+o::JHybridObject::JavaPart, 
+facebook::jni::JObject, 
+void>::_javaobject*>(), faceb
+ook::jni::basic_strong_ref<fa
+cebook::jni::reference_traits
+<facebook::jni::detail::JType
+For<margelo::nitro::JHybridOb
+ject::JavaPart, 
+facebook::jni::JObject, void>
+::_javaobject*>::plain_jni_re
+ference_t, facebook::jni::Loc
+alReferenceAllocator>>::type 
+facebook::jni::make_local<fac
+ebook::jni::detail::JTypeFor<
+margelo::nitro::JHybridObject
+::JavaPart, 
+facebook::jni::JObject, void>
+::_javaobject*>(facebook::jni
+::detail::JTypeFor<margelo::n
+itro::JHybridObject::JavaPart
+, facebook::jni::JObject, 
+void>::_javaobject* const&))
+  >>> referenced 163 more 
+times
+  
+  ld.lld: error: undefined 
+symbol: typeinfo for 
+std::invalid_argument
+  >>> referenced by 
+NitroLogger.cpp:25 
+(C:/Users/MANCHEM HIMESH/OneD
+rive/Desktop/AttendanceApp/no
+de_modules/react-native-nitro
+-modules/android/src/main/cpp
+/platform/NitroLogger.cpp:25)
+  >>>               CMakeFile
+s/NitroModules.dir/src/main/c
+pp/platform/NitroLogger.cpp.o
+:(margelo::nitro::levelToAndr
+oidLevel(margelo::nitro::LogL
+evel))
+  >>> referenced by 
+NitroLogger.cpp:25 
+(C:/Users/MANCHEM HIMESH/OneD
+rive/Desktop/AttendanceApp/no
+de_modules/react-native-nitro
+-modules/android/src/main/cpp
+/platform/NitroLogger.cpp:25)
+  >>>               CMakeFile
+s/NitroModules.dir/src/main/c
+pp/platform/NitroLogger.cpp.o
+:(margelo::nitro::levelToAndr
+oidLevel(margelo::nitro::LogL
+evel))
+  >>> referenced by 
+NitroLogger.cpp:25 
+(C:/Users/MANCHEM HIMESH/OneD
+rive/Desktop/AttendanceApp/no
+de_modules/react-native-nitro
+-modules/android/src/main/cpp
+/platform/NitroLogger.cpp:25)
+  >>>               CMakeFile
+s/NitroModules.dir/src/main/c
+pp/platform/NitroLogger.cpp.o
+:(margelo::nitro::Logger::nat
+iveLog(margelo::nitro::LogLev
+el, char const*, std::__ndk1:
+:basic_string<char, std::__nd
+k1::char_traits<char>, std::_
+_ndk1::allocator<char>> 
+const&))
+  >>> referenced 5 more times
+  
+  ld.lld: error: undefined 
+symbol: std::invalid_argument
+::~invalid_argument()
+  >>> referenced by 
+NitroLogger.cpp:25 
+(C:/Users/MANCHEM HIMESH/OneD
+rive/Desktop/AttendanceApp/no
+de_modules/react-native-nitro
+-modules/android/src/main/cpp
+/platform/NitroLogger.cpp:25)
+  >>>               CMakeFile
+s/NitroModules.dir/src/main/c
+pp/platform/NitroLogger.cpp.o
+:(margelo::nitro::levelToAndr
+oidLevel(margelo::nitro::LogL
+evel))
+  >>> referenced by 
+NitroLogger.cpp:25 
+(C:/Users/MANCHEM HIMESH/OneD
+rive/Desktop/AttendanceApp/no
+de_modules/react-native-nitro
+-modules/android/src/main/cpp
+/platform/NitroLogger.cpp:25)
+  >>>               CMakeFile
+s/NitroModules.dir/src/main/c
+pp/platform/NitroLogger.cpp.o
+:(margelo::nitro::levelToAndr
+oidLevel(margelo::nitro::LogL
+evel))
+  >>> referenced by 
+NitroLogger.cpp:25 
+(C:/Users/MANCHEM HIMESH/OneD
+rive/Desktop/AttendanceApp/no
+de_modules/react-native-nitro
+-modules/android/src/main/cpp
+/platform/NitroLogger.cpp:25)
+  >>>               CMakeFile
+s/NitroModules.dir/src/main/c
+pp/platform/NitroLogger.cpp.o
+:(margelo::nitro::Logger::nat
+iveLog(margelo::nitro::LogLev
+el, char const*, std::__ndk1:
+:basic_string<char, std::__nd
+k1::char_traits<char>, std::_
+_ndk1::allocator<char>> 
+const&))
+  >>> referenced 5 more times
+  
+  ld.lld: error: undefined 
+symbol: __cxa_throw
+  >>> referenced by 
+NitroLogger.cpp:25 
+(C:/Users/MANCHEM HIMESH/OneD
+rive/Desktop/AttendanceApp/no
+de_modules/react-native-nitro
+-modules/android/src/main/cpp
+/platform/NitroLogger.cpp:25)
+  >>>               CMakeFile
+s/NitroModules.dir/src/main/c
+pp/platform/NitroLogger.cpp.o
+:(margelo::nitro::levelToAndr
+oidLevel(margelo::nitro::LogL
+evel))
+  >>> referenced by 
+NitroLogger.cpp:25 
+(C:/Users/MANCHEM HIMESH/OneD
+rive/Desktop/AttendanceApp/no
+de_modules/react-native-nitro
+-modules/android/src/main/cpp
+/platform/NitroLogger.cpp:25)
+  >>>               CMakeFile
+s/NitroModules.dir/src/main/c
+pp/platform/NitroLogger.cpp.o
+:(margelo::nitro::Logger::nat
+iveLog(margelo::nitro::LogLev
+el, char const*, std::__ndk1:
+:basic_string<char, std::__nd
+k1::char_traits<char>, std::_
+_ndk1::allocator<char>> 
+const&))
+  >>> referenced by 
+References-inl.h:120 
+(C:/Users/MANCHEM HIMESH/.gra
+dle/caches/9.3.1/transforms/5
+f0fade6957df6709b3ef496f25cde
+d4/workspace/transformed/fbjn
+i-0.7.0/prefab/modules/fbjni/
+include/fbjni/detail/Referenc
+es-inl.h:120)
+  >>>               CMakeFile
+s/NitroModules.dir/src/main/c
+pp/core/JHybridObject.cpp.o:(
+std::__ndk1::enable_if<IsNonW
+eakReference<facebook::jni::d
+etail::JTypeFor<margelo::nitr
+o::JHybridObject::JavaPart, 
+facebook::jni::JObject, 
+void>::_javaobject*>(), faceb
+ook::jni::basic_strong_ref<fa
+cebook::jni::reference_traits
+<facebook::jni::detail::JType
+For<margelo::nitro::JHybridOb
+ject::JavaPart, 
+facebook::jni::JObject, void>
+::_javaobject*>::plain_jni_re
+ference_t, facebook::jni::Loc
+alReferenceAllocator>>::type 
+facebook::jni::make_local<fac
+ebook::jni::detail::JTypeFor<
+margelo::nitro::JHybridObject
+::JavaPart, 
+facebook::jni::JObject, void>
+::_javaobject*>(facebook::jni
+::detail::JTypeFor<margelo::n
+itro::JHybridObject::JavaPart
+, facebook::jni::JObject, 
+void>::_javaobject* const&))
+  >>> referenced 160 more 
+times
+  
+  ld.lld: error: undefined 
+symbol: __cxa_free_exception
+  >>> referenced by 
+NitroLogger.cpp:25 
+(C:/Users/MANCHEM HIMESH/OneD
+rive/Desktop/AttendanceApp/no
+de_modules/react-native-nitro
+-modules/android/src/main/cpp
+/platform/NitroLogger.cpp:25)
+  >>>               CMakeFile
+s/NitroModules.dir/src/main/c
+pp/platform/NitroLogger.cpp.o
+:(margelo::nitro::levelToAndr
+oidLevel(margelo::nitro::LogL
+evel))
+  >>> referenced by 
+NitroLogger.cpp:25 
+(C:/Users/MANCHEM HIMESH/OneD
+rive/Desktop/AttendanceApp/no
+de_modules/react-native-nitro
+-modules/android/src/main/cpp
+/platform/NitroLogger.cpp:25)
+  >>>               CMakeFile
+s/NitroModules.dir/src/main/c
+pp/platform/NitroLogger.cpp.o
+:(margelo::nitro::Logger::nat
+iveLog(margelo::nitro::LogLev
+el, char const*, std::__ndk1:
+:basic_string<char, std::__nd
+k1::char_traits<char>, std::_
+_ndk1::allocator<char>> 
+const&))
+  >>> referenced by new:0 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/new:0)
+  >>>               CMakeFile
+s/NitroModules.dir/409596a755
+4005345491e15244a786ac/cpp/en
+trypoint/HybridNitroModulesPr
+oxy.cpp.o:(void margelo::nitr
+o::Prototype::registerHybridM
+ethod<margelo::nitro::HybridN
+itroModulesProxy, std::__ndk1
+::shared_ptr<margelo::nitro::
+HybridObject>, std::__ndk1::b
+asic_string<char, std::__ndk1
+::char_traits<char>, std::__n
+dk1::allocator<char>> const&>
+(std::__ndk1::basic_string<ch
+ar, std::__ndk1::char_traits<
+char>, std::__ndk1::allocator
+<char>>, std::__ndk1::shared_
+ptr<margelo::nitro::HybridObj
+ect> (margelo::nitro::HybridN
+itroModulesProxy::*)(std::__n
+dk1::basic_string<char, std::
+__ndk1::char_traits<char>, st
+d::__ndk1::allocator<char>> 
+const&)))
+  >>> referenced 121 more 
+times
+  
+  ld.lld: error: undefined 
+symbol: __dynamic_cast
+  >>> referenced by 
+shared_ptr.h:1236 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/__memory/
+shared_ptr.h:1236)
+  >>>               CMakeFile
+s/NitroModules.dir/409596a755
+4005345491e15244a786ac/cpp/en
+trypoint/HybridNitroModulesPr
+oxy.cpp.o:(margelo::nitro::Hy
+bridNitroModulesProxy::isHybr
+idObject(facebook::jsi::Runti
+me&, facebook::jsi::Value 
+const&, facebook::jsi::Value 
+const*, unsigned long))
+  >>> referenced by 
+shared_ptr.h:1236 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/__memory/
+shared_ptr.h:1236)
+  >>>               CMakeFile
+s/NitroModules.dir/src/main/c
+pp/core/JHybridObject.cpp.o:(
+margelo::nitro::JHybridObject
+::equals(std::__ndk1::shared_
+ptr<margelo::nitro::HybridObj
+ect> const&))
+  >>> referenced by 
+shared_ptr.h:1236 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/__memory/
+shared_ptr.h:1236)
+  >>>               CMakeFile
+s/NitroModules.dir/409596a755
+4005345491e15244a786ac/cpp/th
+reading/Dispatcher.cpp.o:(mar
+gelo::nitro::JSIConverter<std
+::__ndk1::shared_ptr<margelo:
+:nitro::Dispatcher>, void>::f
+romJSI(facebook::jsi::Runtime
+&, facebook::jsi::Value 
+const&))
+  >>> referenced 3 more times
+  
+  ld.lld: error: undefined 
+symbol: std::logic_error::log
+ic_error(char const*)
+  >>> referenced by 
+stdexcept:140 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/stdexcept
+:140)
+  >>>               CMakeFile
+s/NitroModules.dir/src/main/c
+pp/platform/NitroLogger.cpp.o
+:(std::invalid_argument::inva
+lid_argument[abi:ne180000](ch
+ar const*))
+  >>> referenced by 
+stdexcept:152 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/stdexcept
+:152)
+  >>>               CMakeFile
+s/NitroModules.dir/a23753aefa
+54b86a791611a894bf96f5/react-
+native-nitro-modules/cpp/core
+/AnyMap.cpp.o:(std::length_er
+ror::length_error[abi:ne18000
+0](char const*))
+  >>> referenced by 
+stdexcept:140 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/stdexcept
+:140)
+  >>>               CMakeFile
+s/NitroModules.dir/src/main/c
+pp/turbomodule/JNitroModules.
+cpp.o:(margelo::nitro::JNitro
+Modules::install(long, facebo
+ok::jni::alias_ref<facebook::
+jni::detail::JTypeFor<faceboo
+k::jni::HybridClass<facebook:
+:react::CallInvokerHolder, fa
+cebook::jni::detail::BaseHybr
+idClass>::JavaPart, 
+facebook::jni::JObject, 
+void>::_javaobject*>))
+  
+  ld.lld: error: undefined 
+symbol: vtable for 
+std::invalid_argument
+  >>> referenced by 
+stdexcept:140 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/stdexcept
+:140)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.3.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+206 actionable tasks: 7 executed, 199 up-to-date
+  >>>               CMakeFile
+s/NitroModules.dir/src/main/c
+pp/platform/NitroLogger.cpp.o
+:(std::invalid_argument::inva
+lid_argument[abi:ne180000](ch
+ar const*))
+  >>> referenced by 
+stdexcept:140 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/stdexcept
+:140)
+  >>>               CMakeFile
+s/NitroModules.dir/src/main/c
+pp/platform/NitroLogger.cpp.o
+:(std::invalid_argument::inva
+lid_argument[abi:ne180000](ch
+ar const*))
+  >>> referenced by 
+stdexcept:140 
+(C:/Users/MANCHEM HIMESH/AppD
+ata/Local/Android/Sdk/ndk/27.
+1.12297006/toolchains/llvm/pr
+ebuilt/windows-x86_64/sysroot
+/usr/include/c++/v1/stdexcept
+:140)
+  >>>               CMakeFile
+s/NitroModules.dir/src/main/c
+pp/turbomodule/JNitroModules.
+cpp.o:(margelo::nitro::JNitro
+Modules::install(long, facebo
+ok::jni::alias_ref<facebook::
+jni::detail::JTypeFor<faceboo
+k::jni::HybridClass<facebook:
+:react::CallInvokerHolder, fa
+cebook::jni::detail::BaseHybr
+idClass>::JavaPart, 
+facebook::jni::JObject, 
+void>::_javaobject*>))
+  >>> referenced 1 more times
+  >>> the vtable symbol may 
+be undefined because the 
+class is missing its key 
+function (see https://lld.llv
+m.org/missingkeyfunction)
+  
+  ld.lld: error: too many 
+errors emitted, stopping now 
+(use --error-limit=0 to see 
+all errors)
+  CLANG_~1: error: linker 
+command failed with exit 
+code 1 (use -v to see 
+invocation)
+  ninja: build stopped: 
+subcommand failed.
+  
+  C++ build system [build] 
+failed while executing:
+      @echo off
+      "C:\\Users\\MANCHEM HIM
+ESH\\AppData\\Local\\Android\
+\Sdk\\cmake\\3.22.1\\bin\\nin
+ja.exe" ^
+        -C ^
+        "C:\\Users\\MANCHEM H
+IMESH\\OneDrive\\Desktop\\Att
+endanceApp\\node_modules\\rea
+ct-native-nitro-modules\\andr
+oid\\.cxx\\Debug\\1of1w706\\a
+rm64-v8a" ^
+        NitroModules
+    from C:\Users\MANCHEM HIM
+ESH\OneDrive\Desktop\Attendan
+ceApp\node_modules\react-nati
+ve-nitro-modules\android
+
+* Try:
+> Run with --stacktrace 
+option to get the stack 
+trace.
+> Run with --info or --debug 
+option to get more log 
+output.
+> Run with --scan to get 
+full insights from a Build 
+Scan (powered by Develocity).
+> Get more help at 
+https://help.gradle.org.
+
+BUILD FAILED in 5s

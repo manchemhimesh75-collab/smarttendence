@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SE Mid Exam Preparation - 01AI0510</title>
+<style>
+  @page { margin: 20mm; size: A4; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; line-height: 1.6; color: #1a1a1a; background: #fff; padding: 40px; max-width: 210mm; margin: 0 auto; }
+
+  .cover { text-align: center; padding: 60px 20px; border-bottom: 4px solid #003366; margin-bottom: 30px; page-break-after: always; }
+  .cover h1 { font-size: 28px; color: #003366; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 2px; }
+  .cover h2 { font-size: 22px; color: #333; font-weight: 400; margin-bottom: 8px; }
+  .cover h3 { font-size: 16px; color: #666; font-weight: 400; margin-bottom: 5px; }
+  .cover .university { font-size: 20px; color: #003366; font-weight: 600; margin-top: 30px; }
+  .cover .subject { font-size: 18px; color: #444; margin-top: 15px; padding: 10px; border: 2px solid #003366; display: inline-block; border-radius: 5px; }
+  .cover .exam-format { margin-top: 40px; background: #f0f5ff; padding: 20px; border-radius: 8px; display: inline-block; }
+  .cover .exam-format p { margin: 5px 0; font-size: 15px; }
+
+  h1 { font-size: 22px; color: #003366; border-bottom: 3px solid #003366; padding-bottom: 8px; margin: 30px 0 15px 0; text-transform: uppercase; }
+  h2 { font-size: 18px; color: #003366; background: #e8f0fe; padding: 10px 15px; border-left: 5px solid #003366; margin: 20px 0 12px 0; border-radius: 0 5px 5px 0; }
+  h3 { font-size: 15px; color: #1a5276; margin: 15px 0 8px 0; }
+
+  .unit-box { background: #f8f9fa; border: 1px solid #dee2e6; border-radius: 8px; padding: 15px 20px; margin: 15px 0; }
+  .unit-box h3 { color: #003366; font-size: 16px; margin-bottom: 10px; border-bottom: 1px solid #ccc; padding-bottom: 5px; }
+  .unit-box ul { padding-left: 20px; }
+  .unit-box li { margin: 4px 0; font-size: 14px; }
+
+  .topic-tag { display: inline-block; background: #dc3545; color: #fff; padding: 2px 8px; border-radius: 3px; font-size: 11px; font-weight: 600; margin-left: 5px; }
+
+  .question-block { background: #fff; border: 2px solid #003366; border-radius: 8px; margin: 20px 0; overflow: hidden; page-break-inside: avoid; }
+  .question-header { background: #003366; color: #fff; padding: 10px 15px; font-weight: 600; font-size: 15px; }
+  .question-body { padding: 15px 20px; }
+
+  .sub-question { background: #f8f9fa; border: 1px solid #dee2e6; border-radius: 6px; padding: 12px 15px; margin: 12px 0; }
+  .sub-question h4 { color: #003366; font-size: 14px; margin-bottom: 8px; }
+
+  .answer-label { background: #28a745; color: #fff; padding: 3px 10px; border-radius: 3px; font-size: 12px; font-weight: 600; display: inline-block; margin-bottom: 8px; }
+
+  table { width: 100%; border-collapse: collapse; margin: 10px 0; font-size: 13px; }
+  table th { background: #003366; color: #fff; padding: 8px 10px; text-align: left; font-weight: 600; }
+  table td { padding: 8px 10px; border: 1px solid #dee2e6; vertical-align: top; }
+  table tr:nth-child(even) { background: #f8f9fa; }
+
+  ul, ol { padding-left: 22px; margin: 8px 0; }
+  li { margin: 4px 0; font-size: 14px; }
+
+  .highlight-box { background: #fff3cd; border: 1px solid #ffc107; border-radius: 6px; padding: 15px; margin: 15px 0; }
+  .highlight-box h3 { color: #856404; margin-bottom: 8px; }
+
+  .danger-box { background: #f8d7da; border: 1px solid #dc3545; border-radius: 6px; padding: 15px; margin: 15px 0; }
+  .danger-box h3 { color: #721c24; margin-bottom: 8px; }
+
+  .success-box { background: #d4edda; border: 1px solid #28a745; border-radius: 6px; padding: 15px; margin: 15px 0; }
+  .success-box h3 { color: #155724; margin-bottom: 8px; }
+
+  .day-plan { background: #e8f4fd; border: 1px solid #bee5eb; border-radius: 6px; padding: 12px 15px; margin: 10px 0; }
+  .day-plan h4 { color: #0c5460; margin-bottom: 6px; }
+
+  .mnemonic { background: #e8daef; border: 1px solid #9b59b6; border-radius: 6px; padding: 10px 15px; margin: 8px 0; font-family: monospace; font-size: 13px; }
+  .mnemonic strong { color: #6c3483; }
+
+  .section-divider { border: none; border-top: 3px double #003366; margin: 30px 0; }
+
+  .page-break { page-break-before: always; }
+
+  @media print {
+    body { padding: 0; }
+    .no-print { display: none; }
+    .page-break { page-break-before: always; }
+  }
+</style>
+</head>
+<body>
+
+<!-- COVER PAGE -->
+<div class="cover">
+  <div class="university">MARWADI UNIVERSITY</div>
+  <h3>Department of CSE - AI, ML & DS</h3>
+  <br>
+  <h1>Software Engineering</h1>
+  <div class="subject">Subject Code: 01AI0510</div>
+  <h2 style="margin-top: 25px;">Mid-Term Examination</h2>
+  <h2 style="color: #dc3545;">Preparation Strategy & Question Bank</h2>
+  <h3 style="margin-top: 20px;">Prepared by: Prof. Kammari Ryagnirvesh</h3>
+  <div class="exam-format">
+    <p><strong>Exam Pattern:</strong></p>
+    <p>Q1 &mdash; 6 Marks (Descriptive) | Q2a &mdash; 8 Marks (Detailed) | Q2b &mdash; 4 Marks (Short Notes)</p>
+    <p>Q3a &mdash; 6 Marks (Descriptive) | Q3b &mdash; 4 Marks (Short Notes/Listing)</p>
+    <p style="font-weight:700; font-size:16px; margin-top:8px;">Total Marks: 28</p>
+  </div>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<h1>Table of Contents</h1>
+<ol style="font-size:15px; line-height:2;">
+  <li>Unit-Wise Key Topics &amp; Weightage</li>
+  <li>Question 1 &mdash; 6 Marks (8 Questions with Answers)</li>
+  <li>Question 2a &mdash; 8 Marks (6 Detailed Questions with Answers)</li>
+  <li>Question 2b &mdash; 4 Marks (6 Short Note Questions with Answers)</li>
+  <li>Question 3a &mdash; 6 Marks (6 Descriptive Questions with Answers)</li>
+  <li>Question 3b &mdash; 4 Marks (7 Listing Questions with Answers)</li>
+  <li>High-Probability Topics (Must Prepare)</li>
+  <li>3-Day Preparation Plan</li>
+  <li>Memory Aids &amp; Answer Writing Tips</li>
+</ol>
+
+<hr class="section-divider">
+
+<!-- UNIT-WISE TOPICS -->
+<div class="page-break"></div>
+<h1>1. Unit-Wise Key Topics &amp; Weightage</h1>
+
+<div class="unit-box">
+  <h3>Unit 1: Introduction <span class="topic-tag">HIGH</span></h3>
+  <ul>
+    <li>Software Engineering: Definitions, Need, Characteristics</li>
+    <li>Dual Role of Software</li>
+    <li>Software Crisis: Causes &amp; History</li>
+    <li>Software Myths (Management, Customer, Practitioner) &mdash; <strong>VERY IMPORTANT</strong></li>
+    <li>Process Models: Waterfall, Incremental, RAD, Prototyping, Component-Based</li>
+    <li>Product vs Process</li>
+  </ul>
+</div>
+
+<div class="unit-box">
+  <h3>Unit 2: Agile Development <span class="topic-tag">HIGH</span></h3>
+  <ul>
+    <li>Agile Manifesto (4 Values, 12 Principles)</li>
+    <li>Scrum: Roles, Events, Artifacts &mdash; 3-5-3 Structure</li>
+    <li>LSS (Large Scale Scrum)</li>
+    <li>XP: Values &amp; Practices (Planning, Design, Coding, Testing)</li>
+    <li>ASD: Speculation, Collaboration, Learning</li>
+    <li>Crystal Family</li>
+  </ul>
+</div>
+
+<div class="unit-box">
+  <h3>Unit 3: Project Management &amp; Requirements <span class="topic-tag">HIGH</span></h3>
+  <ul>
+    <li>4P&rsquo;s (People, Product, Process, Project)</li>
+    <li>W5HH Principle</li>
+    <li>Requirement Engineering: 7 Tasks (Inception to Management)</li>
+    <li>Functional vs Non-Functional Requirements</li>
+    <li>Requirement Modeling: BPMN, UML, Gantt, DFD, Gap Analysis</li>
+    <li>Metrics: Measures / Metrics / Indicators, COCOMO</li>
+  </ul>
+</div>
+
+<div class="unit-box">
+  <h3>Unit 4: Project Planning, Scheduling &amp; Tracking <span class="topic-tag">MEDIUM</span></h3>
+  <ul>
+    <li>Software Scope Components</li>
+    <li>Feasibility Analysis: 5 Types</li>
+    <li>Empirical Estimation: SLOC, Function Point, COCOMO (3 Levels)</li>
+    <li>Task Set &amp; Task Network</li>
+    <li>Scheduling: Gantt Chart, PERT, CPM</li>
+  </ul>
+</div>
+
+<div class="unit-box">
+  <h3>Unit 5: Risk Analysis &amp; Management <span class="topic-tag">MEDIUM-HIGH</span></h3>
+  <ul>
+    <li>Proactive vs Reactive Risk Strategies</li>
+    <li>Risk Management Process (5 Steps)</li>
+    <li>Risk Identification: Checklist &amp; Questionnaire</li>
+    <li>Risk Projection &amp; RMMM Plans</li>
+    <li>Risk Categories (Project, Technical, Business, Management, Budget)</li>
+    <li>Safety Risks &amp; Hazards</li>
+  </ul>
+</div>
+
+<hr class="section-divider">
+
+<!-- QUESTION 1 - 6 MARKS -->
+<div class="page-break"></div>
+<h1>2. Question 1 &mdash; 6 Marks</h1>
+
+<!-- Q1.1 -->
+<div class="question-block">
+  <div class="question-header">Q1.1 &mdash; Define Software Engineering. Explain the need for Software Engineering.</div>
+  <div class="question-body">
+    <span class="answer-label">ANSWER</span>
+    <p><strong>Definition 1:</strong> Software Engineering is an approach to develop software.</p>
+    <p><strong>Definition 2:</strong> Software Engineering is a systematic, disciplined, quantifiable study and approach to the design, development, operation, and maintenance of a software system.</p>
+    <h3>Need for Software Engineering:</h3>
+    <ol>
+      <li><strong>Dynamic Nature</strong> &mdash; Rapid change in user requirements; additional features added over time using SE practices.</li>
+      <li><strong>Cost Management</strong> &mdash; Cost management performed by different means.</li>
+      <li><strong>Quality Management</strong> &mdash; Better processes provide quality management.</li>
+      <li><strong>Scalability</strong> &mdash; Able to incorporate new changes.</li>
+    </ol>
+  </div>
+</div>
+
+<!-- Q1.2 -->
+<div class="question-block">
+  <div class="question-header">Q1.2 &mdash; Explain the Dual Role of Software with examples.</div>
+  <div class="question-body">
+    <span class="answer-label">ANSWER</span>
+    <p>Software takes on a <strong>dual role</strong> &mdash; it is a <strong>Product</strong>, and at the same time, the <strong>Vehicle for delivering a product</strong>.</p>
+
+    <h3>As a Product:</h3>
+    <ul>
+      <li>Delivers computing potential embodied by computer hardware or broadly, by a network of computers.</li>
+      <li>Software is an information transformer &mdash; producing, managing, acquiring, modifying, displaying, or transmitting information that can be as simple as a single bit or as complex as a multimedia presentation.</li>
+      <li>Delivers the most important product of our time &mdash; <strong>information</strong>.</li>
+    </ul>
+
+    <h3>As a Vehicle:</h3>
+    <ul>
+      <li>Basis for control of the computer (Operating Systems).</li>
+      <li>Communication of information (Networks).</li>
+      <li>Creation and control of other programs (Software tools and environments).</li>
+      <li>Transforms personal data (e.g., financial transactions) so data can be more useful in a local context.</li>
+      <li>Manages business information to enhance competitiveness.</li>
+      <li>Provides a gateway to worldwide information networks (e.g., the Internet).</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Q1.3 -->
+<div class="question-block">
+  <div class="question-header">Q1.3 &mdash; List and explain the causes of Software Crisis.</div>
+  <div class="question-body">
+    <span class="answer-label">ANSWER</span>
+    <p>Software Crisis is a term used in computer science for the difficulty of writing useful and efficient computer programs in the required time. The causes are:</p>
+    <ol>
+      <li><strong>Maintenance cost</strong> of software is as expensive as development cost.</li>
+      <li><strong>Projects running over-time</strong> &mdash; not delivered on schedule.</li>
+      <li><strong>Less efficient</strong> software products.</li>
+      <li><strong>Low quality</strong> software.</li>
+      <li>Software often did <strong>not meet requirements</strong>.</li>
+      <li>Software was <strong>never delivered on time</strong>.</li>
+    </ol>
+  </div>
+</div>
+
+<!-- Q1.4 -->
+<div class="question-block">
+  <div class="question-header">Q1.4 &mdash; Differentiate between Functional and Non-Functional Requirements.</div>
+  <div class="question-body">
+    <span class="answer-label">ANSWER</span>
+    <table>
+      <tr><th>Functional Requirements</th><th>Non-Functional Requirements</th></tr>
+      <tr><td>What the system should do</td><td>How the system performs a function</td></tr>
+      <tr><td>End user demands as basic facilities</td><td>Quality constraints that the system must satisfy per project contract</td></tr>
+      <tr><td>Directly visible in final product</td><td>Not directly visible &mdash; quality attributes</td></tr>
+      <tr><td>Represented as Input &rarr; Operation &rarr; Output</td><td>Priority/extent varies from project to project</td></tr>
+      <tr><td>Examples: Registration, Login, Search Books, Issue Books, Return Books</td><td>Examples: Portability, Security, Maintainability, Reliability, Scalability, Performance</td></tr>
+    </table>
+    <p style="margin-top:10px;"><strong>Example &mdash; Library Management System:</strong></p>
+    <ul>
+      <li><strong>Functional:</strong> Registration, Login, Add/Delete/Update Books, Search Books, Issue/Return/Reserve Books, Pay Fine, Add Books in Inventory</li>
+      <li><strong>Non-Functional:</strong> Portability, Security, Maintainability, Reliability, Scalability, Performance, Reusability, Flexibility</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Q1.5 -->
+<div class="question-block">
+  <div class="question-header">Q1.5 &mdash; Explain the 4P&rsquo;s of Management Spectrum.</div>
+  <div class="question-body">
+    <span class="answer-label">ANSWER</span>
+    <p>There are 4 critical components in software project planning known as the 4P&rsquo;s:</p>
+    <ol>
+      <li><strong>People</strong> &mdash; Includes from manager to developer, customer to end user. Highly skilled and motivated developers needed. Organizations that achieve high maturity in people management have higher likelihood of implementing effective SE practices.</li>
+      <li><strong>Product</strong> &mdash; The ultimate goal of the project. Product objectives, scopes, alternatives, and technical/management constraints should be established beforehand.</li>
+      <li><strong>Process</strong> &mdash; Provides the framework from which a comprehensive plan for software development can be established. Task sets (tasks, milestones, work products, QA points) enable framework activities to be adapted.</li>
+      <li><strong>Project</strong> &mdash; Where the project manager&rsquo;s roles come into play. Must guide team members, delegate tasks, help when needed, and accomplish all requirements in the project scope.</li>
+    </ol>
+  </div>
+</div>
+
+<!-- Q1.6 -->
+<div class="question-block">
+  <div class="question-header">Q1.6 &mdash; Describe the W5HH Principle of Project Management.</div>
+  <div class="question-body">
+    <span class="answer-label">ANSWER</span>
+    <p>Boehm suggests an approach that addresses project objectives, milestones, schedules, responsibilities, management and technical approaches, and required resources. The W5HH principle leads to a definition of key project characteristics and the resultant project plan:</p>
+    <ol>
+      <li><strong>Why</strong> is the system being developed? &mdash; Assess validity of business reasons for the software work.</li>
+      <li><strong>What</strong> will be done? &mdash; Identify key project tasks and milestones required by the customer.</li>
+      <li><strong>When</strong> will it be accomplished? &mdash; Help the team establish a project schedule.</li>
+      <li><strong>Who</strong> is responsible for a function? &mdash; Define role and responsibility of each team member.</li>
+      <li><strong>Where</strong> are they organizationally located? &mdash; Customer, users, and stakeholders also have responsibilities.</li>
+      <li><strong>How</strong> will the job be done technically and managerially? &mdash; Define management and technical strategy.</li>
+      <li><strong>How much</strong> of each resource is needed? &mdash; Develop estimation.</li>
+    </ol>
+  </div>
+</div>
+
+<!-- Q1.7 -->
+<div class="question-block">
+  <div class="question-header">Q1.7 &mdash; Explain the difference between Proactive and Reactive Risk Strategies.</div>
+  <div class="question-body">
+    <span class="answer-label">ANSWER</span>
+    <table>
+      <tr><th>Proactive Risk Strategy</th><th>Reactive Risk Strategy</th></tr>
+      <tr><td>Risks are identified, analyzed, and managed <strong>before</strong> they occur</td><td>Actions are taken only <strong>after</strong> the risk has occurred</td></tr>
+      <tr><td>Focus on <strong>prevention</strong> rather than cure</td><td>Focus on <strong>damage control</strong></td></tr>
+      <tr><td>Early identification, continuous assessment</td><td>No prior planning for risks</td></tr>
+      <tr><td>Prepared mitigation and contingency plans</td><td>Crisis management (fire-fighting approach)</td></tr>
+      <tr><td>Improved decision making, reduced cost/time overruns</td><td>Short-term problem-solving approach</td></tr>
+    </table>
+  </div>
+</div>
+
+<!-- Q1.8 -->
+<div class="question-block">
+  <div class="question-header">Q1.8 &mdash; List the 12 Agile Principles.</div>
+  <div class="question-body">
+    <span class="answer-label">ANSWER</span>
+    <ol>
+      <li><strong>Customer satisfaction</strong> &mdash; Early, continuous delivery of valuable software.</li>
+      <li><strong>Dynamic development</strong> &mdash; Welcome changing requirements at any stage.</li>
+      <li><strong>Frequent delivery</strong> &mdash; Working software in short intervals (weeks, not months).</li>
+      <li><strong>Cooperation</strong> &mdash; Business people and developers work together daily.</li>
+      <li><strong>Motivated individuals</strong> &mdash; Build projects around motivated teams; trust them.</li>
+      <li><strong>Face-to-face communication</strong> &mdash; Most effective method of conveying information.</li>
+      <li><strong>Progress measure</strong> &mdash; Working software is the primary measure of progress.</li>
+      <li><strong>Sustainable development</strong> &mdash; Maintain constant pace indefinitely; avoid burnout.</li>
+      <li><strong>Technical excellence</strong> &mdash; Good design and technical quality enhance agility.</li>
+      <li><strong>Simplicity</strong> &mdash; Maximize work not done; do only what is essential.</li>
+      <li><strong>Self-organizing teams</strong> &mdash; Best architectures and designs emerge from autonomous teams.</li>
+      <li><strong>Continuous improvement</strong> &mdash; Regular reflection and adaptation of processes.</li>
+    </ol>
+  </div>
+</div>
+
+<hr class="section-divider">
+
+<!-- QUESTION 2a - 8 MARKS -->
+<div class="page-break"></div>
+<h1>3. Question 2a &mdash; 8 Marks (Detailed)</h1>
+
+<!-- Q2a.1 -->
+<div class="question-block">
+  <div class="question-header">Q2a.1 &mdash; Explain the Linear Sequential (Waterfall) Model with phases, advantages, disadvantages, and when to use.</div>
+  <div class="question-body">
+    <span class="answer-label">ANSWER</span>
+
+    <h3>Phases:</h3>
+    <ol>
+      <li><strong>Communication</strong> &mdash; Requirement gathering and analysis; Requirement Specification (SRS).</li>
+      <li><strong>Planning</strong> &mdash; Assessing progress against the project plan; perform required actions to maintain schedule.</li>
+      <li><strong>Modelling</strong> &mdash; Transform the requirements specified in the SRS document into a structure suitable for implementation.</li>
+      <li><strong>Construction</strong> &mdash; Coding and Testing; Unit testing, Integration testing, System testing.</li>
+      <li><strong>Deployment</strong> &mdash; Maintenance:
+        <ul>
+          <li><em>Corrective Maintenance:</em> Correct errors not discovered in development.</li>
+          <li><em>Perfective Maintenance:</em> Enhance functionalities based on customer request.</li>
+          <li><em>Adaptive Maintenance:</em> Port the software to work in a new environment.</li>
+        </ul>
+      </li>
+    </ol>
+
+    <h3>Advantages:</h3>
+    <ul>
+      <li>Simple and easy to understand.</li>
+      <li>Phases are processed one at a time.</li>
+      <li>Each stage is clearly defined.</li>
+      <li>Clear and well-understood milestones.</li>
+      <li>Reinforces good habits: define-before-design, design-before-code.</li>
+      <li>Works well for smaller projects where requirements are well understood.</li>
+    </ul>
+
+    <h3>Disadvantages:</h3>
+    <ul>
+      <li>Difficult for the customer to state all requirements explicitly.</li>
+      <li>Must complete a given stage before moving on to the next.</li>
+      <li>Some teams sit idle for other teams to finish.</li>
+      <li>Appropriate when requirements are well-understood and changes will be limited.</li>
+    </ul>
+
+    <h3>When to Use:</h3>
+    <ul>
+      <li>Requirements are very well known, clear, and fixed.</li>
+      <li>Product definition is stable; technology is understood.</li>
+      <li>No ambiguous requirements.</li>
+      <li>Ample resources with required expertise available.</li>
+      <li>The project is short.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Q2a.2 -->
+<div class="question-block">
+  <div class="question-header">Q2a.2 &mdash; Explain Scrum Framework: Roles, Events, Artifacts (3-5-3 Structure).</div>
+  <div class="question-body">
+    <span class="answer-label">ANSWER</span>
+    <p>Scrum is an Agile software development method for managing complex projects where requirements change frequently. It follows an iterative and incremental approach.</p>
+
+    <h3>Three Core Roles:</h3>
+    <ol>
+      <li><strong>Product Owner</strong> &mdash; Represents customers and stakeholders; manages product requirements; maximizes product value; manages the Product Backlog.</li>
+      <li><strong>Scrum Master</strong> &mdash; Servant-leader; ensures Scrum practices are followed; removes obstacles; supports the team.</li>
+      <li><strong>Scrum Team (Developers)</strong> &mdash; Self-organizing, cross-functional team (typically 3&ndash;9 members); responsible for creating a &ldquo;Done&rdquo; product increment.</li>
+    </ol>
+
+    <h3>Five Core Events:</h3>
+    <ol>
+      <li><strong>The Sprint</strong> &mdash; A fixed-length timebox (1 month or less) where the team creates a usable product increment.</li>
+      <li><strong>Sprint Planning</strong> &mdash; Defines what can be delivered and how; produces Sprint Goal and Sprint Backlog.</li>
+      <li><strong>Daily Scrum</strong> &mdash; 15-minute daily check-in to inspect progress toward Sprint Goal and adapt the Sprint Backlog.</li>
+      <li><strong>Sprint Review</strong> &mdash; Demo at end of Sprint to inspect the Increment and adapt the Product Backlog with stakeholders.</li>
+      <li><strong>Sprint Retrospective</strong> &mdash; Internal team meeting to inspect people, relationships, processes, and tools; plan improvements.</li>
+    </ol>
+
+    <h3>Three Core Artifacts:</h3>
+    <ol>
+      <li><strong>Product Backlog</strong> &mdash; An ordered, evolving list of everything needed in the product.</li>
+      <li><strong>Sprint Backlog</strong> &mdash; The set of items selected for the Sprint, plus a plan for delivery.</li>
+      <li><strong>Increment</strong> &mdash; The concrete sum of all Product Backlog items completed during a Sprint.</li>
+    </ol>
+  </div>
+</div>
+
+<!-- Q2a.3 -->
+<div class="question-block">
+  <div class="question-header">Q2a.3 &mdash; Explain COCOMO Model with three levels and project classifications.</div>
+  <div class="question-body">
+    <span class="answer-label">ANSWER</span>
+    <p><strong>COCOMO</strong> (Constructive Cost Model) was developed by Barry Boehm. It is a procedural cost estimation model for software projects.</p>
+
+    <h3>Three Levels:</h3>
+    <ol>
+      <li><strong>Basic COCOMO</strong> &mdash; Provides a rough estimate based only on the size of the software (KLOC).
+        <br>Formula: <code>Effort = a &times; (KLOC)<sup>b</sup></code></li>
+      <li><strong>Intermediate COCOMO</strong> &mdash; Improves estimation by considering cost drivers (EAF &mdash; Effort Adjustment Factor).
+        <br>Formula: <code>Effort = a &times; (KLOC)<sup>b</sup> &times; EAF</code>
+        <br>Cost Drivers: Product attributes (reliability, complexity), Hardware attributes (memory, performance), Personnel attributes (experience, capability), Project attributes (tools, schedule).</li>
+      <li><strong>Complete COCOMO</strong> &mdash; Most advanced; divides the project into phases and applies cost drivers to each phase separately. For large systems with multiple sub-systems. Highly accurate.</li>
+    </ol>
+
+    <h3>Project Classifications:</h3>
+    <table>
+      <tr><th>Type</th><th>Characteristics</th><th>Examples</th></tr>
+      <tr><td><strong>Organic</strong></td><td>Well-understood application; small team; prior experience with similar projects</td><td>Data processing programs</td></tr>
+      <tr><td><strong>Semidetached</strong></td><td>Mixed experience team; some experience on type of system to be developed</td><td>Compilers, linkers</td></tr>
+      <tr><td><strong>Embedded</strong></td><td>Strongly related to machine hardware; large team</td><td>Operating systems, real-time systems</td></tr>
+    </table>
+  </div>
+</div>
+
+<!-- Q2a.4 -->
+<div class="question-block">
+  <div class="question-header">Q2a.4 &mdash; Explain the Requirement Engineering Process with all 7 tasks.</div>
+  <div class="question-body">
+    <span class="answer-label">ANSWER</span>
+    <p>Requirements Engineering (RE) refers to the process of defining, documenting, and maintaining requirements in the engineering design process.</p>
+
+    <h3>7 Tasks:</h3>
+    <ol>
+      <li><strong>Inception</strong> &mdash; First phase; gives an outline of how to get started. Address: understanding of the problem, the people who want a solution, nature of the solution, communication and collaboration between customer and developer.</li>
+      <li><strong>Elicitation (Requirement Gathering)</strong> &mdash; Focuses on gathering requirements from stakeholders. Problems: <em>Problem of Scope</em> (unnecessary detail, ill-defined), <em>Problem of Understanding</em> (unclear between developer and customer), <em>Problem of Volatility</em> (requirements changing over time).</li>
+      <li><strong>Elaboration</strong> &mdash; Refines requirements gathered in first two phases. Main task: modeling activities and develop a prototype elaborating features and constraints using necessary tools and functions.</li>
+      <li><strong>Negotiation</strong> &mdash; Discussion on what is needed and what is to be eliminated. Discuss: availability of resources, delivery time, scope of requirements, project cost.</li>
+      <li><strong>Specification</strong> &mdash; Produces: written document, set of models, collection of use cases, prototype. Models include: ER diagrams, DFD, FDD, Data Dictionaries.</li>
+      <li><strong>Validation</strong> &mdash; Checking for errors and debugging. Verify: all requirements stated and met correctly, errors debugged and corrected, work product built according to standards. Uses formal technical review.</li>
+      <li><strong>Requirements Management</strong> &mdash; Identifying, controlling, tracking, and establishing requirements. Manages changes; new requirements emerge &mdash; prioritize and assess impact on overall system.</li>
+    </ol>
+  </div>
+</div>
+
+<!-- Q2a.5 -->
+<div class="question-block">
+  <div class="question-header">Q2a.5 &mdash; Explain Extreme Programming (XP) with Values and Practices.</div>
+  <div class="question-body">
+    <span class="answer-label">ANSWER</span>
+    <p>XP is the most widely used agile process, originally proposed by Kent Beck. It is lightweight, efficient, low-risk, flexible, and predictable.</p>
+
+    <h3>Five Values of XP:</h3>
+    <p>1. Communication &nbsp; 2. Simplicity &nbsp; 3. Feedback &nbsp; 4. Courage &nbsp; 5. Respect</p>
+
+    <h3>XP Practices:</h3>
+    <ul>
+      <li><strong>Planning:</strong> User story cards, Release planning, Small releases, Iterative process, Stand-up meetings (F2F at same location).</li>
+      <li><strong>Design:</strong> Simple design (keep things simple to meet current requirements), Spike solutions (for tough technical problems), Refactoring (reduce redundancy, eliminate unused functionality), CRC cards (Class-Responsibility-Collaborator).</li>
+      <li><strong>Coding:</strong> Customer availability (as part of project), Paired programming (Driver/Supporter), Collective code ownership (all contribute, no bottleneck).</li>
+      <li><strong>Testing:</strong> Unit testing, Continuous integration, No overtime, Conduct release plan meeting to change scope or reschedule delivery.</li>
+    </ul>
+
+    <h3>When to Use:</h3>
+    <ul>
+      <li>Constantly changing demands or requirements.</li>
+      <li>Customer not sure about functionality of the system.</li>
+      <li>Small projects with small teams (F2F meeting easier).</li>
+      <li>Projects involving new technology or research projects.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Q2a.6 -->
+<div class="question-block">
+  <div class="question-header">Q2a.6 &mdash; Explain the Risk Management Process with all 5 steps.</div>
+  <div class="question-body">
+    <span class="answer-label">ANSWER</span>
+    <p>Risk Management is the process of identifying, analyzing, and controlling risks that may affect a software project&rsquo;s cost, schedule, and quality.</p>
+
+    <h3>5 Steps:</h3>
+    <ol>
+      <li><strong>Risk Identification</strong> &mdash; Detect and list all possible risks. Uses brainstorming (group discussion for new ideas) and risk list preparation (risks from previous projects).</li>
+      <li><strong>Risk Analysis</strong> &mdash; (a) Identify problems causing risk, (b) Probability of occurrence, (c) Impact of problem, (d) Assign values 1&ndash;10 to probability and impact, (e) Risk Exposure = Probability &times; Impact, (f) Order risks by exposure factor.</li>
+      <li><strong>Risk Estimation</strong> &mdash; Evaluate severity. Likelihood (P: 0 to 1 or percentage), Impact (I: cost, time, quality). Rank and prioritize risks from highest to lowest concern.</li>
+      <li><strong>Risk Mitigation &amp; Planning</strong> &mdash; Strategies: Avoidance (eliminate risk completely), Reduction (reduce probability or impact), Transfer (shift risk to third party), Acceptance (accept and prepare contingency). Plan includes: description, strategy, responsible person, timeline, contingency plan.</li>
+      <li><strong>Risk Monitoring &amp; Control</strong> &mdash; Continuously track identified risks; evaluate mitigation effectiveness; identify new risks; ensure risk responses are properly executed and adjusted.</li>
+    </ol>
+  </div>
+</div>
+
+<hr class="section-divider">
+
+<!-- QUESTION 2b - 4 MARKS -->
+<div class="page-break"></div>
+<h1>4. Question 2b &mdash; 4 Marks (Short Notes)</h1>
+
+<!-- Q2b.1 -->
+<div class="question-block">
+  <div class="question-header">Q2b.1 &mdash; Compare Waterfall vs Agile Models.</div>
+  <div class="question-body">
+    <span class="answer-label">ANSWER</span>
+    <table>
+      <tr><th>Aspect</th><th>Waterfall</th><th>Agile</th></tr>
+      <tr><td>Approach</td><td>Linear, sequential</td><td>Iterative, incremental</td></tr>
+      <tr><td>Requirements</td><td>Fixed early</td><td>Welcome changes anytime</td></tr>
+      <tr><td>Delivery</td><td>Single final product</td><td>Frequent working increments</td></tr>
+      <tr><td>Customer Involvement</td><td>Limited (start/end)</td><td>Continuous throughout</td></tr>
+      <tr><td>Testing</td><td>After construction</td><td>Continuous, every iteration</td></tr>
+      <tr><td>Documentation</td><td>Comprehensive</td><td>Working software over docs</td></tr>
+      <tr><td>Cost of Change</td><td>Increases rapidly</td><td>Remains relatively constant</td></tr>
+    </table>
+  </div>
+</div>
+
+<!-- Q2b.2 -->
+<div class="question-block">
+  <div class="question-header">Q2b.2 &mdash; Differentiate between Basic, Intermediate, and Complete COCOMO.</div>
+  <div class="question-body">
+    <span class="answer-label">ANSWER</span>
+    <table>
+      <tr><th>Feature</th><th>Basic</th><th>Intermediate</th><th>Complete</th></tr>
+      <tr><td>Basis</td><td>Size (KLOC) only</td><td>Size + Cost Drivers (EAF)</td><td>Phased + Cost Drivers per phase</td></tr>
+      <tr><td>Accuracy</td><td>Rough estimate</td><td>Better accuracy</td><td>Highest accuracy</td></tr>
+      <tr><td>Complexity</td><td>Simple</td><td>Moderate</td><td>Complex</td></tr>
+      <tr><td>Use Case</td><td>Early estimation, small projects</td><td>Real project conditions</td><td>Large systems, sub-systems</td></tr>
+    </table>
+  </div>
+</div>
+
+<!-- Q2b.3 -->
+<div class="question-block">
+  <div class="question-header">Q2b.3 &mdash; List the 5 Types of Feasibility Study.</div>
+  <div class="question-body">
+    <span class="answer-label">ANSWER</span>
+    <ol>
+      <li><strong>Technical Feasibility</strong> &mdash; Analyzes current hardware, software, and technology. Assesses team skills, existing technology, maintenance and up-gradation ease.</li>
+      <li><strong>Operational Feasibility</strong> &mdash; Analyzes degree of service to requirements; how easy product will be to operate and maintain after deployment.</li>
+      <li><strong>Economic Feasibility</strong> &mdash; Cost and benefit analysis; detailed analysis of development cost; whether project is beneficial in terms of finance.</li>
+      <li><strong>Legal Feasibility</strong> &mdash; Analyzes legality: data protection acts, licenses, copyrights, certificates. Confirms legal and ethical requirements.</li>
+      <li><strong>Schedule Feasibility</strong> &mdash; Analyzes timelines and deadlines; how much time teams will take to complete the project. Great impact on organization.</li>
+    </ol>
+  </div>
+</div>
+
+<!-- Q2b.4 -->
+<div class="question-block">
+  <div class="question-header">Q2b.4 &mdash; Explain Risk Categories with examples.</div>
+  <div class="question-body">
+    <span class="answer-label">ANSWER</span>
+    <ol>
+      <li><strong>Project Risks</strong> &mdash; Threats to the project plan. If real, schedule slips and costs increase. Includes budget, schedule, personnel, resources, customers, requirements, project complexity and size.</li>
+      <li><strong>Technical Risks</strong> &mdash; Concerns about methods, implementation, interfacing, testing, maintenance. Ambiguity, changing requirements, technical uncertainty, insufficient team knowledge.</li>
+      <li><strong>Business Risks</strong> &mdash; Threaten feasibility of software. Sub-categories: Market Risk (product developed but nobody wants it), Strategic Risk (doesn&rsquo;t fit business strategy), Sales Risk (no clear plan to sell).</li>
+      <li><strong>Management Risk</strong> &mdash; Senior management or responsible staff leaving the organization. Negatively affects decision-making and project continuity.</li>
+      <li><strong>Budget Risk</strong> &mdash; Losing control over project budget. Due to improper estimation, cost overruns, scope expansion, improper financial tracking.</li>
+    </ol>
+  </div>
+</div>
+
+<!-- Q2b.5 -->
+<div class="question-block">
+  <div class="question-header">Q2b.5 &mdash; Write short notes on Function Point (FP) Analysis.</div>
+  <div class="question-body">
+    <span class="answer-label">ANSWER</span>
+    <p><strong>Function Point</strong> is a function-oriented estimation technique that measures software size based on user functionality, independent of programming language.</p>
+    <h3>5 Parameters:</h3>
+    <table>
+      <tr><th>Component</th><th>Description</th></tr>
+      <tr><td>External Inputs (EI)</td><td>User inputs</td></tr>
+      <tr><td>External Outputs (EO)</td><td>Outputs to users</td></tr>
+      <tr><td>External Inquiries (EQ)</td><td>Queries</td></tr>
+      <tr><td>Internal Logical Files (ILF)</td><td>Internal data storage</td></tr>
+      <tr><td>External Interface Files (EIF)</td><td>External data used</td></tr>
+    </table>
+    <h3>Calculation:</h3>
+    <ol>
+      <li>Compute Unadjusted Function Points (UFP).</li>
+      <li>Apply Complexity Adjustment Factor (CAF).</li>
+    </ol>
+    <p><strong>Advantages:</strong> Language independent, can be used early, focuses on user requirements.</p>
+    <p><strong>Disadvantages:</strong> Requires expert judgment, slightly complex, subjective in some cases.</p>
+  </div>
+</div>
+
+<!-- Q2b.6 -->
+<div class="question-block">
+  <div class="question-header">Q2b.6 &mdash; Explain the Crystal Method Family.</div>
+  <div class="question-body">
+    <span class="answer-label">ANSWER</span>
+    <p><strong>Crystal Method</strong> is a lightweight agile framework that focuses on individuals and their interactions. Methods are color-coded by risk to human life.</p>
+    <h3>Properties:</h3>
+    <p>Frequent delivery, Reflective improvement, Communication, Personal Safety, Focus, Easy access to expert/users, Technical Tools.</p>
+    <h3>Crystal Family (by Team Size &amp; Criticality):</h3>
+    <table>
+      <tr><th>Color</th><th>Team Size</th><th>Description</th></tr>
+      <tr><td>Clear</td><td>6 or less</td><td>Small projects, some documentation</td></tr>
+      <tr><td>Yellow</td><td>7&ndash;20</td><td>Small to medium; customer feedback; automated testing</td></tr>
+      <tr><td>Orange</td><td>20&ndash;40</td><td>Medium; functional skill teams; delivery every 3&ndash;4 months</td></tr>
+      <tr><td>Red</td><td>40&ndash;80</td><td>Large projects; work-based teams</td></tr>
+      <tr><td>Maroon</td><td>80&ndash;200</td><td>Similar to Crystal Red</td></tr>
+      <tr><td>Diamond/Sapphire</td><td>Very large</td><td>Extremely critical, high risk</td></tr>
+    </table>
+  </div>
+</div>
+
+<hr class="section-divider">
+
+<!-- QUESTION 3a - 6 MARKS -->
+<div class="page-break"></div>
+<h1>5. Question 3a &mdash; 6 Marks (Descriptive)</h1>
+
+<!-- Q3a.1 -->
+<div class="question-block">
+  <div class="question-header">Q3a.1 &mdash; Explain the Prototyping Model with types, advantages, disadvantages, and when to use.</div>
+  <div class="question-body">
+    <span class="answer-label">ANSWER</span>
+    <h3>Process:</h3>
+    <p>Requirement Gathering &rarr; Quick Design &rarr; Build a Prototype &rarr; Initial User Evaluation &rarr; Refining Prototype &rarr; Implement Product &amp; Maintain</p>
+
+    <h3>Types of Prototype:</h3>
+    <ol>
+      <li><strong>Rapid Throwaway</strong> &mdash; Quick prototype; discarded after evaluation.</li>
+      <li><strong>Evolutionary Prototype</strong> &mdash; Evolves into the final product through iterations.</li>
+      <li><strong>Incremental Prototype</strong> &mdash; Built in increments; each increment adds functionality.</li>
+    </ol>
+
+    <h3>Advantages:</h3>
+    <ul>
+      <li>Customer gets partial product early &rarr; greater satisfaction.</li>
+      <li>New requirements easily accommodated.</li>
+      <li>Missing functionalities easily figured out.</li>
+      <li>Errors detected earlier &rarr; saves effort and cost.</li>
+      <li>Reusability for complex projects; design flexibility.</li>
+    </ul>
+
+    <h3>Disadvantages:</h3>
+    <ul>
+      <li>Costly.</li>
+      <li>Too much variation in requirements each time prototype is evaluated.</li>
+      <li>Difficult to accommodate all customer changes.</li>
+      <li>Uncertainty in determining number of iterations.</li>
+      <li>Developers may end up with sub-optimal solutions rushing to build prototypes.</li>
+    </ul>
+
+    <h3>When to Use:</h3>
+    <ul>
+      <li>Customer defines general objectives but does not identify detailed input, processing, or output requirements.</li>
+      <li>Developer unsure of algorithm efficiency, OS adaptability, or human/machine interaction form.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Q3a.2 -->
+<div class="question-block">
+  <div class="question-header">Q3a.2 &mdash; Explain the RAD Model with phases, features, advantages, and when not to use.</div>
+  <div class="question-body">
+    <span class="answer-label">ANSWER</span>
+    <p>RAD (Rapid Application Development) is a &ldquo;high-speed&rdquo; adaptation of the linear sequential model using component-based construction. Fully functional system within 60&ndash;90 days.</p>
+
+    <h3>Phases:</h3>
+    <ol>
+      <li><strong>Requirements Planning</strong> &mdash; Techniques like brainstorming to understand business problem; structured plan describing critical data, methods, processing.</li>
+      <li><strong>User Description</strong> &mdash; Take user feedback and build the prototype using developer tools.</li>
+      <li><strong>Construction</strong> &mdash; Refine prototype, deliver; all modifications and enhancements done.</li>
+      <li><strong>Cutover</strong> &mdash; Test interfaces between modules; use automated tools; acceptance testing by user.</li>
+    </ol>
+
+    <h3>Features:</h3>
+    <ul>
+      <li><strong>Rapid Prototype</strong> &mdash; Quick initial views for customer.</li>
+      <li><strong>Powerful development tools</strong> (CASE) &mdash; Reduced development time.</li>
+      <li><strong>Active user involvement</strong> &mdash; Increases acceptability.</li>
+    </ul>
+
+    <h3>Advantages:</h3>
+    <ul>
+      <li>Reduced development time.</li>
+      <li>Increased reusability of components.</li>
+      <li>Quick initial reviews; customer feedback encouraged.</li>
+      <li>Integration from beginning solves integration issues.</li>
+    </ul>
+
+    <h3>When NOT to Use:</h3>
+    <ul>
+      <li>Users cannot be involved continuously.</li>
+      <li>Tools and reusable components cannot be used.</li>
+      <li>Highly skilled developers not available.</li>
+      <li>Software cannot be modularized.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Q3a.3 -->
+<div class="question-block">
+  <div class="question-header">Q3a.3 &mdash; Explain Adaptive Software Development (ASD) with its three phases.</div>
+  <div class="question-body">
+    <span class="answer-label">ANSWER</span>
+    <p>ASD evolved from RAD practices. Jim Highsmith published it in 2000. It is an iterative technique for building complex software systems, focusing on collaboration and team self-organization.</p>
+
+    <h3>Three Phases:</h3>
+    <ol>
+      <li><strong>Speculation</strong> &mdash; Adaptive cycle planning using three types of information:
+        <ul>
+          <li>Customer&rsquo;s mission statement</li>
+          <li>Project constraints (delivery date, budgets, user description)</li>
+          <li>Basic requirements of the project</li>
+        </ul>
+        <p>This defines the set of release cycles.</p>
+      </li>
+      <li><strong>Collaboration</strong> &mdash; Collaboration among team members is key. Required qualities: assist each other without offense, work hard, possess required skill set, communicate problems, criticize without hate.</li>
+      <li><strong>Learning</strong> &mdash; Three ways team members learn:
+        <ul>
+          <li><em>Focus Groups</em> &mdash; Direct feedback from end-user about component being developed.</li>
+          <li><em>Formal Technical Review</em> &mdash; Performed by committee of 3&ndash;5 people ensuring quality.</li>
+          <li><em>Postmortems</em> &mdash; Self-assessment by team; make appropriate improvements.</li>
+        </ul>
+      </li>
+    </ol>
+  </div>
+</div>
+
+<!-- Q3a.4 -->
+<div class="question-block">
+  <div class="question-header">Q3a.4 &mdash; Explain Scheduling Techniques: Gantt Chart, PERT, CPM.</div>
+  <div class="question-body">
+    <span class="answer-label">ANSWER</span>
+    <p>Scheduling is the process of planning and organizing tasks over time to ensure project completion within the specified deadline. It involves assigning start/end dates and allocating resources.</p>
+    <h3>Techniques:</h3>
+    <ol>
+      <li><strong>Gantt Chart</strong> &mdash; Shows tasks vs time. Visual representation of task durations, start/end dates, and progress. Helps in keeping track of timeline for all project tasks.</li>
+      <li><strong>PERT (Program Evaluation Review Technique)</strong> &mdash; Handles uncertainty in task duration. Uses probabilistic time estimates (optimistic, pessimistic, most likely).</li>
+      <li><strong>CPM (Critical Path Method)</strong> &mdash; Identifies the critical path, which is the sequence of tasks that determines the minimum completion time. Any delay in critical path activities directly impacts the overall project schedule. Identifies inter-task dependencies for concurrent activities.</li>
+    </ol>
+  </div>
+</div>
+
+<!-- Q3a.5 -->
+<div class="question-block">
+  <div class="question-header">Q3a.5 &mdash; Explain RMMM Plan with Risk Mitigation, Monitoring, and Risk Plan.</div>
+  <div class="question-body">
+    <span class="answer-label">ANSWER</span>
+    <p>An <strong>RMMM Plan</strong> is a document that defines how each identified risk will be handled, tracked, and controlled throughout the project. It considers three important issues:</p>
+
+    <h3>1. Risk Mitigation (Avoidance):</h3>
+    <p>Focuses on reducing or eliminating risks before they occur. Best strategy for proactive approach.</p>
+    <p><strong>Example &mdash; High Staff Turnover:</strong></p>
+    <ul>
+      <li>Meet with current staff to identify causes of turnover.</li>
+      <li>Mitigate identified causes under project management control.</li>
+      <li>Assume turnover will occur; develop techniques for continuity.</li>
+      <li>Organize teams so knowledge is widely shared.</li>
+      <li>Define documentation standards; peer reviews for all work.</li>
+      <li>Assign backup staff for every critical technical role.</li>
+    </ul>
+
+    <h3>2. Risk Monitoring (Tracking):</h3>
+    <p>Continuously tracking risks during the project. Monitor factors indicating whether risk is becoming more or less likely. For high staff turnover: monitor team attitudes, interpersonal relationships, outside job availability, and effectiveness of mitigation steps.</p>
+
+    <h3>3. Risk Plan:</h3>
+    <p>Document including how risks are identified and analyzed, steps to reduce risks, methods to monitor risks. Alternative: RIS (Risk Information Sheets) stored in databases for easier handling.</p>
+  </div>
+</div>
+
+<!-- Q3a.6 -->
+<div class="question-block">
+  <div class="question-header">Q3a.6 &mdash; Explain Software Measurement: Need, Characteristics, Types.</div>
+  <div class="question-body">
+    <span class="answer-label">ANSWER</span>
+    <p>Software metrics are the standards for estimating the quality, progress, and health of software development activity. A software metric is a quantifiable or countable assessment of the qualities of software.</p>
+
+    <h3>Need:</h3>
+    <p>For analyzing software performance, planning work items, estimating productivity, monitoring distinct statistics and trends as production takes place.</p>
+
+    <h3>Characteristics of Software Metrics:</h3>
+    <ul>
+      <li><strong>Quantitative</strong> &mdash; Can be stated numerically.</li>
+      <li><strong>Understandable</strong> &mdash; Simple to grasp; method well explained.</li>
+      <li><strong>Applicability</strong> &mdash; Applied during early stages of development.</li>
+      <li><strong>Repeatable</strong> &mdash; Same values when measured regularly and consistently.</li>
+      <li><strong>Economical</strong> &mdash; Computation should be cost-effective.</li>
+      <li><strong>Language agnostic</strong> &mdash; Not dependent on any programming language.</li>
+    </ul>
+
+    <h3>Types:</h3>
+    <ul>
+      <li><strong>Internal Metrics</strong> &mdash; Measure properties important to developers (e.g., Lines of Code).</li>
+      <li><strong>External Metrics</strong> &mdash; Measure features important to users (portability, reliability, functionality, usability).</li>
+      <li><strong>Hybrid Metrics</strong> &mdash; Mix product, process, and resource metrics (e.g., Cost per FP).</li>
+    </ul>
+  </div>
+</div>
+
+<hr class="section-divider">
+
+<!-- QUESTION 3b - 4 MARKS -->
+<div class="page-break"></div>
+<h1>6. Question 3b &mdash; 4 Marks (Short Notes/Listing)</h1>
+
+<!-- Q3b.1 -->
+<div class="question-block">
+  <div class="question-header">Q3b.1 &mdash; List Software Characteristics (7 characteristics).</div>
+  <div class="question-body">
+    <span class="answer-label">ANSWER</span>
+    <ol>
+      <li><strong>Usability</strong></li>
+      <li><strong>Reusability</strong></li>
+      <li><strong>Flexibility</strong></li>
+      <li><strong>Maintainability</strong></li>
+      <li><strong>Portability</strong></li>
+      <li><strong>Reliability</strong></li>
+      <li><strong>Functionality</strong></li>
+    </ol>
+    <h3>Additional Key Points:</h3>
+    <ul>
+      <li>Software is <strong>developed or engineered</strong>, it is not manufactured like hardware.</li>
+      <li>Software <strong>doesn&rsquo;t &ldquo;wear out&rdquo;</strong> &mdash; no spare parts; every failure indicates error in design or process; maintenance is more complex than hardware maintenance.</li>
+      <li>Industry is moving toward <strong>component-based assembly</strong>, but most software continues to be custom built.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Q3b.2 -->
+<div class="question-block">
+  <div class="question-header">Q3b.2 &mdash; List the Software Myths (3 categories with key myths).</div>
+  <div class="question-body">
+    <span class="answer-label">ANSWER</span>
+
+    <h3>Management Myths:</h3>
+    <ul>
+      <li><strong>Myth 1:</strong> We already have a book of standards and procedures &mdash; <em>Reality:</em> Is it used? Is it modern? Complete? Streamlined?</li>
+      <li><strong>Myth 2:</strong> We have the newest computers and tools &mdash; <em>Reality:</em> CASE tools more important than hardware; majority still don&rsquo;t use tools effectively.</li>
+      <li><strong>Myth 3:</strong> We can add more programmers and catch up &mdash; <em>Reality:</em> Not mechanistic; newcomers need education; add only in planned manner.</li>
+      <li><strong>Myth 4:</strong> Outsource and relax &mdash; <em>Reality:</em> If can&rsquo;t manage internally, will struggle when outsourcing.</li>
+    </ul>
+
+    <h3>Customer Myths:</h3>
+    <ul>
+      <li><strong>Myth 1:</strong> General statement of objectives is sufficient &mdash; <em>Reality:</em> Formal detailed description essential; effective communication needed.</li>
+      <li><strong>Myth 2:</strong> Requirements change but change can be easily accommodated &mdash; <em>Reality:</em> Impact varies with timing; early changes easy.</li>
+    </ul>
+
+    <h3>Practitioner (Developer) Myths:</h3>
+    <ul>
+      <li><strong>Myth 1:</strong> Job done when program works &mdash; <em>Reality:</em> 60% to 80% of effort expended after first delivery.</li>
+      <li><strong>Myth 2:</strong> Cannot achieve quality until program runs &mdash; <em>Reality:</em> Formal technical reviews from beginning; more effective than testing for certain defects.</li>
+      <li><strong>Myth 3:</strong> Only deliverable is working program &mdash; <em>Reality:</em> Documentation, models, plans provide foundation for support.</li>
+      <li><strong>Myth 4:</strong> SE is about creating unnecessary documentation &mdash; <em>Reality:</em> SE is about creating quality; better quality &rarr; reduced rework &rarr; faster delivery.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Q3b.3 -->
+<div class="question-block">
+  <div class="question-header">Q3b.3 &mdash; List Agile Manifesto 4 Core Values.</div>
+  <div class="question-body">
+    <span class="answer-label">ANSWER</span>
+    <ol>
+      <li><strong>Individuals and interactions</strong> over processes and tools &mdash; Focus on teamwork, communication, and collaboration rather than rigid processes.</li>
+      <li><strong>Working software</strong> over comprehensive documentation &mdash; Deliver functional software instead of focusing mainly on documentation.</li>
+      <li><strong>Customer collaboration</strong> over contract negotiation &mdash; Continuous customer/team involvement helps build the right product.</li>
+      <li><strong>Responding to change</strong> over following a plan &mdash; Agile accepts that requirements change and development must adapt quickly.</li>
+    </ol>
+  </div>
+</div>
+
+<!-- Q3b.4 -->
+<div class="question-block">
+  <div class="question-header">Q3b.4 &mdash; List Scrum Roles and their responsibilities.</div>
+  <div class="question-body">
+    <span class="answer-label">ANSWER</span>
+    <table>
+      <tr><th>Role</th><th>Responsibilities</th></tr>
+      <tr><td><strong>Product Owner</strong></td><td>Represents customers and stakeholders; manages product requirements; maximizes product value; manages the Product Backlog; sets product priorities.</td></tr>
+      <tr><td><strong>Scrum Master</strong></td><td>Ensures Scrum practices are followed; removes obstacles and impediments; supports the team; servant-leader; facilitates the process.</td></tr>
+      <tr><td><strong>Scrum Team</strong></td><td>Self-organizing, cross-functional team responsible for development work; creates a &ldquo;Done&rdquo; product increment.</td></tr>
+    </table>
+  </div>
+</div>
+
+<!-- Q3b.5 -->
+<div class="question-block">
+  <div class="question-header">Q3b.5 &mdash; List the 5 Values of Extreme Programming (XP).</div>
+  <div class="question-body">
+    <span class="answer-label">ANSWER</span>
+    <ol>
+      <li><strong>Communication</strong></li>
+      <li><strong>Simplicity</strong></li>
+      <li><strong>Feedback</strong></li>
+      <li><strong>Courage</strong></li>
+      <li><strong>Respect</strong></li>
+    </ol>
+  </div>
+</div>
+
+<!-- Q3b.6 -->
+<div class="question-block">
+  <div class="question-header">Q3b.6 &mdash; Differentiate between Safety and Reliability.</div>
+  <div class="question-body">
+    <span class="answer-label">ANSWER</span>
+    <table>
+      <tr><th>Safety</th><th>Reliability</th></tr>
+      <tr><td>System operates normally or abnormally without causing human injury or death and without damaging the environment.</td><td>Focuses on conformance to specifications and proper delivery of service.</td></tr>
+      <tr><td>Ensures the system does not cause harm or damage, even if it fails or behaves unexpectedly.</td><td>Focuses on correct operation according to specifications.</td></tr>
+      <tr><td>Reliability is essential for safety, but is NOT sufficient on its own.</td><td>A system can be reliable but unsafe (e.g., reliably performs the wrong action).</td></tr>
+    </table>
+  </div>
+</div>
+
+<!-- Q3b.7 -->
+<div class="question-block">
+  <div class="question-header">Q3b.7 &mdash; List Software Quality Metrics (8 metrics).</div>
+  <div class="question-body">
+    <span class="answer-label">ANSWER</span>
+    <ol>
+      <li><strong>Code Quality</strong> &mdash; Quantitative (LOC, complexity, bug generation rate) and Qualitative (readability, clarity, efficiency, maintainability).</li>
+      <li><strong>Reliability</strong> &mdash; Checked using Mean Time Between Failure (MTBF) and Mean Time To Repair (MTTR).</li>
+      <li><strong>Performance</strong> &mdash; Whether software fulfills user requirements; analyzing time and resource utilization.</li>
+      <li><strong>Usability</strong> &mdash; Whether the program is user-friendly; end-user satisfaction.</li>
+      <li><strong>Correctness</strong> &mdash; Degree to which software performs its required function.</li>
+      <li><strong>Maintainability</strong> &mdash; Ease with which program can be corrected, adapted, or enhanced. Measured by Mean Time To Change (MTTC).</li>
+      <li><strong>Integrity</strong> &mdash; System&rsquo;s ability to withstand attacks (accidental and intentional) to its security.</li>
+      <li><strong>Security</strong> &mdash; No unauthorized changes, no fear of cyber attacks when software is in use.</li>
+    </ol>
+  </div>
+</div>
+
+<hr class="section-divider">
+
+<!-- HIGH-PROBABILITY TOPICS -->
+<div class="page-break"></div>
+<h1>7. High-Probability Topics (Must Prepare)</h1>
+
+<div class="danger-box">
+  <h3>Almost Certain to Appear</h3>
+  <ul>
+    <li>Software Myths (all 3 categories) &mdash; Unit 1</li>
+    <li>Scrum Framework (3-5-3 structure) &mdash; Unit 2</li>
+    <li>Agile Manifesto (4 Values, 12 Principles) &mdash; Unit 2</li>
+    <li>Requirement Engineering (7 Tasks) &mdash; Unit 3</li>
+    <li>COCOMO Model (3 Levels, 3 Classifications) &mdash; Unit 4</li>
+  </ul>
+</div>
+
+<div class="highlight-box">
+  <h3>Very Important</h3>
+  <ul>
+    <li><strong>Unit 1:</strong> Waterfall Model, Dual Role of Software, Software Crisis, Process Models comparison</li>
+    <li><strong>Unit 2:</strong> XP (Values &amp; Practices), ASD (3 phases), Crystal Family</li>
+    <li><strong>Unit 3:</strong> 4P&rsquo;s, W5HH, Functional vs Non-Functional, Metrics definitions</li>
+    <li><strong>Unit 4:</strong> Feasibility Study (5 types), Function Point Analysis, Scheduling techniques</li>
+    <li><strong>Unit 5:</strong> Proactive vs Reactive Risk, Risk Management Process (5 steps), Risk Categories, RMMM Plan</li>
+  </ul>
+</div>
+
+<hr class="section-divider">
+
+<!-- 3-DAY PREPARATION PLAN -->
+<h1>8. 3-Day Preparation Plan</h1>
+
+<div class="day-plan">
+  <h4>DAY 1: Units 1 &amp; 2 &mdash; Core Foundation</h4>
+  <ul>
+    <li><strong>Morning:</strong> Unit 1 &mdash; Myths, Waterfall, Dual Role, Crisis, Process Models</li>
+    <li><strong>Afternoon:</strong> Unit 2 &mdash; Agile Manifesto, Scrum (master 3-5-3), XP, ASD, Crystal</li>
+    <li><strong>Evening:</strong> Practice Q1 questions from Units 1 &amp; 2</li>
+  </ul>
+</div>
+
+<div class="day-plan">
+  <h4>DAY 2: Units 3 &amp; 4 &mdash; Management &amp; Planning</h4>
+  <ul>
+    <li><strong>Morning:</strong> Unit 3 &mdash; 4P&rsquo;s, W5HH, RE 7 Tasks, Functional/Non-functional, COCOMO, Metrics</li>
+    <li><strong>Afternoon:</strong> Unit 4 &mdash; Scope, Feasibility (5 types), FP, COCOMO details, Scheduling</li>
+    <li><strong>Evening:</strong> Practice Q2a &amp; Q2b from Units 3 &amp; 4</li>
+  </ul>
+</div>
+
+<div class="day-plan">
+  <h4>DAY 3: Unit 5 + Full Revision</h4>
+  <ul>
+    <li><strong>Morning:</strong> Unit 5 &mdash; Risk strategies, Management process, Categories, RMMM, Safety</li>
+    <li><strong>Afternoon:</strong> Full revision of HIGH-PROBABILITY topics</li>
+    <li><strong>Evening:</strong> Mock paper &mdash; solve all predicted questions</li>
+  </ul>
+</div>
+
+<hr class="section-divider">
+
+<!-- MEMORY AIDS -->
+<h1>9. Memory Aids &amp; Answer Writing Tips</h1>
+
+<h2>Memory Aids</h2>
+<div class="mnemonic"><strong>Agile Manifesto:</strong> &ldquo;Individuals Working Customer Responding&rdquo; (IWCR)</div>
+<div class="mnemonic"><strong>Scrum 3-5-3:</strong> 3 Roles, 5 Events, 3 Artifacts</div>
+<div class="mnemonic"><strong>RE 7 Tasks:</strong> I-E-E-N-S-V-M (Inception, Elicitation, Elaboration, Negotiation, Specification, Validation, Management)</div>
+<div class="mnemonic"><strong>COCOMO Levels:</strong> Basic &rarr; Intermediate &rarr; Complete</div>
+<div class="mnemonic"><strong>Risk Process:</strong> ID &rarr; Analysis &rarr; Estimation &rarr; Mitigation &rarr; Monitoring</div>
+<div class="mnemonic"><strong>Feasibility:</strong> TOELS (Technical, Operational, Economic, Legal, Schedule)</div>
+<div class="mnemonic"><strong>XP Values:</strong> CSFRC (Communication, Simplicity, Feedback, Respect, Courage)</div>
+
+<h2>Answer Writing Tips</h2>
+<div class="success-box">
+  <ol>
+    <li>Use <strong>exact PDF terminology</strong> &mdash; &ldquo;Dual role&rdquo;, &ldquo;4P&rsquo;s&rdquo;, &ldquo;W5HH&rdquo;, &ldquo;3-5-3 structure&rdquo;</li>
+    <li><strong>Structure answers:</strong> Definition &rarr; Points &rarr; Example/Explanation</li>
+    <li><strong>For 8-mark questions:</strong> Detailed phases/steps with sub-headings</li>
+    <li><strong>For 4-mark questions:</strong> Bullet points, tables for comparisons</li>
+    <li><strong>For 6-mark questions:</strong> Balanced detail (not too brief, not too long)</li>
+    <li><strong>Include examples</strong> from PDF (Library Management System, Banking software, etc.)</li>
+    <li><strong>Draw diagrams</strong> where applicable (Waterfall phases, Scrum 3-5-3, CPM network)</li>
+  </ol>
+</div>
+
+<hr class="section-divider">
+<div style="text-align:center; padding: 30px 0;">
+  <h2 style="border:none; background:none; padding:0;">BEST OF LUCK FOR YOUR MID EXAM!</h2>
+  <p style="font-size:14px; color:#666; margin-top:10px;">Prepared from Prof. Kammari Ryagnirvesh&rsquo;s Official Lecture Slides (Units 1&ndash;5)<br>
+  Subject Code: 01AI0510 | Software Engineering | Marwadi University</p>
+</div>
+
+</body>
+</html>
